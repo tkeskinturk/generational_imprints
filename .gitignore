@@ -1,0 +1,15 @@
+
+# data files
+
+*.dta
+*.sav
+*.pdf
+
+# related stuff
+
+.Rhistory
+.Rproj.user
+.Rdata
+.quarto
+.httr-oauth
+.DS_Store

@@ -1,0 +1,3820 @@
+cd116,county,state,County name
+1,1003,AL,Baldwin AL
+1,1025,AL,Clarke AL
+1,1053,AL,Escambia AL
+1,1097,AL,Mobile AL
+1,1099,AL,Monroe AL
+1,1129,AL,Washington AL
+2,1001,AL,Autauga AL
+2,1005,AL,Barbour AL
+2,1011,AL,Bullock AL
+2,1013,AL,Butler AL
+2,1031,AL,Coffee AL
+2,1035,AL,Conecuh AL
+2,1039,AL,Covington AL
+2,1041,AL,Crenshaw AL
+2,1045,AL,Dale AL
+2,1051,AL,Elmore AL
+2,1061,AL,Geneva AL
+2,1067,AL,Henry AL
+2,1069,AL,Houston AL
+2,1101,AL,Montgomery AL
+2,1109,AL,Pike AL
+3,1015,AL,Calhoun AL
+3,1017,AL,Chambers AL
+3,1019,AL,Cherokee AL
+3,1027,AL,Clay AL
+3,1029,AL,Cleburne AL
+3,1081,AL,Lee AL
+3,1087,AL,Macon AL
+3,1101,AL,Montgomery AL
+3,1111,AL,Randolph AL
+3,1113,AL,Russell AL
+3,1115,AL,St. Clair AL
+3,1121,AL,Talladega AL
+3,1123,AL,Tallapoosa AL
+4,1009,AL,Blount AL
+4,1019,AL,Cherokee AL
+4,1033,AL,Colbert AL
+4,1043,AL,Cullman AL
+4,1049,AL,DeKalb AL
+4,1055,AL,Etowah AL
+4,1057,AL,Fayette AL
+4,1059,AL,Franklin AL
+4,1071,AL,Jackson AL
+4,1075,AL,Lamar AL
+4,1079,AL,Lawrence AL
+4,1093,AL,Marion AL
+4,1095,AL,Marshall AL
+4,1125,AL,Tuscaloosa AL
+4,1127,AL,Walker AL
+4,1133,AL,Winston AL
+5,1071,AL,Jackson AL
+5,1077,AL,Lauderdale AL
+5,1083,AL,Limestone AL
+5,1089,AL,Madison AL
+5,1103,AL,Morgan AL
+6,1007,AL,Bibb AL
+6,1009,AL,Blount AL
+6,1021,AL,Chilton AL
+6,1037,AL,Coosa AL
+6,1073,AL,Jefferson AL
+6,1117,AL,Shelby AL
+7,1023,AL,Choctaw AL
+7,1025,AL,Clarke AL
+7,1047,AL,Dallas AL
+7,1063,AL,Greene AL
+7,1065,AL,Hale AL
+7,1073,AL,Jefferson AL
+7,1085,AL,Lowndes AL
+7,1091,AL,Marengo AL
+7,1101,AL,Montgomery AL
+7,1105,AL,Perry AL
+7,1107,AL,Pickens AL
+7,1119,AL,Sumter AL
+7,1125,AL,Tuscaloosa AL
+7,1131,AL,Wilcox AL
+0,2013,AK,Aleutians East Borough AK
+0,2016,AK,Aleutians West Census Area AK
+0,2020,AK,Anchorage Borough AK
+0,2050,AK,Bethel Census Area AK
+0,2060,AK,Bristol Bay Borough AK
+0,2063,AK,Chugach Census Area AK
+0,2066,AK,Copper River Census Area AK
+0,2068,AK,Denali Borough AK
+0,2070,AK,Dillingham Census Area AK
+0,2090,AK,Fairbanks North Star Borough AK
+0,2100,AK,Haines Borough AK
+0,2105,AK,Hoonah-Angoon Census Area
+0,2110,AK,Juneau Borough AK
+0,2122,AK,Kenai Peninsula Borough AK
+0,2130,AK,Ketchikan Gateway Borough AK
+0,2150,AK,Kodiak Island Borough AK
+0,2158,AK,Kusilvak Census Area AK (N)
+0,2164,AK,Lake and Peninsula Borough AK
+0,2170,AK,Matanuska-Susitna Borough AK
+0,2180,AK,Nome Census Area AK
+0,2185,AK,North Slope Borough AK
+0,2188,AK,Northwest Arctic Borough AK
+0,2195,AK,Petersburg Census Area AK
+0,2198,AK,Prince of Wales-Hyder Census Area AK
+0,2220,AK,Sitka Borough AK
+0,2230,AK,Skagway Municipality AK
+0,2240,AK,Southeast Fairbanks Census Area AK
+0,2275,AK,Wrangell City and Borough AK
+0,2282,AK,Yakutat Borough AK
+0,2290,AK,Yukon-Koyukuk Census Area AK
+1,4001,AZ,Apache AZ
+1,4005,AZ,Coconino AZ
+1,4007,AZ,Gila AZ
+1,4009,AZ,Graham AZ
+1,4011,AZ,Greenlee AZ
+1,4013,AZ,Maricopa AZ
+1,4015,AZ,Mohave AZ
+1,4017,AZ,Navajo AZ
+1,4019,AZ,Pima AZ
+1,4021,AZ,Pinal AZ
+1,4025,AZ,Yavapai AZ
+2,4003,AZ,Cochise AZ
+2,4019,AZ,Pima AZ
+3,4013,AZ,Maricopa AZ
+3,4019,AZ,Pima AZ
+3,4021,AZ,Pinal AZ
+3,4023,AZ,Santa Cruz AZ
+3,4027,AZ,Yuma AZ
+4,4007,AZ,Gila AZ
+4,4012,AZ,La Paz AZ
+4,4013,AZ,Maricopa AZ
+4,4015,AZ,Mohave AZ
+4,4021,AZ,Pinal AZ
+4,4025,AZ,Yavapai AZ
+4,4027,AZ,Yuma AZ
+5,4013,AZ,Maricopa AZ
+6,4013,AZ,Maricopa AZ
+7,4013,AZ,Maricopa AZ
+8,4013,AZ,Maricopa AZ
+9,4013,AZ,Maricopa AZ
+1,5001,AR,Arkansas AR
+1,5005,AR,Baxter AR
+1,5017,AR,Chicot AR
+1,5021,AR,Clay AR
+1,5023,AR,Cleburne AR
+1,5031,AR,Craighead AR
+1,5035,AR,Crittenden AR
+1,5037,AR,Cross AR
+1,5041,AR,Desha AR
+1,5049,AR,Fulton AR
+1,5055,AR,Greene AR
+1,5063,AR,Independence AR
+1,5065,AR,Izard AR
+1,5067,AR,Jackson AR
+1,5069,AR,Jefferson AR
+1,5075,AR,Lawrence AR
+1,5077,AR,Lee AR
+1,5079,AR,Lincoln AR
+1,5085,AR,Lonoke AR
+1,5093,AR,Mississippi AR
+1,5095,AR,Monroe AR
+1,5107,AR,Phillips AR
+1,5111,AR,Poinsett AR
+1,5117,AR,Prairie AR
+1,5121,AR,Randolph AR
+1,5123,AR,St. Francis AR
+1,5129,AR,Searcy AR
+1,5135,AR,Sharp AR
+1,5137,AR,Stone AR
+1,5147,AR,Woodruff AR
+2,5029,AR,Conway AR
+2,5045,AR,Faulkner AR
+2,5105,AR,Perry AR
+2,5119,AR,Pulaski AR
+2,5125,AR,Saline AR
+2,5141,AR,Van Buren AR
+2,5145,AR,White AR
+3,5007,AR,Benton AR
+3,5009,AR,Boone AR
+3,5015,AR,Carroll AR
+3,5033,AR,Crawford AR
+3,5089,AR,Marion AR
+3,5101,AR,Newton AR
+3,5115,AR,Pope AR
+3,5129,AR,Searcy AR
+3,5131,AR,Sebastian AR
+3,5143,AR,Washington AR
+4,5003,AR,Ashley AR
+4,5011,AR,Bradley AR
+4,5013,AR,Calhoun AR
+4,5019,AR,Clark AR
+4,5025,AR,Cleveland AR
+4,5027,AR,Columbia AR
+4,5033,AR,Crawford AR
+4,5039,AR,Dallas AR
+4,5043,AR,Drew AR
+4,5047,AR,Franklin AR
+4,5051,AR,Garland AR
+4,5053,AR,Grant AR
+4,5057,AR,Hempstead AR
+4,5059,AR,Hot Spring AR
+4,5061,AR,Howard AR
+4,5069,AR,Jefferson AR
+4,5071,AR,Johnson AR
+4,5073,AR,Lafayette AR
+4,5081,AR,Little River AR
+4,5083,AR,Logan AR
+4,5087,AR,Madison AR
+4,5091,AR,Miller AR
+4,5097,AR,Montgomery AR
+4,5099,AR,Nevada AR
+4,5101,AR,Newton AR
+4,5103,AR,Ouachita AR
+4,5109,AR,Pike AR
+4,5113,AR,Polk AR
+4,5127,AR,Scott AR
+4,5131,AR,Sebastian AR
+4,5133,AR,Sevier AR
+4,5139,AR,Union AR
+4,5149,AR,Yell AR
+1,6007,CA,Butte CA
+1,6021,CA,Glenn CA
+1,6035,CA,Lassen CA
+1,6049,CA,Modoc CA
+1,6057,CA,Nevada CA
+1,6061,CA,Placer CA
+1,6063,CA,Plumas CA
+1,6089,CA,Shasta CA
+1,6091,CA,Sierra CA
+1,6093,CA,Siskiyou CA
+1,6103,CA,Tehama CA
+2,6015,CA,Del Norte CA
+2,6023,CA,Humboldt CA
+2,6041,CA,Marin CA
+2,6045,CA,Mendocino CA
+2,6097,CA,Sonoma CA
+2,6105,CA,Trinity CA
+3,6011,CA,Colusa CA
+3,6021,CA,Glenn CA
+3,6033,CA,Lake CA
+3,6067,CA,Sacramento CA
+3,6095,CA,Solano CA
+3,6101,CA,Sutter CA
+3,6113,CA,Yolo CA
+3,6115,CA,Yuba CA
+4,6003,CA,Alpine CA
+4,6005,CA,Amador CA
+4,6009,CA,Calaveras CA
+4,6017,CA,El Dorado CA
+4,6019,CA,Fresno CA
+4,6039,CA,Madera CA
+4,6043,CA,Mariposa CA
+4,6057,CA,Nevada CA
+4,6061,CA,Placer CA
+4,6109,CA,Tuolumne CA
+5,6013,CA,Contra Costa CA
+5,6033,CA,Lake CA
+5,6055,CA,Napa CA
+5,6095,CA,Solano CA
+5,6097,CA,Sonoma CA
+6,6067,CA,Sacramento CA
+6,6113,CA,Yolo CA
+7,6067,CA,Sacramento CA
+8,6027,CA,Inyo CA
+8,6051,CA,Mono CA
+8,6071,CA,San Bernardino CA
+9,6013,CA,Contra Costa CA
+9,6067,CA,Sacramento CA
+9,6077,CA,San Joaquin CA
+10,6077,CA,San Joaquin CA
+10,6099,CA,Stanislaus CA
+11,6013,CA,Contra Costa CA
+12,6075,CA,San Francisco CA
+13,6001,CA,Alameda CA
+14,6075,CA,San Francisco CA
+14,6081,CA,San Mateo CA
+15,6001,CA,Alameda CA
+15,6013,CA,Contra Costa CA
+16,6019,CA,Fresno CA
+16,6039,CA,Madera CA
+16,6047,CA,Merced CA
+17,6001,CA,Alameda CA
+17,6085,CA,Santa Clara CA
+18,6081,CA,San Mateo CA
+18,6085,CA,Santa Clara CA
+18,6087,CA,Santa Cruz CA
+19,6085,CA,Santa Clara CA
+20,6053,CA,Monterey CA
+20,6069,CA,San Benito CA
+20,6085,CA,Santa Clara CA
+20,6087,CA,Santa Cruz CA
+21,6019,CA,Fresno CA
+21,6029,CA,Kern CA
+21,6031,CA,Kings CA
+21,6107,CA,Tulare CA
+22,6019,CA,Fresno CA
+22,6107,CA,Tulare CA
+23,6029,CA,Kern CA
+23,6037,CA,Los Angeles CA
+23,6107,CA,Tulare CA
+24,6079,CA,San Luis Obispo CA
+24,6083,CA,Santa Barbara CA
+24,6111,CA,Ventura CA
+25,6037,CA,Los Angeles CA
+25,6111,CA,Ventura CA
+26,6037,CA,Los Angeles CA
+26,6111,CA,Ventura CA
+27,6037,CA,Los Angeles CA
+27,6071,CA,San Bernardino CA
+28,6037,CA,Los Angeles CA
+29,6037,CA,Los Angeles CA
+30,6037,CA,Los Angeles CA
+30,6111,CA,Ventura CA
+31,6071,CA,San Bernardino CA
+32,6037,CA,Los Angeles CA
+33,6037,CA,Los Angeles CA
+34,6037,CA,Los Angeles CA
+35,6037,CA,Los Angeles CA
+35,6071,CA,San Bernardino CA
+36,6065,CA,Riverside CA
+37,6037,CA,Los Angeles CA
+38,6037,CA,Los Angeles CA
+38,6059,CA,Orange CA
+39,6037,CA,Los Angeles CA
+39,6059,CA,Orange CA
+39,6071,CA,San Bernardino CA
+40,6037,CA,Los Angeles CA
+41,6065,CA,Riverside CA
+42,6065,CA,Riverside CA
+43,6037,CA,Los Angeles CA
+44,6037,CA,Los Angeles CA
+45,6059,CA,Orange CA
+46,6059,CA,Orange CA
+47,6037,CA,Los Angeles CA
+47,6059,CA,Orange CA
+48,6059,CA,Orange CA
+49,6059,CA,Orange CA
+49,6073,CA,San Diego CA
+50,6065,CA,Riverside CA
+50,6073,CA,San Diego CA
+51,6025,CA,Imperial CA
+51,6073,CA,San Diego CA
+52,6073,CA,San Diego CA
+53,6073,CA,San Diego CA
+1,8005,CO,Arapahoe CO
+1,8031,CO,Denver CO
+1,8059,CO,Jefferson CO
+2,8013,CO,Boulder CO
+2,8014,CO,Broomfield CO
+2,8019,CO,Clear Creek CO
+2,8037,CO,Eagle CO
+2,8047,CO,Gilpin CO
+2,8049,CO,Grand CO
+2,8059,CO,Jefferson CO
+2,8069,CO,Larimer CO
+2,8093,CO,Park CO
+2,8117,CO,Summit CO
+2,8123,CO,Weld CO
+3,8003,CO,Alamosa CO
+3,8007,CO,Archuleta CO
+3,8021,CO,Conejos CO
+3,8023,CO,Costilla CO
+3,8027,CO,Custer CO
+3,8029,CO,Delta CO
+3,8033,CO,Dolores CO
+3,8037,CO,Eagle CO
+3,8045,CO,Garfield CO
+3,8051,CO,Gunnison CO
+3,8053,CO,Hinsdale CO
+3,8055,CO,Huerfano CO
+3,8057,CO,Jackson CO
+3,8065,CO,Lake CO
+3,8067,CO,La Plata CO
+3,8077,CO,Mesa CO
+3,8079,CO,Mineral CO
+3,8081,CO,Moffat CO
+3,8083,CO,Montezuma CO
+3,8085,CO,Montrose CO
+3,8091,CO,Ouray CO
+3,8097,CO,Pitkin CO
+3,8101,CO,Pueblo CO
+3,8103,CO,Rio Blanco CO
+3,8105,CO,Rio Grande CO
+3,8107,CO,Routt CO
+3,8109,CO,Saguache CO
+3,8111,CO,San Juan CO
+3,8113,CO,San Miguel CO
+4,8001,CO,Adams CO
+4,8005,CO,Arapahoe CO
+4,8009,CO,Baca CO
+4,8011,CO,Bent CO
+4,8013,CO,Boulder CO
+4,8017,CO,Cheyenne CO
+4,8025,CO,Crowley CO
+4,8035,CO,Douglas CO
+4,8039,CO,Elbert CO
+4,8061,CO,Kiowa CO
+4,8063,CO,Kit Carson CO
+4,8071,CO,Las Animas CO
+4,8073,CO,Lincoln CO
+4,8075,CO,Logan CO
+4,8087,CO,Morgan CO
+4,8089,CO,Otero CO
+4,8095,CO,Phillips CO
+4,8099,CO,Prowers CO
+4,8115,CO,Sedgwick CO
+4,8121,CO,Washington CO
+4,8123,CO,Weld CO
+4,8125,CO,Yuma CO
+5,8015,CO,Chaffee CO
+5,8041,CO,El Paso CO
+5,8043,CO,Fremont CO
+5,8093,CO,Park CO
+5,8119,CO,Teller CO
+6,8001,CO,Adams CO
+6,8005,CO,Arapahoe CO
+6,8031,CO,Denver CO
+6,8035,CO,Douglas CO
+7,8001,CO,Adams CO
+7,8059,CO,Jefferson CO
+1,9003,CT,Hartford CT
+1,9005,CT,Litchfield CT
+1,9007,CT,Middlesex CT
+2,9003,CT,Hartford CT
+2,9007,CT,Middlesex CT
+2,9009,CT,New Haven CT
+2,9011,CT,New London CT
+2,9013,CT,Tolland CT
+2,9015,CT,Windham CT
+3,9001,CT,Fairfield CT
+3,9007,CT,Middlesex CT
+3,9009,CT,New Haven CT
+4,9001,CT,Fairfield CT
+4,9009,CT,New Haven CT
+5,9001,CT,Fairfield CT
+5,9003,CT,Hartford CT
+5,9005,CT,Litchfield CT
+5,9009,CT,New Haven CT
+0,10001,DE,Kent DE
+0,10003,DE,New Castle DE
+0,10005,DE,Sussex DE
+98,11001,DC,District of Columbia DC
+1,12033,FL,Escambia FL
+1,12059,FL,Holmes FL
+1,12091,FL,Okaloosa FL
+1,12113,FL,Santa Rosa FL
+1,12131,FL,Walton FL
+2,12005,FL,Bay FL
+2,12013,FL,Calhoun FL
+2,12023,FL,Columbia FL
+2,12029,FL,Dixie FL
+2,12037,FL,Franklin FL
+2,12041,FL,Gilchrist FL
+2,12045,FL,Gulf FL
+2,12059,FL,Holmes FL
+2,12063,FL,Jackson FL
+2,12065,FL,Jefferson FL
+2,12067,FL,Lafayette FL
+2,12073,FL,Leon FL
+2,12075,FL,Levy FL
+2,12077,FL,Liberty FL
+2,12083,FL,Marion FL
+2,12121,FL,Suwannee FL
+2,12123,FL,Taylor FL
+2,12129,FL,Wakulla FL
+2,12133,FL,Washington FL
+3,12001,FL,Alachua FL
+3,12007,FL,Bradford FL
+3,12019,FL,Clay FL
+3,12083,FL,Marion FL
+3,12107,FL,Putnam FL
+3,12125,FL,Union FL
+4,12031,FL,Duval FL
+4,12089,FL,Nassau FL
+4,12109,FL,St. Johns FL
+5,12003,FL,Baker FL
+5,12023,FL,Columbia FL
+5,12031,FL,Duval FL
+5,12039,FL,Gadsden FL
+5,12047,FL,Hamilton FL
+5,12065,FL,Jefferson FL
+5,12073,FL,Leon FL
+5,12079,FL,Madison FL
+6,12035,FL,Flagler FL
+6,12069,FL,Lake FL
+6,12109,FL,St. Johns FL
+6,12127,FL,Volusia FL
+7,12095,FL,Orange FL
+7,12117,FL,Seminole FL
+8,12009,FL,Brevard FL
+8,12061,FL,Indian River FL
+8,12095,FL,Orange FL
+9,12095,FL,Orange FL
+9,12097,FL,Osceola FL
+9,12105,FL,Polk FL
+10,12095,FL,Orange FL
+11,12017,FL,Citrus FL
+11,12053,FL,Hernando FL
+11,12069,FL,Lake FL
+11,12083,FL,Marion FL
+11,12119,FL,Sumter FL
+12,12057,FL,Hillsborough FL
+12,12101,FL,Pasco FL
+12,12103,FL,Pinellas FL
+13,12103,FL,Pinellas FL
+14,12057,FL,Hillsborough FL
+15,12057,FL,Hillsborough FL
+15,12069,FL,Lake FL
+15,12105,FL,Polk FL
+16,12057,FL,Hillsborough FL
+16,12081,FL,Manatee FL
+16,12115,FL,Sarasota FL
+17,12015,FL,Charlotte FL
+17,12027,FL,DeSoto FL
+17,12043,FL,Glades FL
+17,12049,FL,Hardee FL
+17,12055,FL,Highlands FL
+17,12071,FL,Lee FL
+17,12093,FL,Okeechobee FL
+17,12105,FL,Polk FL
+17,12115,FL,Sarasota FL
+18,12085,FL,Martin FL
+18,12099,FL,Palm Beach FL
+18,12111,FL,St. Lucie FL
+19,12021,FL,Collier FL
+19,12071,FL,Lee FL
+20,12011,FL,Broward FL
+20,12099,FL,Palm Beach FL
+21,12099,FL,Palm Beach FL
+22,12011,FL,Broward FL
+22,12099,FL,Palm Beach FL
+23,12011,FL,Broward FL
+23,12086,FL,Miami-Dade FL
+24,12011,FL,Broward FL
+24,12086,FL,Miami-Dade FL
+25,12021,FL,Collier FL
+25,12051,FL,Hendry FL
+25,12086,FL,Miami-Dade FL
+26,12086,FL,Miami-Dade FL
+26,12087,FL,Monroe FL
+27,12086,FL,Miami-Dade FL
+1,13005,GA,Bacon GA
+1,13025,GA,Brantley GA
+1,13029,GA,Bryan GA
+1,13039,GA,Camden GA
+1,13049,GA,Charlton GA
+1,13051,GA,Chatham GA
+1,13065,GA,Clinch GA
+1,13101,GA,Echols GA
+1,13103,GA,Effingham GA
+1,13127,GA,Glynn GA
+1,13179,GA,Liberty GA
+1,13183,GA,Long GA
+1,13185,GA,Lowndes GA
+1,13191,GA,McIntosh GA
+1,13229,GA,Pierce GA
+1,13299,GA,Ware GA
+1,13305,GA,Wayne GA
+2,13007,GA,Baker GA
+2,13021,GA,Bibb GA
+2,13037,GA,Calhoun GA
+2,13053,GA,Chattahoochee GA
+2,13061,GA,Clay GA
+2,13079,GA,Crawford GA
+2,13081,GA,Crisp GA
+2,13087,GA,Decatur GA
+2,13093,GA,Dooly GA
+2,13095,GA,Dougherty GA
+2,13099,GA,Early GA
+2,13131,GA,Grady GA
+2,13177,GA,Lee GA
+2,13193,GA,Macon GA
+2,13197,GA,Marion GA
+2,13201,GA,Miller GA
+2,13205,GA,Mitchell GA
+2,13215,GA,Muscogee GA
+2,13225,GA,Peach GA
+2,13239,GA,Quitman GA
+2,13243,GA,Randolph GA
+2,13249,GA,Schley GA
+2,13253,GA,Seminole GA
+2,13259,GA,Stewart GA
+2,13261,GA,Sumter GA
+2,13263,GA,Talbot GA
+2,13269,GA,Taylor GA
+2,13273,GA,Terrell GA
+2,13307,GA,Webster GA
+3,13045,GA,Carroll GA
+3,13077,GA,Coweta GA
+3,13113,GA,Fayette GA
+3,13145,GA,Harris GA
+3,13149,GA,Heard GA
+3,13151,GA,Henry GA
+3,13171,GA,Lamar GA
+3,13199,GA,Meriwether GA
+3,13215,GA,Muscogee GA
+3,13231,GA,Pike GA
+3,13255,GA,Spalding GA
+3,13285,GA,Troup GA
+3,13293,GA,Upson GA
+4,13089,GA,DeKalb GA
+4,13135,GA,Gwinnett GA
+4,13217,GA,Newton GA
+4,13247,GA,Rockdale GA
+5,13063,GA,Clayton GA
+5,13089,GA,DeKalb GA
+5,13121,GA,Fulton GA
+6,13067,GA,Cobb GA
+6,13089,GA,DeKalb GA
+6,13121,GA,Fulton GA
+7,13117,GA,Forsyth GA
+7,13135,GA,Gwinnett GA
+8,13003,GA,Atkinson GA
+8,13017,GA,Ben Hill GA
+8,13019,GA,Berrien GA
+8,13021,GA,Bibb GA
+8,13023,GA,Bleckley GA
+8,13027,GA,Brooks GA
+8,13071,GA,Colquitt GA
+8,13075,GA,Cook GA
+8,13091,GA,Dodge GA
+8,13153,GA,Houston GA
+8,13155,GA,Irwin GA
+8,13169,GA,Jones GA
+8,13173,GA,Lanier GA
+8,13185,GA,Lowndes GA
+8,13207,GA,Monroe GA
+8,13235,GA,Pulaski GA
+8,13271,GA,Telfair GA
+8,13275,GA,Thomas GA
+8,13277,GA,Tift GA
+8,13287,GA,Turner GA
+8,13289,GA,Twiggs GA
+8,13315,GA,Wilcox GA
+8,13319,GA,Wilkinson GA
+8,13321,GA,Worth GA
+9,13011,GA,Banks GA
+9,13059,GA,Clarke GA
+9,13085,GA,Dawson GA
+9,13105,GA,Elbert GA
+9,13111,GA,Fannin GA
+9,13117,GA,Forsyth GA
+9,13119,GA,Franklin GA
+9,13123,GA,Gilmer GA
+9,13137,GA,Habersham GA
+9,13139,GA,Hall GA
+9,13147,GA,Hart GA
+9,13157,GA,Jackson GA
+9,13187,GA,Lumpkin GA
+9,13195,GA,Madison GA
+9,13227,GA,Pickens GA
+9,13241,GA,Rabun GA
+9,13257,GA,Stephens GA
+9,13281,GA,Towns GA
+9,13291,GA,Union GA
+9,13311,GA,White GA
+10,13009,GA,Baldwin GA
+10,13013,GA,Barrow GA
+10,13035,GA,Butts GA
+10,13059,GA,Clarke GA
+10,13073,GA,Columbia GA
+10,13125,GA,Glascock GA
+10,13133,GA,Greene GA
+10,13135,GA,Gwinnett GA
+10,13141,GA,Hancock GA
+10,13151,GA,Henry GA
+10,13159,GA,Jasper GA
+10,13163,GA,Jefferson GA
+10,13167,GA,Johnson GA
+10,13181,GA,Lincoln GA
+10,13189,GA,McDuffie GA
+10,13211,GA,Morgan GA
+10,13217,GA,Newton GA
+10,13219,GA,Oconee GA
+10,13221,GA,Oglethorpe GA
+10,13237,GA,Putnam GA
+10,13265,GA,Taliaferro GA
+10,13297,GA,Walton GA
+10,13301,GA,Warren GA
+10,13303,GA,Washington GA
+10,13317,GA,Wilkes GA
+11,13015,GA,Bartow GA
+11,13057,GA,Cherokee GA
+11,13067,GA,Cobb GA
+11,13121,GA,Fulton GA
+12,13001,GA,Appling GA
+12,13031,GA,Bulloch GA
+12,13033,GA,Burke GA
+12,13043,GA,Candler GA
+12,13069,GA,Coffee GA
+12,13073,GA,Columbia GA
+12,13103,GA,Effingham GA
+12,13107,GA,Emanuel GA
+12,13109,GA,Evans GA
+12,13161,GA,Jeff Davis GA
+12,13165,GA,Jenkins GA
+12,13175,GA,Laurens GA
+12,13209,GA,Montgomery GA
+12,13245,GA,Richmond GA
+12,13251,GA,Screven GA
+12,13267,GA,Tattnall GA
+12,13279,GA,Toombs GA
+12,13283,GA,Treutlen GA
+12,13309,GA,Wheeler GA
+13,13063,GA,Clayton GA
+13,13067,GA,Cobb GA
+13,13097,GA,Douglas GA
+13,13113,GA,Fayette GA
+13,13121,GA,Fulton GA
+13,13151,GA,Henry GA
+14,13047,GA,Catoosa GA
+14,13055,GA,Chattooga GA
+14,13083,GA,Dade GA
+14,13115,GA,Floyd GA
+14,13129,GA,Gordon GA
+14,13143,GA,Haralson GA
+14,13213,GA,Murray GA
+14,13223,GA,Paulding GA
+14,13227,GA,Pickens GA
+14,13233,GA,Polk GA
+14,13295,GA,Walker GA
+14,13313,GA,Whitfield GA
+1,15003,HI,Honolulu HI
+2,15001,HI,Hawaii HI
+2,15003,HI,Honolulu HI
+2,15005,HI,Kalawao HI
+2,15007,HI,Kauai HI
+2,15009,HI,Maui HI
+1,16001,ID,Ada ID
+1,16003,ID,Adams ID
+1,16009,ID,Benewah ID
+1,16015,ID,Boise ID
+1,16017,ID,Bonner ID
+1,16021,ID,Boundary ID
+1,16027,ID,Canyon ID
+1,16035,ID,Clearwater ID
+1,16045,ID,Gem ID
+1,16049,ID,Idaho ID
+1,16055,ID,Kootenai ID
+1,16057,ID,Latah ID
+1,16061,ID,Lewis ID
+1,16069,ID,Nez Perce ID
+1,16073,ID,Owyhee ID
+1,16075,ID,Payette ID
+1,16079,ID,Shoshone ID
+1,16085,ID,Valley ID
+1,16087,ID,Washington ID
+2,16001,ID,Ada ID
+2,16005,ID,Bannock ID
+2,16007,ID,Bear Lake ID
+2,16011,ID,Bingham ID
+2,16013,ID,Blaine ID
+2,16019,ID,Bonneville ID
+2,16023,ID,Butte ID
+2,16025,ID,Camas ID
+2,16029,ID,Caribou ID
+2,16031,ID,Cassia ID
+2,16033,ID,Clark ID
+2,16037,ID,Custer ID
+2,16039,ID,Elmore ID
+2,16041,ID,Franklin ID
+2,16043,ID,Fremont ID
+2,16047,ID,Gooding ID
+2,16051,ID,Jefferson ID
+2,16053,ID,Jerome ID
+2,16059,ID,Lemhi ID
+2,16063,ID,Lincoln ID
+2,16065,ID,Madison ID
+2,16067,ID,Minidoka ID
+2,16071,ID,Oneida ID
+2,16077,ID,Power ID
+2,16081,ID,Teton ID
+2,16083,ID,Twin Falls ID
+1,17031,IL,Cook IL
+1,17197,IL,Will IL
+2,17031,IL,Cook IL
+2,17091,IL,Kankakee IL
+2,17197,IL,Will IL
+3,17031,IL,Cook IL
+3,17043,IL,DuPage IL
+3,17197,IL,Will IL
+4,17031,IL,Cook IL
+5,17031,IL,Cook IL
+5,17043,IL,DuPage IL
+6,17031,IL,Cook IL
+6,17043,IL,DuPage IL
+6,17089,IL,Kane IL
+6,17097,IL,Lake IL
+6,17111,IL,McHenry IL
+7,17031,IL,Cook IL
+8,17031,IL,Cook IL
+8,17043,IL,DuPage IL
+8,17089,IL,Kane IL
+9,17031,IL,Cook IL
+10,17031,IL,Cook IL
+10,17097,IL,Lake IL
+11,17031,IL,Cook IL
+11,17043,IL,DuPage IL
+11,17089,IL,Kane IL
+11,17093,IL,Kendall IL
+11,17197,IL,Will IL
+12,17003,IL,Alexander IL
+12,17055,IL,Franklin IL
+12,17077,IL,Jackson IL
+12,17081,IL,Jefferson IL
+12,17119,IL,Madison IL
+12,17133,IL,Monroe IL
+12,17145,IL,Perry IL
+12,17153,IL,Pulaski IL
+12,17157,IL,Randolph IL
+12,17163,IL,St. Clair IL
+12,17181,IL,Union IL
+12,17199,IL,Williamson IL
+13,17005,IL,Bond IL
+13,17013,IL,Calhoun IL
+13,17019,IL,Champaign IL
+13,17021,IL,Christian IL
+13,17039,IL,De Witt IL
+13,17061,IL,Greene IL
+13,17083,IL,Jersey IL
+13,17113,IL,McLean IL
+13,17115,IL,Macon IL
+13,17117,IL,Macoupin IL
+13,17119,IL,Madison IL
+13,17135,IL,Montgomery IL
+13,17147,IL,Piatt IL
+13,17167,IL,Sangamon IL
+14,17037,IL,DeKalb IL
+14,17043,IL,DuPage IL
+14,17089,IL,Kane IL
+14,17093,IL,Kendall IL
+14,17097,IL,Lake IL
+14,17111,IL,McHenry IL
+14,17197,IL,Will IL
+15,17005,IL,Bond IL
+15,17019,IL,Champaign IL
+15,17023,IL,Clark IL
+15,17025,IL,Clay IL
+15,17027,IL,Clinton IL
+15,17029,IL,Coles IL
+15,17033,IL,Crawford IL
+15,17035,IL,Cumberland IL
+15,17041,IL,Douglas IL
+15,17045,IL,Edgar IL
+15,17047,IL,Edwards IL
+15,17049,IL,Effingham IL
+15,17051,IL,Fayette IL
+15,17053,IL,Ford IL
+15,17059,IL,Gallatin IL
+15,17065,IL,Hamilton IL
+15,17069,IL,Hardin IL
+15,17079,IL,Jasper IL
+15,17087,IL,Johnson IL
+15,17101,IL,Lawrence IL
+15,17119,IL,Madison IL
+15,17121,IL,Marion IL
+15,17127,IL,Massac IL
+15,17139,IL,Moultrie IL
+15,17151,IL,Pope IL
+15,17159,IL,Richland IL
+15,17165,IL,Saline IL
+15,17173,IL,Shelby IL
+15,17183,IL,Vermilion IL
+15,17185,IL,Wabash IL
+15,17189,IL,Washington IL
+15,17191,IL,Wayne IL
+15,17193,IL,White IL
+16,17007,IL,Boone IL
+16,17011,IL,Bureau IL
+16,17037,IL,DeKalb IL
+16,17053,IL,Ford IL
+16,17063,IL,Grundy IL
+16,17075,IL,Iroquois IL
+16,17099,IL,La Salle IL
+16,17103,IL,Lee IL
+16,17105,IL,Livingston IL
+16,17141,IL,Ogle IL
+16,17155,IL,Putnam IL
+16,17175,IL,Stark IL
+16,17197,IL,Will IL
+16,17201,IL,Winnebago IL
+17,17015,IL,Carroll IL
+17,17057,IL,Fulton IL
+17,17071,IL,Henderson IL
+17,17073,IL,Henry IL
+17,17085,IL,Jo Daviess IL
+17,17095,IL,Knox IL
+17,17131,IL,Mercer IL
+17,17143,IL,Peoria IL
+17,17161,IL,Rock Island IL
+17,17177,IL,Stephenson IL
+17,17179,IL,Tazewell IL
+17,17187,IL,Warren IL
+17,17195,IL,Whiteside IL
+17,17201,IL,Winnebago IL
+18,17001,IL,Adams IL
+18,17009,IL,Brown IL
+18,17017,IL,Cass IL
+18,17067,IL,Hancock IL
+18,17107,IL,Logan IL
+18,17109,IL,McDonough IL
+18,17113,IL,McLean IL
+18,17123,IL,Marshall IL
+18,17125,IL,Mason IL
+18,17129,IL,Menard IL
+18,17137,IL,Morgan IL
+18,17143,IL,Peoria IL
+18,17149,IL,Pike IL
+18,17167,IL,Sangamon IL
+18,17169,IL,Schuyler IL
+18,17171,IL,Scott IL
+18,17175,IL,Stark IL
+18,17179,IL,Tazewell IL
+18,17203,IL,Woodford IL
+1,18089,IN,Lake IN
+1,18091,IN,La Porte IN
+1,18127,IN,Porter IN
+2,18039,IN,Elkhart IN
+2,18049,IN,Fulton IN
+2,18085,IN,Kosciusko IN
+2,18091,IN,La Porte IN
+2,18099,IN,Marshall IN
+2,18103,IN,Miami IN
+2,18131,IN,Pulaski IN
+2,18141,IN,St. Joseph IN
+2,18149,IN,Starke IN
+2,18169,IN,Wabash IN
+3,18001,IN,Adams IN
+3,18003,IN,Allen IN
+3,18009,IN,Blackford IN
+3,18033,IN,De Kalb IN
+3,18069,IN,Huntington IN
+3,18075,IN,Jay IN
+3,18085,IN,Kosciusko IN
+3,18087,IN,Lagrange IN
+3,18113,IN,Noble IN
+3,18151,IN,Steuben IN
+3,18179,IN,Wells IN
+3,18183,IN,Whitley IN
+4,18007,IN,Benton IN
+4,18011,IN,Boone IN
+4,18015,IN,Carroll IN
+4,18017,IN,Cass IN
+4,18023,IN,Clinton IN
+4,18045,IN,Fountain IN
+4,18063,IN,Hendricks IN
+4,18067,IN,Howard IN
+4,18073,IN,Jasper IN
+4,18107,IN,Montgomery IN
+4,18109,IN,Morgan IN
+4,18111,IN,Newton IN
+4,18133,IN,Putnam IN
+4,18157,IN,Tippecanoe IN
+4,18171,IN,Warren IN
+4,18181,IN,White IN
+5,18009,IN,Blackford IN
+5,18011,IN,Boone IN
+5,18053,IN,Grant IN
+5,18057,IN,Hamilton IN
+5,18067,IN,Howard IN
+5,18095,IN,Madison IN
+5,18097,IN,Marion IN
+5,18159,IN,Tipton IN
+6,18005,IN,Bartholomew IN
+6,18029,IN,Dearborn IN
+6,18031,IN,Decatur IN
+6,18035,IN,Delaware IN
+6,18041,IN,Fayette IN
+6,18047,IN,Franklin IN
+6,18059,IN,Hancock IN
+6,18065,IN,Henry IN
+6,18077,IN,Jefferson IN
+6,18079,IN,Jennings IN
+6,18115,IN,Ohio IN
+6,18135,IN,Randolph IN
+6,18137,IN,Ripley IN
+6,18139,IN,Rush IN
+6,18143,IN,Scott IN
+6,18145,IN,Shelby IN
+6,18155,IN,Switzerland IN
+6,18161,IN,Union IN
+6,18177,IN,Wayne IN
+7,18097,IN,Marion IN
+8,18021,IN,Clay IN
+8,18025,IN,Crawford IN
+8,18027,IN,Daviess IN
+8,18037,IN,Dubois IN
+8,18051,IN,Gibson IN
+8,18055,IN,Greene IN
+8,18083,IN,Knox IN
+8,18101,IN,Martin IN
+8,18119,IN,Owen IN
+8,18121,IN,Parke IN
+8,18123,IN,Perry IN
+8,18125,IN,Pike IN
+8,18129,IN,Posey IN
+8,18147,IN,Spencer IN
+8,18153,IN,Sullivan IN
+8,18163,IN,Vanderburgh IN
+8,18165,IN,Vermillion IN
+8,18167,IN,Vigo IN
+8,18173,IN,Warrick IN
+9,18013,IN,Brown IN
+9,18019,IN,Clark IN
+9,18025,IN,Crawford IN
+9,18043,IN,Floyd IN
+9,18061,IN,Harrison IN
+9,18071,IN,Jackson IN
+9,18081,IN,Johnson IN
+9,18093,IN,Lawrence IN
+9,18105,IN,Monroe IN
+9,18109,IN,Morgan IN
+9,18117,IN,Orange IN
+9,18143,IN,Scott IN
+9,18175,IN,Washington IN
+1,19005,IA,Allamakee IA
+1,19011,IA,Benton IA
+1,19013,IA,Black Hawk IA
+1,19017,IA,Bremer IA
+1,19019,IA,Buchanan IA
+1,19043,IA,Clayton IA
+1,19055,IA,Delaware IA
+1,19061,IA,Dubuque IA
+1,19065,IA,Fayette IA
+1,19089,IA,Howard IA
+1,19095,IA,Iowa IA
+1,19097,IA,Jackson IA
+1,19105,IA,Jones IA
+1,19113,IA,Linn IA
+1,19127,IA,Marshall IA
+1,19131,IA,Mitchell IA
+1,19157,IA,Poweshiek IA
+1,19171,IA,Tama IA
+1,19191,IA,Winneshiek IA
+1,19195,IA,Worth IA
+2,19007,IA,Appanoose IA
+2,19031,IA,Cedar IA
+2,19039,IA,Clarke IA
+2,19045,IA,Clinton IA
+2,19051,IA,Davis IA
+2,19053,IA,Decatur IA
+2,19057,IA,Des Moines IA
+2,19087,IA,Henry IA
+2,19099,IA,Jasper IA
+2,19101,IA,Jefferson IA
+2,19103,IA,Johnson IA
+2,19107,IA,Keokuk IA
+2,19111,IA,Lee IA
+2,19115,IA,Louisa IA
+2,19117,IA,Lucas IA
+2,19123,IA,Mahaska IA
+2,19125,IA,Marion IA
+2,19135,IA,Monroe IA
+2,19139,IA,Muscatine IA
+2,19163,IA,Scott IA
+2,19177,IA,Van Buren IA
+2,19179,IA,Wapello IA
+2,19183,IA,Washington IA
+2,19185,IA,Wayne IA
+3,19001,IA,Adair IA
+3,19003,IA,Adams IA
+3,19029,IA,Cass IA
+3,19049,IA,Dallas IA
+3,19071,IA,Fremont IA
+3,19077,IA,Guthrie IA
+3,19121,IA,Madison IA
+3,19129,IA,Mills IA
+3,19137,IA,Montgomery IA
+3,19145,IA,Page IA
+3,19153,IA,Polk IA
+3,19155,IA,Pottawattamie IA
+3,19159,IA,Ringgold IA
+3,19173,IA,Taylor IA
+3,19175,IA,Union IA
+3,19181,IA,Warren IA
+4,19009,IA,Audubon IA
+4,19015,IA,Boone IA
+4,19021,IA,Buena Vista IA
+4,19023,IA,Butler IA
+4,19025,IA,Calhoun IA
+4,19027,IA,Carroll IA
+4,19033,IA,Cerro Gordo IA
+4,19035,IA,Cherokee IA
+4,19037,IA,Chickasaw IA
+4,19041,IA,Clay IA
+4,19047,IA,Crawford IA
+4,19059,IA,Dickinson IA
+4,19063,IA,Emmet IA
+4,19067,IA,Floyd IA
+4,19069,IA,Franklin IA
+4,19073,IA,Greene IA
+4,19075,IA,Grundy IA
+4,19079,IA,Hamilton IA
+4,19081,IA,Hancock IA
+4,19083,IA,Hardin IA
+4,19085,IA,Harrison IA
+4,19091,IA,Humboldt IA
+4,19093,IA,Ida IA
+4,19109,IA,Kossuth IA
+4,19119,IA,Lyon IA
+4,19133,IA,Monona IA
+4,19141,IA,OBrien IA
+4,19143,IA,Osceola IA
+4,19147,IA,Palo Alto IA
+4,19149,IA,Plymouth IA
+4,19151,IA,Pocahontas IA
+4,19161,IA,Sac IA
+4,19165,IA,Shelby IA
+4,19167,IA,Sioux IA
+4,19169,IA,Story IA
+4,19187,IA,Webster IA
+4,19189,IA,Winnebago IA
+4,19193,IA,Woodbury IA
+4,19197,IA,Wright IA
+1,20009,KS,Barton KS
+1,20017,KS,Chase KS
+1,20023,KS,Cheyenne KS
+1,20025,KS,Clark KS
+1,20027,KS,Clay KS
+1,20029,KS,Cloud KS
+1,20039,KS,Decatur KS
+1,20041,KS,Dickinson KS
+1,20051,KS,Ellis KS
+1,20053,KS,Ellsworth KS
+1,20055,KS,Finney KS
+1,20057,KS,Ford KS
+1,20061,KS,Geary KS
+1,20063,KS,Gove KS
+1,20065,KS,Graham KS
+1,20067,KS,Grant KS
+1,20069,KS,Gray KS
+1,20071,KS,Greeley KS
+1,20075,KS,Hamilton KS
+1,20081,KS,Haskell KS
+1,20083,KS,Hodgeman KS
+1,20089,KS,Jewell KS
+1,20093,KS,Kearny KS
+1,20101,KS,Lane KS
+1,20105,KS,Lincoln KS
+1,20109,KS,Logan KS
+1,20111,KS,Lyon KS
+1,20113,KS,McPherson KS
+1,20115,KS,Marion KS
+1,20117,KS,Marshall KS
+1,20119,KS,Meade KS
+1,20123,KS,Mitchell KS
+1,20127,KS,Morris KS
+1,20129,KS,Morton KS
+1,20135,KS,Ness KS
+1,20137,KS,Norton KS
+1,20141,KS,Osborne KS
+1,20143,KS,Ottawa KS
+1,20145,KS,Pawnee KS
+1,20147,KS,Phillips KS
+1,20149,KS,Pottawatomie KS
+1,20153,KS,Rawlins KS
+1,20155,KS,Reno KS
+1,20157,KS,Republic KS
+1,20159,KS,Rice KS
+1,20161,KS,Riley KS
+1,20163,KS,Rooks KS
+1,20165,KS,Rush KS
+1,20167,KS,Russell KS
+1,20169,KS,Saline KS
+1,20171,KS,Scott KS
+1,20175,KS,Seward KS
+1,20179,KS,Sheridan KS
+1,20181,KS,Sherman KS
+1,20183,KS,Smith KS
+1,20187,KS,Stanton KS
+1,20189,KS,Stevens KS
+1,20193,KS,Thomas KS
+1,20195,KS,Trego KS
+1,20197,KS,Wabaunsee KS
+1,20199,KS,Wallace KS
+1,20201,KS,Washington KS
+1,20203,KS,Wichita KS
+2,20001,KS,Allen KS
+2,20003,KS,Anderson KS
+2,20005,KS,Atchison KS
+2,20011,KS,Bourbon KS
+2,20013,KS,Brown KS
+2,20021,KS,Cherokee KS
+2,20031,KS,Coffey KS
+2,20037,KS,Crawford KS
+2,20043,KS,Doniphan KS
+2,20045,KS,Douglas KS
+2,20059,KS,Franklin KS
+2,20085,KS,Jackson KS
+2,20087,KS,Jefferson KS
+2,20099,KS,Labette KS
+2,20103,KS,Leavenworth KS
+2,20107,KS,Linn KS
+2,20117,KS,Marshall KS
+2,20121,KS,Miami KS
+2,20125,KS,Montgomery KS
+2,20131,KS,Nemaha KS
+2,20133,KS,Neosho KS
+2,20139,KS,Osage KS
+2,20177,KS,Shawnee KS
+2,20205,KS,Wilson KS
+2,20207,KS,Woodson KS
+3,20091,KS,Johnson KS
+3,20121,KS,Miami KS
+3,20209,KS,Wyandotte KS
+4,20007,KS,Barber KS
+4,20015,KS,Butler KS
+4,20019,KS,Chautauqua KS
+4,20033,KS,Comanche KS
+4,20035,KS,Cowley KS
+4,20047,KS,Edwards KS
+4,20049,KS,Elk KS
+4,20073,KS,Greenwood KS
+4,20077,KS,Harper KS
+4,20079,KS,Harvey KS
+4,20095,KS,Kingman KS
+4,20097,KS,Kiowa KS
+4,20145,KS,Pawnee KS
+4,20151,KS,Pratt KS
+4,20173,KS,Sedgwick KS
+4,20185,KS,Stafford KS
+4,20191,KS,Sumner KS
+1,21001,KY,Adair KY
+1,21003,KY,Allen KY
+1,21007,KY,Ballard KY
+1,21033,KY,Caldwell KY
+1,21035,KY,Calloway KY
+1,21039,KY,Carlisle KY
+1,21045,KY,Casey KY
+1,21047,KY,Christian KY
+1,21053,KY,Clinton KY
+1,21055,KY,Crittenden KY
+1,21057,KY,Cumberland KY
+1,21075,KY,Fulton KY
+1,21083,KY,Graves KY
+1,21101,KY,Henderson KY
+1,21105,KY,Hickman KY
+1,21107,KY,Hopkins KY
+1,21139,KY,Livingston KY
+1,21141,KY,Logan KY
+1,21143,KY,Lyon KY
+1,21145,KY,McCracken KY
+1,21149,KY,McLean KY
+1,21155,KY,Marion KY
+1,21157,KY,Marshall KY
+1,21169,KY,Metcalfe KY
+1,21171,KY,Monroe KY
+1,21177,KY,Muhlenberg KY
+1,21183,KY,Ohio KY
+1,21207,KY,Russell KY
+1,21213,KY,Simpson KY
+1,21217,KY,Taylor KY
+1,21219,KY,Todd KY
+1,21221,KY,Trigg KY
+1,21225,KY,Union KY
+1,21229,KY,Washington KY
+1,21233,KY,Webster KY
+2,21009,KY,Barren KY
+2,21021,KY,Boyle KY
+2,21027,KY,Breckinridge KY
+2,21029,KY,Bullitt KY
+2,21031,KY,Butler KY
+2,21059,KY,Daviess KY
+2,21061,KY,Edmonson KY
+2,21079,KY,Garrard KY
+2,21085,KY,Grayson KY
+2,21087,KY,Green KY
+2,21091,KY,Hancock KY
+2,21093,KY,Hardin KY
+2,21099,KY,Hart KY
+2,21113,KY,Jessamine KY
+2,21123,KY,Larue KY
+2,21163,KY,Meade KY
+2,21167,KY,Mercer KY
+2,21179,KY,Nelson KY
+2,21215,KY,Spencer KY
+2,21227,KY,Warren KY
+2,21229,KY,Washington KY
+3,21111,KY,Jefferson KY
+4,21015,KY,Boone KY
+4,21019,KY,Boyd KY
+4,21023,KY,Bracken KY
+4,21037,KY,Campbell KY
+4,21041,KY,Carroll KY
+4,21077,KY,Gallatin KY
+4,21081,KY,Grant KY
+4,21089,KY,Greenup KY
+4,21097,KY,Harrison KY
+4,21103,KY,Henry KY
+4,21111,KY,Jefferson KY
+4,21117,KY,Kenton KY
+4,21135,KY,Lewis KY
+4,21161,KY,Mason KY
+4,21185,KY,Oldham KY
+4,21187,KY,Owen KY
+4,21191,KY,Pendleton KY
+4,21211,KY,Shelby KY
+4,21215,KY,Spencer KY
+4,21223,KY,Trimble KY
+5,21013,KY,Bell KY
+5,21019,KY,Boyd KY
+5,21025,KY,Breathitt KY
+5,21043,KY,Carter KY
+5,21051,KY,Clay KY
+5,21063,KY,Elliott KY
+5,21071,KY,Floyd KY
+5,21095,KY,Harlan KY
+5,21109,KY,Jackson KY
+5,21115,KY,Johnson KY
+5,21119,KY,Knott KY
+5,21121,KY,Knox KY
+5,21125,KY,Laurel KY
+5,21127,KY,Lawrence KY
+5,21129,KY,Lee KY
+5,21131,KY,Leslie KY
+5,21133,KY,Letcher KY
+5,21137,KY,Lincoln KY
+5,21147,KY,McCreary KY
+5,21153,KY,Magoffin KY
+5,21159,KY,Martin KY
+5,21175,KY,Morgan KY
+5,21189,KY,Owsley KY
+5,21193,KY,Perry KY
+5,21195,KY,Pike KY
+5,21199,KY,Pulaski KY
+5,21203,KY,Rockcastle KY
+5,21205,KY,Rowan KY
+5,21231,KY,Wayne KY
+5,21235,KY,Whitley KY
+6,21005,KY,Anderson KY
+6,21011,KY,Bath KY
+6,21017,KY,Bourbon KY
+6,21049,KY,Clark KY
+6,21065,KY,Estill KY
+6,21067,KY,Fayette KY
+6,21069,KY,Fleming KY
+6,21073,KY,Franklin KY
+6,21097,KY,Harrison KY
+6,21113,KY,Jessamine KY
+6,21151,KY,Madison KY
+6,21165,KY,Menifee KY
+6,21173,KY,Montgomery KY
+6,21181,KY,Nicholas KY
+6,21197,KY,Powell KY
+6,21201,KY,Robertson KY
+6,21209,KY,Scott KY
+6,21237,KY,Wolfe KY
+6,21239,KY,Woodford KY
+1,22051,LA,Jefferson Parish LA
+1,22057,LA,Lafourche Parish LA
+1,22071,LA,Orleans Parish LA
+1,22075,LA,Plaquemines Parish LA
+1,22087,LA,St. Bernard Parish LA
+1,22103,LA,St. Tammany Parish LA
+1,22105,LA,Tangipahoa Parish LA
+1,22109,LA,Terrebonne Parish LA
+2,22005,LA,Ascension Parish LA
+2,22007,LA,Assumption Parish LA
+2,22033,LA,East Baton Rouge Parish LA
+2,22047,LA,Iberville Parish LA
+2,22051,LA,Jefferson Parish LA
+2,22071,LA,Orleans Parish LA
+2,22089,LA,St. Charles Parish LA
+2,22093,LA,St. James Parish LA
+2,22095,LA,St. John the Baptist Parish LA
+2,22121,LA,West Baton Rouge Parish LA
+3,22001,LA,Acadia Parish LA
+3,22019,LA,Calcasieu Parish LA
+3,22023,LA,Cameron Parish LA
+3,22045,LA,Iberia Parish LA
+3,22053,LA,Jefferson Davis Parish LA
+3,22055,LA,Lafayette Parish LA
+3,22097,LA,St. Landry Parish LA
+3,22099,LA,St. Martin Parish LA
+3,22101,LA,St. Mary Parish LA
+3,22113,LA,Vermilion Parish LA
+4,22003,LA,Allen Parish LA
+4,22011,LA,Beauregard Parish LA
+4,22013,LA,Bienville Parish LA
+4,22015,LA,Bossier Parish LA
+4,22017,LA,Caddo Parish LA
+4,22027,LA,Claiborne Parish LA
+4,22031,LA,De Soto Parish LA
+4,22039,LA,Evangeline Parish LA
+4,22069,LA,Natchitoches Parish LA
+4,22081,LA,Red River Parish LA
+4,22085,LA,Sabine Parish LA
+4,22097,LA,St. Landry Parish LA
+4,22111,LA,Union Parish LA
+4,22115,LA,Vernon Parish LA
+4,22119,LA,Webster Parish LA
+5,22009,LA,Avoyelles Parish LA
+5,22021,LA,Caldwell Parish LA
+5,22025,LA,Catahoula Parish LA
+5,22029,LA,Concordia Parish LA
+5,22035,LA,East Carroll Parish LA
+5,22037,LA,East Feliciana Parish LA
+5,22041,LA,Franklin Parish LA
+5,22043,LA,Grant Parish LA
+5,22049,LA,Jackson Parish LA
+5,22059,LA,La Salle Parish LA
+5,22061,LA,Lincoln Parish LA
+5,22065,LA,Madison Parish LA
+5,22067,LA,Morehouse Parish LA
+5,22073,LA,Ouachita Parish LA
+5,22079,LA,Rapides Parish LA
+5,22083,LA,Richland Parish LA
+5,22091,LA,St. Helena Parish LA
+5,22097,LA,St. Landry Parish LA
+5,22105,LA,Tangipahoa Parish LA
+5,22107,LA,Tensas Parish LA
+5,22117,LA,Washington Parish LA
+5,22123,LA,West Carroll Parish LA
+5,22125,LA,West Feliciana Parish LA
+5,22127,LA,Winn Parish LA
+6,22005,LA,Ascension Parish LA
+6,22007,LA,Assumption Parish LA
+6,22033,LA,East Baton Rouge Parish LA
+6,22037,LA,East Feliciana Parish LA
+6,22047,LA,Iberville Parish LA
+6,22057,LA,Lafourche Parish LA
+6,22063,LA,Livingston Parish LA
+6,22077,LA,Pointe Coupee Parish LA
+6,22089,LA,St. Charles Parish LA
+6,22091,LA,St. Helena Parish LA
+6,22095,LA,St. John the Baptist Parish LA
+6,22109,LA,Terrebonne Parish LA
+6,22121,LA,West Baton Rouge Parish LA
+1,23005,ME,Cumberland ME
+1,23011,ME,Kennebec ME
+1,23013,ME,Knox ME
+1,23015,ME,Lincoln ME
+1,23023,ME,Sagadahoc ME
+1,23031,ME,York ME
+2,23001,ME,Androscoggin ME
+2,23003,ME,Aroostook ME
+2,23007,ME,Franklin ME
+2,23009,ME,Hancock ME
+2,23011,ME,Kennebec ME
+2,23017,ME,Oxford ME
+2,23019,ME,Penobscot ME
+2,23021,ME,Piscataquis ME
+2,23025,ME,Somerset ME
+2,23027,ME,Waldo ME
+2,23029,ME,Washington ME
+1,24005,MD,Baltimore MD
+1,24011,MD,Caroline MD
+1,24013,MD,Carroll MD
+1,24015,MD,Cecil MD
+1,24019,MD,Dorchester MD
+1,24025,MD,Harford MD
+1,24029,MD,Kent MD
+1,24035,MD,Queen Annes MD
+1,24039,MD,Somerset MD
+1,24041,MD,Talbot MD
+1,24045,MD,Wicomico MD
+1,24047,MD,Worcester MD
+2,24003,MD,Anne Arundel MD
+2,24005,MD,Baltimore MD
+2,24025,MD,Harford MD
+2,24027,MD,Howard MD
+2,24510,MD,Baltimore city MD
+3,24003,MD,Anne Arundel MD
+3,24005,MD,Baltimore MD
+3,24027,MD,Howard MD
+3,24031,MD,Montgomery MD
+3,24510,MD,Baltimore city MD
+4,24003,MD,Anne Arundel MD
+4,24033,MD,Prince Georges MD
+5,24003,MD,Anne Arundel MD
+5,24009,MD,Calvert MD
+5,24017,MD,Charles MD
+5,24033,MD,Prince Georges MD
+5,24037,MD,St. Marys MD
+6,24001,MD,Allegany MD
+6,24021,MD,Frederick MD
+6,24023,MD,Garrett MD
+6,24031,MD,Montgomery MD
+6,24043,MD,Washington MD
+7,24005,MD,Baltimore MD
+7,24027,MD,Howard MD
+7,24510,MD,Baltimore city MD
+8,24013,MD,Carroll MD
+8,24021,MD,Frederick MD
+8,24031,MD,Montgomery MD
+1,25003,MA,Berkshire MA
+1,25011,MA,Franklin MA
+1,25013,MA,Hampden MA
+1,25015,MA,Hampshire MA
+1,25027,MA,Worcester MA
+2,25011,MA,Franklin MA
+2,25013,MA,Hampden MA
+2,25015,MA,Hampshire MA
+2,25021,MA,Norfolk MA
+2,25027,MA,Worcester MA
+3,25009,MA,Essex MA
+3,25017,MA,Middlesex MA
+3,25027,MA,Worcester MA
+4,25005,MA,Bristol MA
+4,25017,MA,Middlesex MA
+4,25021,MA,Norfolk MA
+4,25023,MA,Plymouth MA
+4,25027,MA,Worcester MA
+5,25017,MA,Middlesex MA
+5,25025,MA,Suffolk MA
+5,25027,MA,Worcester MA
+6,25009,MA,Essex MA
+6,25017,MA,Middlesex MA
+7,25017,MA,Middlesex MA
+7,25021,MA,Norfolk MA
+7,25025,MA,Suffolk MA
+8,25005,MA,Bristol MA
+8,25021,MA,Norfolk MA
+8,25023,MA,Plymouth MA
+8,25025,MA,Suffolk MA
+9,25001,MA,Barnstable MA
+9,25005,MA,Bristol MA
+9,25007,MA,Dukes MA
+9,25019,MA,Nantucket MA
+9,25023,MA,Plymouth MA
+1,26001,MI,Alcona MI
+1,26003,MI,Alger MI
+1,26007,MI,Alpena MI
+1,26009,MI,Antrim MI
+1,26013,MI,Baraga MI
+1,26019,MI,Benzie MI
+1,26029,MI,Charlevoix MI
+1,26031,MI,Cheboygan MI
+1,26033,MI,Chippewa MI
+1,26039,MI,Crawford MI
+1,26041,MI,Delta MI
+1,26043,MI,Dickinson MI
+1,26047,MI,Emmet MI
+1,26053,MI,Gogebic MI
+1,26055,MI,Grand Traverse MI
+1,26061,MI,Houghton MI
+1,26071,MI,Iron MI
+1,26079,MI,Kalkaska MI
+1,26083,MI,Keweenaw MI
+1,26089,MI,Leelanau MI
+1,26095,MI,Luce MI
+1,26097,MI,Mackinac MI
+1,26101,MI,Manistee MI
+1,26103,MI,Marquette MI
+1,26105,MI,Mason MI
+1,26109,MI,Menominee MI
+1,26119,MI,Montmorency MI
+1,26131,MI,Ontonagon MI
+1,26135,MI,Oscoda MI
+1,26137,MI,Otsego MI
+1,26141,MI,Presque Isle MI
+1,26153,MI,Schoolcraft MI
+2,26005,MI,Allegan MI
+2,26081,MI,Kent MI
+2,26085,MI,Lake MI
+2,26105,MI,Mason MI
+2,26121,MI,Muskegon MI
+2,26123,MI,Newaygo MI
+2,26127,MI,Oceana MI
+2,26139,MI,Ottawa MI
+3,26015,MI,Barry MI
+3,26025,MI,Calhoun MI
+3,26067,MI,Ionia MI
+3,26081,MI,Kent MI
+3,26117,MI,Montcalm MI
+4,26035,MI,Clare MI
+4,26037,MI,Clinton MI
+4,26051,MI,Gladwin MI
+4,26057,MI,Gratiot MI
+4,26073,MI,Isabella MI
+4,26107,MI,Mecosta MI
+4,26111,MI,Midland MI
+4,26113,MI,Missaukee MI
+4,26117,MI,Montcalm MI
+4,26129,MI,Ogemaw MI
+4,26133,MI,Osceola MI
+4,26143,MI,Roscommon MI
+4,26145,MI,Saginaw MI
+4,26155,MI,Shiawassee MI
+4,26165,MI,Wexford MI
+5,26011,MI,Arenac MI
+5,26017,MI,Bay MI
+5,26049,MI,Genesee MI
+5,26069,MI,Iosco MI
+5,26145,MI,Saginaw MI
+5,26157,MI,Tuscola MI
+6,26005,MI,Allegan MI
+6,26021,MI,Berrien MI
+6,26027,MI,Cass MI
+6,26077,MI,Kalamazoo MI
+6,26149,MI,St. Joseph MI
+6,26159,MI,Van Buren MI
+7,26023,MI,Branch MI
+7,26045,MI,Eaton MI
+7,26059,MI,Hillsdale MI
+7,26075,MI,Jackson MI
+7,26091,MI,Lenawee MI
+7,26115,MI,Monroe MI
+7,26161,MI,Washtenaw MI
+8,26065,MI,Ingham MI
+8,26093,MI,Livingston MI
+8,26125,MI,Oakland MI
+9,26099,MI,Macomb MI
+9,26125,MI,Oakland MI
+10,26063,MI,Huron MI
+10,26087,MI,Lapeer MI
+10,26099,MI,Macomb MI
+10,26147,MI,St. Clair MI
+10,26151,MI,Sanilac MI
+10,26157,MI,Tuscola MI
+11,26125,MI,Oakland MI
+11,26163,MI,Wayne MI
+12,26161,MI,Washtenaw MI
+12,26163,MI,Wayne MI
+13,26163,MI,Wayne MI
+14,26125,MI,Oakland MI
+14,26163,MI,Wayne MI
+1,27013,MN,Blue Earth MN
+1,27015,MN,Brown MN
+1,27033,MN,Cottonwood MN
+1,27039,MN,Dodge MN
+1,27043,MN,Faribault MN
+1,27045,MN,Fillmore MN
+1,27047,MN,Freeborn MN
+1,27055,MN,Houston MN
+1,27063,MN,Jackson MN
+1,27079,MN,Le Sueur MN
+1,27091,MN,Martin MN
+1,27099,MN,Mower MN
+1,27103,MN,Nicollet MN
+1,27105,MN,Nobles MN
+1,27109,MN,Olmsted MN
+1,27131,MN,Rice MN
+1,27133,MN,Rock MN
+1,27147,MN,Steele MN
+1,27161,MN,Waseca MN
+1,27165,MN,Watonwan MN
+1,27169,MN,Winona MN
+2,27037,MN,Dakota MN
+2,27049,MN,Goodhue MN
+2,27131,MN,Rice MN
+2,27139,MN,Scott MN
+2,27157,MN,Wabasha MN
+2,27163,MN,Washington MN
+3,27003,MN,Anoka MN
+3,27019,MN,Carver MN
+3,27053,MN,Hennepin MN
+4,27123,MN,Ramsey MN
+4,27163,MN,Washington MN
+5,27003,MN,Anoka MN
+5,27053,MN,Hennepin MN
+5,27123,MN,Ramsey MN
+6,27003,MN,Anoka MN
+6,27009,MN,Benton MN
+6,27019,MN,Carver MN
+6,27053,MN,Hennepin MN
+6,27141,MN,Sherburne MN
+6,27145,MN,Stearns MN
+6,27163,MN,Washington MN
+6,27171,MN,Wright MN
+7,27005,MN,Becker MN
+7,27007,MN,Beltrami MN
+7,27011,MN,Big Stone MN
+7,27023,MN,Chippewa MN
+7,27027,MN,Clay MN
+7,27029,MN,Clearwater MN
+7,27033,MN,Cottonwood MN
+7,27041,MN,Douglas MN
+7,27051,MN,Grant MN
+7,27067,MN,Kandiyohi MN
+7,27069,MN,Kittson MN
+7,27073,MN,Lac qui Parle MN
+7,27077,MN,Lake of the Woods MN
+7,27081,MN,Lincoln MN
+7,27083,MN,Lyon MN
+7,27085,MN,McLeod MN
+7,27087,MN,Mahnomen MN
+7,27089,MN,Marshall MN
+7,27093,MN,Meeker MN
+7,27101,MN,Murray MN
+7,27107,MN,Norman MN
+7,27111,MN,Otter Tail MN
+7,27113,MN,Pennington MN
+7,27117,MN,Pipestone MN
+7,27119,MN,Polk MN
+7,27121,MN,Pope MN
+7,27125,MN,Red Lake MN
+7,27127,MN,Redwood MN
+7,27129,MN,Renville MN
+7,27135,MN,Roseau MN
+7,27143,MN,Sibley MN
+7,27145,MN,Stearns MN
+7,27149,MN,Stevens MN
+7,27151,MN,Swift MN
+7,27153,MN,Todd MN
+7,27155,MN,Traverse MN
+7,27167,MN,Wilkin MN
+7,27173,MN,Yellow Medicine MN
+8,27001,MN,Aitkin MN
+8,27007,MN,Beltrami MN
+8,27017,MN,Carlton MN
+8,27021,MN,Cass MN
+8,27025,MN,Chisago MN
+8,27031,MN,Cook MN
+8,27035,MN,Crow Wing MN
+8,27057,MN,Hubbard MN
+8,27059,MN,Isanti MN
+8,27061,MN,Itasca MN
+8,27065,MN,Kanabec MN
+8,27071,MN,Koochiching MN
+8,27075,MN,Lake MN
+8,27095,MN,Mille Lacs MN
+8,27097,MN,Morrison MN
+8,27115,MN,Pine MN
+8,27137,MN,St. Louis MN
+8,27159,MN,Wadena MN
+1,28003,MS,Alcorn MS
+1,28009,MS,Benton MS
+1,28013,MS,Calhoun MS
+1,28017,MS,Chickasaw MS
+1,28019,MS,Choctaw MS
+1,28025,MS,Clay MS
+1,28033,MS,DeSoto MS
+1,28057,MS,Itawamba MS
+1,28071,MS,Lafayette MS
+1,28081,MS,Lee MS
+1,28087,MS,Lowndes MS
+1,28093,MS,Marshall MS
+1,28095,MS,Monroe MS
+1,28105,MS,Oktibbeha MS
+1,28115,MS,Pontotoc MS
+1,28117,MS,Prentiss MS
+1,28137,MS,Tate MS
+1,28139,MS,Tippah MS
+1,28141,MS,Tishomingo MS
+1,28145,MS,Union MS
+1,28155,MS,Webster MS
+1,28159,MS,Winston MS
+2,28007,MS,Attala MS
+2,28011,MS,Bolivar MS
+2,28015,MS,Carroll MS
+2,28021,MS,Claiborne MS
+2,28027,MS,Coahoma MS
+2,28029,MS,Copiah MS
+2,28043,MS,Grenada MS
+2,28049,MS,Hinds MS
+2,28051,MS,Holmes MS
+2,28053,MS,Humphreys MS
+2,28055,MS,Issaquena MS
+2,28063,MS,Jefferson MS
+2,28079,MS,Leake MS
+2,28083,MS,Leflore MS
+2,28089,MS,Madison MS
+2,28097,MS,Montgomery MS
+2,28107,MS,Panola MS
+2,28119,MS,Quitman MS
+2,28125,MS,Sharkey MS
+2,28133,MS,Sunflower MS
+2,28135,MS,Tallahatchie MS
+2,28143,MS,Tunica MS
+2,28149,MS,Warren MS
+2,28151,MS,Washington MS
+2,28161,MS,Yalobusha MS
+2,28163,MS,Yazoo MS
+3,28001,MS,Adams MS
+3,28005,MS,Amite MS
+3,28023,MS,Clarke MS
+3,28031,MS,Covington MS
+3,28037,MS,Franklin MS
+3,28049,MS,Hinds MS
+3,28061,MS,Jasper MS
+3,28065,MS,Jefferson Davis MS
+3,28069,MS,Kemper MS
+3,28075,MS,Lauderdale MS
+3,28077,MS,Lawrence MS
+3,28085,MS,Lincoln MS
+3,28089,MS,Madison MS
+3,28099,MS,Neshoba MS
+3,28101,MS,Newton MS
+3,28103,MS,Noxubee MS
+3,28105,MS,Oktibbeha MS
+3,28113,MS,Pike MS
+3,28121,MS,Rankin MS
+3,28123,MS,Scott MS
+3,28127,MS,Simpson MS
+3,28129,MS,Smith MS
+3,28147,MS,Walthall MS
+3,28157,MS,Wilkinson MS
+4,28023,MS,Clarke MS
+4,28035,MS,Forrest MS
+4,28039,MS,George MS
+4,28041,MS,Greene MS
+4,28045,MS,Hancock MS
+4,28047,MS,Harrison MS
+4,28059,MS,Jackson MS
+4,28067,MS,Jones MS
+4,28073,MS,Lamar MS
+4,28091,MS,Marion MS
+4,28109,MS,Pearl River MS
+4,28111,MS,Perry MS
+4,28131,MS,Stone MS
+4,28153,MS,Wayne MS
+1,29189,MO,St. Louis MO
+1,29510,MO,St. Louis city MO
+2,29099,MO,Jefferson MO
+2,29183,MO,St. Charles MO
+2,29189,MO,St. Louis MO
+3,29027,MO,Callaway MO
+3,29029,MO,Camden MO
+3,29051,MO,Cole MO
+3,29071,MO,Franklin MO
+3,29073,MO,Gasconade MO
+3,29099,MO,Jefferson MO
+3,29113,MO,Lincoln MO
+3,29125,MO,Maries MO
+3,29131,MO,Miller MO
+3,29139,MO,Montgomery MO
+3,29151,MO,Osage MO
+3,29183,MO,St. Charles MO
+3,29219,MO,Warren MO
+4,29007,MO,Audrain MO
+4,29011,MO,Barton MO
+4,29013,MO,Bates MO
+4,29015,MO,Benton MO
+4,29019,MO,Boone MO
+4,29029,MO,Camden MO
+4,29037,MO,Cass MO
+4,29039,MO,Cedar MO
+4,29053,MO,Cooper MO
+4,29057,MO,Dade MO
+4,29059,MO,Dallas MO
+4,29083,MO,Henry MO
+4,29085,MO,Hickory MO
+4,29089,MO,Howard MO
+4,29101,MO,Johnson MO
+4,29105,MO,Laclede MO
+4,29135,MO,Moniteau MO
+4,29141,MO,Morgan MO
+4,29159,MO,Pettis MO
+4,29169,MO,Pulaski MO
+4,29175,MO,Randolph MO
+4,29185,MO,St. Clair MO
+4,29217,MO,Vernon MO
+4,29225,MO,Webster MO
+5,29047,MO,Clay MO
+5,29095,MO,Jackson MO
+5,29107,MO,Lafayette MO
+5,29177,MO,Ray MO
+5,29195,MO,Saline MO
+6,29001,MO,Adair MO
+6,29003,MO,Andrew MO
+6,29005,MO,Atchison MO
+6,29007,MO,Audrain MO
+6,29021,MO,Buchanan MO
+6,29025,MO,Caldwell MO
+6,29033,MO,Carroll MO
+6,29041,MO,Chariton MO
+6,29045,MO,Clark MO
+6,29047,MO,Clay MO
+6,29049,MO,Clinton MO
+6,29061,MO,Daviess MO
+6,29063,MO,DeKalb MO
+6,29075,MO,Gentry MO
+6,29079,MO,Grundy MO
+6,29081,MO,Harrison MO
+6,29087,MO,Holt MO
+6,29095,MO,Jackson MO
+6,29103,MO,Knox MO
+6,29111,MO,Lewis MO
+6,29115,MO,Linn MO
+6,29117,MO,Livingston MO
+6,29121,MO,Macon MO
+6,29127,MO,Marion MO
+6,29129,MO,Mercer MO
+6,29137,MO,Monroe MO
+6,29147,MO,Nodaway MO
+6,29163,MO,Pike MO
+6,29165,MO,Platte MO
+6,29171,MO,Putnam MO
+6,29173,MO,Ralls MO
+6,29197,MO,Schuyler MO
+6,29199,MO,Scotland MO
+6,29205,MO,Shelby MO
+6,29211,MO,Sullivan MO
+6,29227,MO,Worth MO
+7,29009,MO,Barry MO
+7,29043,MO,Christian MO
+7,29077,MO,Greene MO
+7,29097,MO,Jasper MO
+7,29109,MO,Lawrence MO
+7,29119,MO,McDonald MO
+7,29145,MO,Newton MO
+7,29167,MO,Polk MO
+7,29209,MO,Stone MO
+7,29213,MO,Taney MO
+7,29225,MO,Webster MO
+8,29017,MO,Bollinger MO
+8,29023,MO,Butler MO
+8,29031,MO,Cape Girardeau MO
+8,29035,MO,Carter MO
+8,29055,MO,Crawford MO
+8,29065,MO,Dent MO
+8,29067,MO,Douglas MO
+8,29069,MO,Dunklin MO
+8,29091,MO,Howell MO
+8,29093,MO,Iron MO
+8,29099,MO,Jefferson MO
+8,29123,MO,Madison MO
+8,29133,MO,Mississippi MO
+8,29143,MO,New Madrid MO
+8,29149,MO,Oregon MO
+8,29153,MO,Ozark MO
+8,29155,MO,Pemiscot MO
+8,29157,MO,Perry MO
+8,29161,MO,Phelps MO
+8,29179,MO,Reynolds MO
+8,29181,MO,Ripley MO
+8,29186,MO,Ste. Genevieve MO
+8,29187,MO,St. Francois MO
+8,29201,MO,Scott MO
+8,29203,MO,Shannon MO
+8,29207,MO,Stoddard MO
+8,29215,MO,Texas MO
+8,29221,MO,Washington MO
+8,29223,MO,Wayne MO
+8,29229,MO,Wright MO
+0,30001,MT,Beaverhead MT
+0,30003,MT,Big Horn MT
+0,30005,MT,Blaine MT
+0,30007,MT,Broadwater MT
+0,30009,MT,Carbon MT
+0,30011,MT,Carter MT
+0,30013,MT,Cascade MT
+0,30015,MT,Chouteau MT
+0,30017,MT,Custer MT
+0,30019,MT,Daniels MT
+0,30021,MT,Dawson MT
+0,30023,MT,Deer Lodge MT
+0,30025,MT,Fallon MT
+0,30027,MT,Fergus MT
+0,30029,MT,Flathead MT
+0,30031,MT,Gallatin MT
+0,30033,MT,Garfield MT
+0,30035,MT,Glacier MT
+0,30037,MT,Golden Valley MT
+0,30039,MT,Granite MT
+0,30041,MT,Hill MT
+0,30043,MT,Jefferson MT
+0,30045,MT,Judith Basin MT
+0,30047,MT,Lake MT
+0,30049,MT,Lewis and Clark MT
+0,30051,MT,Liberty MT
+0,30053,MT,Lincoln MT
+0,30055,MT,McCone MT
+0,30057,MT,Madison MT
+0,30059,MT,Meagher MT
+0,30061,MT,Mineral MT
+0,30063,MT,Missoula MT
+0,30065,MT,Musselshell MT
+0,30067,MT,Park MT
+0,30069,MT,Petroleum MT
+0,30071,MT,Phillips MT
+0,30073,MT,Pondera MT
+0,30075,MT,Powder River MT
+0,30077,MT,Powell MT
+0,30079,MT,Prairie MT
+0,30081,MT,Ravalli MT
+0,30083,MT,Richland MT
+0,30085,MT,Roosevelt MT
+0,30087,MT,Rosebud MT
+0,30089,MT,Sanders MT
+0,30091,MT,Sheridan MT
+0,30093,MT,Silver Bow MT
+0,30095,MT,Stillwater MT
+0,30097,MT,Sweet Grass MT
+0,30099,MT,Teton MT
+0,30101,MT,Toole MT
+0,30103,MT,Treasure MT
+0,30105,MT,Valley MT
+0,30107,MT,Wheatland MT
+0,30109,MT,Wibaux MT
+0,30111,MT,Yellowstone MT
+1,31021,NE,Burt NE
+1,31023,NE,Butler NE
+1,31025,NE,Cass NE
+1,31037,NE,Colfax NE
+1,31039,NE,Cuming NE
+1,31051,NE,Dixon NE
+1,31053,NE,Dodge NE
+1,31109,NE,Lancaster NE
+1,31119,NE,Madison NE
+1,31131,NE,Otoe NE
+1,31141,NE,Platte NE
+1,31143,NE,Polk NE
+1,31153,NE,Sarpy NE
+1,31155,NE,Saunders NE
+1,31159,NE,Seward NE
+1,31167,NE,Stanton NE
+1,31173,NE,Thurston NE
+1,31177,NE,Washington NE
+2,31055,NE,Douglas NE
+2,31153,NE,Sarpy NE
+3,31001,NE,Adams NE
+3,31003,NE,Antelope NE
+3,31005,NE,Arthur NE
+3,31007,NE,Banner NE
+3,31009,NE,Blaine NE
+3,31011,NE,Boone NE
+3,31013,NE,Box Butte NE
+3,31015,NE,Boyd NE
+3,31017,NE,Brown NE
+3,31019,NE,Buffalo NE
+3,31027,NE,Cedar NE
+3,31029,NE,Chase NE
+3,31031,NE,Cherry NE
+3,31033,NE,Cheyenne NE
+3,31035,NE,Clay NE
+3,31041,NE,Custer NE
+3,31043,NE,Dakota NE
+3,31045,NE,Dawes NE
+3,31047,NE,Dawson NE
+3,31049,NE,Deuel NE
+3,31051,NE,Dixon NE
+3,31057,NE,Dundy NE
+3,31059,NE,Fillmore NE
+3,31061,NE,Franklin NE
+3,31063,NE,Frontier NE
+3,31065,NE,Furnas NE
+3,31067,NE,Gage NE
+3,31069,NE,Garden NE
+3,31071,NE,Garfield NE
+3,31073,NE,Gosper NE
+3,31075,NE,Grant NE
+3,31077,NE,Greeley NE
+3,31079,NE,Hall NE
+3,31081,NE,Hamilton NE
+3,31083,NE,Harlan NE
+3,31085,NE,Hayes NE
+3,31087,NE,Hitchcock NE
+3,31089,NE,Holt NE
+3,31091,NE,Hooker NE
+3,31093,NE,Howard NE
+3,31095,NE,Jefferson NE
+3,31097,NE,Johnson NE
+3,31099,NE,Kearney NE
+3,31101,NE,Keith NE
+3,31103,NE,Keya Paha NE
+3,31105,NE,Kimball NE
+3,31107,NE,Knox NE
+3,31111,NE,Lincoln NE
+3,31113,NE,Logan NE
+3,31115,NE,Loup NE
+3,31117,NE,McPherson NE
+3,31121,NE,Merrick NE
+3,31123,NE,Morrill NE
+3,31125,NE,Nance NE
+3,31127,NE,Nemaha NE
+3,31129,NE,Nuckolls NE
+3,31133,NE,Pawnee NE
+3,31135,NE,Perkins NE
+3,31137,NE,Phelps NE
+3,31139,NE,Pierce NE
+3,31145,NE,Red Willow NE
+3,31147,NE,Richardson NE
+3,31149,NE,Rock NE
+3,31151,NE,Saline NE
+3,31157,NE,Scotts Bluff NE
+3,31161,NE,Sheridan NE
+3,31163,NE,Sherman NE
+3,31165,NE,Sioux NE
+3,31169,NE,Thayer NE
+3,31171,NE,Thomas NE
+3,31175,NE,Valley NE
+3,31179,NE,Wayne NE
+3,31181,NE,Webster NE
+3,31183,NE,Wheeler NE
+3,31185,NE,York NE
+1,32003,NV,Clark NV
+2,32001,NV,Churchill NV
+2,32005,NV,Douglas NV
+2,32007,NV,Elko NV
+2,32011,NV,Eureka NV
+2,32013,NV,Humboldt NV
+2,32015,NV,Lander NV
+2,32019,NV,Lyon NV
+2,32027,NV,Pershing NV
+2,32029,NV,Storey NV
+2,32031,NV,Washoe NV
+2,32510,NV,Carson City NV
+3,32003,NV,Clark NV
+4,32003,NV,Clark NV
+4,32009,NV,Esmeralda NV
+4,32017,NV,Lincoln NV
+4,32019,NV,Lyon NV
+4,32021,NV,Mineral NV
+4,32023,NV,Nye NV
+4,32033,NV,White Pine NV
+1,33001,NH,Belknap NH
+1,33003,NH,Carroll NH
+1,33009,NH,Grafton NH
+1,33011,NH,Hillsborough NH
+1,33013,NH,Merrimack NH
+1,33015,NH,Rockingham NH
+1,33017,NH,Strafford NH
+2,33001,NH,Belknap NH
+2,33005,NH,Cheshire NH
+2,33007,NH,Coos NH
+2,33009,NH,Grafton NH
+2,33011,NH,Hillsborough NH
+2,33013,NH,Merrimack NH
+2,33015,NH,Rockingham NH
+2,33019,NH,Sullivan NH
+1,34005,NJ,Burlington NJ
+1,34007,NJ,Camden NJ
+1,34015,NJ,Gloucester NJ
+2,34001,NJ,Atlantic NJ
+2,34005,NJ,Burlington NJ
+2,34007,NJ,Camden NJ
+2,34009,NJ,Cape May NJ
+2,34011,NJ,Cumberland NJ
+2,34015,NJ,Gloucester NJ
+2,34029,NJ,Ocean NJ
+2,34033,NJ,Salem NJ
+3,34005,NJ,Burlington NJ
+3,34029,NJ,Ocean NJ
+4,34021,NJ,Mercer NJ
+4,34025,NJ,Monmouth NJ
+4,34029,NJ,Ocean NJ
+5,34003,NJ,Bergen NJ
+5,34031,NJ,Passaic NJ
+5,34037,NJ,Sussex NJ
+5,34041,NJ,Warren NJ
+6,34023,NJ,Middlesex NJ
+6,34025,NJ,Monmouth NJ
+7,34013,NJ,Essex NJ
+7,34019,NJ,Hunterdon NJ
+7,34027,NJ,Morris NJ
+7,34035,NJ,Somerset NJ
+7,34039,NJ,Union NJ
+7,34041,NJ,Warren NJ
+8,34003,NJ,Bergen NJ
+8,34013,NJ,Essex NJ
+8,34017,NJ,Hudson NJ
+8,34039,NJ,Union NJ
+9,34003,NJ,Bergen NJ
+9,34017,NJ,Hudson NJ
+9,34031,NJ,Passaic NJ
+10,34013,NJ,Essex NJ
+10,34017,NJ,Hudson NJ
+10,34039,NJ,Union NJ
+11,34013,NJ,Essex NJ
+11,34027,NJ,Morris NJ
+11,34031,NJ,Passaic NJ
+11,34037,NJ,Sussex NJ
+12,34021,NJ,Mercer NJ
+12,34023,NJ,Middlesex NJ
+12,34035,NJ,Somerset NJ
+12,34039,NJ,Union NJ
+1,35001,NM,Bernalillo NM
+1,35043,NM,Sandoval NM
+1,35049,NM,Santa Fe NM
+1,35057,NM,Torrance NM
+1,35061,NM,Valencia NM
+2,35001,NM,Bernalillo NM
+2,35003,NM,Catron NM
+2,35005,NM,Chaves NM
+2,35006,NM,Cibola NM
+2,35011,NM,DeBaca NM
+2,35013,NM,Dona Ana NM
+2,35015,NM,Eddy NM
+2,35017,NM,Grant NM
+2,35019,NM,Guadalupe NM
+2,35023,NM,Hidalgo NM
+2,35025,NM,Lea NM
+2,35027,NM,Lincoln NM
+2,35029,NM,Luna NM
+2,35031,NM,McKinley NM
+2,35035,NM,Otero NM
+2,35041,NM,Roosevelt NM
+2,35051,NM,Sierra NM
+2,35053,NM,Socorro NM
+2,35061,NM,Valencia NM
+3,35001,NM,Bernalillo NM
+3,35007,NM,Colfax NM
+3,35009,NM,Curry NM
+3,35021,NM,Harding NM
+3,35028,NM,Los Alamos NM
+3,35031,NM,McKinley NM
+3,35033,NM,Mora NM
+3,35037,NM,Quay NM
+3,35039,NM,Rio Arriba NM
+3,35041,NM,Roosevelt NM
+3,35043,NM,Sandoval NM
+3,35045,NM,San Juan NM
+3,35047,NM,San Miguel NM
+3,35049,NM,Santa Fe NM
+3,35055,NM,Taos NM
+3,35059,NM,Union NM
+1,36103,NY,Suffolk NY
+2,36059,NY,Nassau NY
+2,36103,NY,Suffolk NY
+3,36059,NY,Nassau NY
+3,36081,NY,Queens NY
+3,36103,NY,Suffolk NY
+4,36059,NY,Nassau NY
+5,36059,NY,Nassau NY
+5,36081,NY,Queens NY
+6,36081,NY,Queens NY
+7,36047,NY,Kings NY
+7,36061,NY,New York NY
+7,36081,NY,Queens NY
+8,36047,NY,Kings NY
+8,36081,NY,Queens NY
+9,36047,NY,Kings NY
+10,36047,NY,Kings NY
+10,36061,NY,New York NY
+11,36047,NY,Kings NY
+11,36085,NY,Richmond NY
+12,36047,NY,Kings NY
+12,36061,NY,New York NY
+12,36081,NY,Queens NY
+13,36005,NY,Bronx NY
+13,36061,NY,New York NY
+14,36005,NY,Bronx NY
+14,36081,NY,Queens NY
+15,36005,NY,Bronx NY
+16,36005,NY,Bronx NY
+16,36119,NY,Westchester NY
+17,36087,NY,Rockland NY
+17,36119,NY,Westchester NY
+18,36027,NY,Dutchess NY
+18,36071,NY,Orange NY
+18,36079,NY,Putnam NY
+18,36119,NY,Westchester NY
+19,36007,NY,Broome NY
+19,36021,NY,Columbia NY
+19,36025,NY,Delaware NY
+19,36027,NY,Dutchess NY
+19,36039,NY,Greene NY
+19,36057,NY,Montgomery NY
+19,36077,NY,Otsego NY
+19,36083,NY,Rensselaer NY
+19,36095,NY,Schoharie NY
+19,36105,NY,Sullivan NY
+19,36111,NY,Ulster NY
+20,36001,NY,Albany NY
+20,36057,NY,Montgomery NY
+20,36083,NY,Rensselaer NY
+20,36091,NY,Saratoga NY
+20,36093,NY,Schenectady NY
+21,36019,NY,Clinton NY
+21,36031,NY,Essex NY
+21,36033,NY,Franklin NY
+21,36035,NY,Fulton NY
+21,36041,NY,Hamilton NY
+21,36043,NY,Herkimer NY
+21,36045,NY,Jefferson NY
+21,36049,NY,Lewis NY
+21,36089,NY,St. Lawrence NY
+21,36091,NY,Saratoga NY
+21,36113,NY,Warren NY
+21,36115,NY,Washington NY
+22,36007,NY,Broome NY
+22,36017,NY,Chenango NY
+22,36023,NY,Cortland NY
+22,36043,NY,Herkimer NY
+22,36053,NY,Madison NY
+22,36065,NY,Oneida NY
+22,36075,NY,Oswego NY
+22,36107,NY,Tioga NY
+23,36003,NY,Allegany NY
+23,36009,NY,Cattaraugus NY
+23,36013,NY,Chautauqua NY
+23,36015,NY,Chemung NY
+23,36069,NY,Ontario NY
+23,36097,NY,Schuyler NY
+23,36099,NY,Seneca NY
+23,36101,NY,Steuben NY
+23,36107,NY,Tioga NY
+23,36109,NY,Tompkins NY
+23,36123,NY,Yates NY
+24,36011,NY,Cayuga NY
+24,36067,NY,Onondaga NY
+24,36075,NY,Oswego NY
+24,36117,NY,Wayne NY
+25,36055,NY,Monroe NY
+26,36029,NY,Erie NY
+26,36063,NY,Niagara NY
+27,36029,NY,Erie NY
+27,36037,NY,Genesee NY
+27,36051,NY,Livingston NY
+27,36055,NY,Monroe NY
+27,36063,NY,Niagara NY
+27,36069,NY,Ontario NY
+27,36073,NY,Orleans NY
+27,36121,NY,Wyoming NY
+1,37015,NC,Bertie NC
+1,37063,NC,Durham NC
+1,37065,NC,Edgecombe NC
+1,37073,NC,Gates NC
+1,37077,NC,Granville NC
+1,37083,NC,Halifax NC
+1,37091,NC,Hertford NC
+1,37117,NC,Martin NC
+1,37131,NC,Northampton NC
+1,37147,NC,Pitt NC
+1,37181,NC,Vance NC
+1,37185,NC,Warren NC
+1,37187,NC,Washington NC
+1,37195,NC,Wilson NC
+2,37069,NC,Franklin NC
+2,37085,NC,Harnett NC
+2,37101,NC,Johnston NC
+2,37127,NC,Nash NC
+2,37183,NC,Wake NC
+2,37195,NC,Wilson NC
+3,37013,NC,Beaufort NC
+3,37029,NC,Camden NC
+3,37031,NC,Carteret NC
+3,37041,NC,Chowan NC
+3,37049,NC,Craven NC
+3,37053,NC,Currituck NC
+3,37055,NC,Dare NC
+3,37079,NC,Greene NC
+3,37095,NC,Hyde NC
+3,37103,NC,Jones NC
+3,37107,NC,Lenoir NC
+3,37133,NC,Onslow NC
+3,37137,NC,Pamlico NC
+3,37139,NC,Pasquotank NC
+3,37143,NC,Perquimans NC
+3,37147,NC,Pitt NC
+3,37177,NC,Tyrrell NC
+4,37063,NC,Durham NC
+4,37135,NC,Orange NC
+4,37183,NC,Wake NC
+5,37003,NC,Alexander NC
+5,37005,NC,Alleghany NC
+5,37009,NC,Ashe NC
+5,37011,NC,Avery NC
+5,37035,NC,Catawba NC
+5,37067,NC,Forsyth NC
+5,37169,NC,Stokes NC
+5,37171,NC,Surry NC
+5,37189,NC,Watauga NC
+5,37193,NC,Wilkes NC
+5,37197,NC,Yadkin NC
+6,37001,NC,Alamance NC
+6,37033,NC,Caswell NC
+6,37037,NC,Chatham NC
+6,37081,NC,Guilford NC
+6,37105,NC,Lee NC
+6,37145,NC,Person NC
+6,37151,NC,Randolph NC
+6,37157,NC,Rockingham NC
+7,37017,NC,Bladen NC
+7,37019,NC,Brunswick NC
+7,37047,NC,Columbus NC
+7,37061,NC,Duplin NC
+7,37101,NC,Johnston NC
+7,37129,NC,New Hanover NC
+7,37141,NC,Pender NC
+7,37163,NC,Sampson NC
+7,37191,NC,Wayne NC
+8,37025,NC,Cabarrus NC
+8,37051,NC,Cumberland NC
+8,37093,NC,Hoke NC
+8,37123,NC,Montgomery NC
+8,37125,NC,Moore NC
+8,37159,NC,Rowan NC
+8,37167,NC,Stanly NC
+9,37007,NC,Anson NC
+9,37017,NC,Bladen NC
+9,37051,NC,Cumberland NC
+9,37119,NC,Mecklenburg NC
+9,37153,NC,Richmond NC
+9,37155,NC,Robeson NC
+9,37165,NC,Scotland NC
+9,37179,NC,Union NC
+10,37021,NC,Buncombe NC
+10,37035,NC,Catawba NC
+10,37045,NC,Cleveland NC
+10,37071,NC,Gaston NC
+10,37097,NC,Iredell NC
+10,37109,NC,Lincoln NC
+10,37149,NC,Polk NC
+10,37161,NC,Rutherford NC
+11,37021,NC,Buncombe NC
+11,37023,NC,Burke NC
+11,37027,NC,Caldwell NC
+11,37039,NC,Cherokee NC
+11,37043,NC,Clay NC
+11,37075,NC,Graham NC
+11,37087,NC,Haywood NC
+11,37089,NC,Henderson NC
+11,37099,NC,Jackson NC
+11,37111,NC,McDowell NC
+11,37113,NC,Macon NC
+11,37115,NC,Madison NC
+11,37121,NC,Mitchell NC
+11,37173,NC,Swain NC
+11,37175,NC,Transylvania NC
+11,37199,NC,Yancey NC
+12,37119,NC,Mecklenburg NC
+13,37057,NC,Davidson NC
+13,37059,NC,Davie NC
+13,37081,NC,Guilford NC
+13,37097,NC,Iredell NC
+13,37159,NC,Rowan NC
+0,38001,ND,Adams ND
+0,38003,ND,Barnes ND
+0,38005,ND,Benson ND
+0,38007,ND,Billings ND
+0,38009,ND,Bottineau ND
+0,38011,ND,Bowman ND
+0,38013,ND,Burke ND
+0,38015,ND,Burleigh ND
+0,38017,ND,Cass ND
+0,38019,ND,Cavalier ND
+0,38021,ND,Dickey ND
+0,38023,ND,Divide ND
+0,38025,ND,Dunn ND
+0,38027,ND,Eddy ND
+0,38029,ND,Emmons ND
+0,38031,ND,Foster ND
+0,38033,ND,Golden Valley ND
+0,38035,ND,Grand Forks ND
+0,38037,ND,Grant ND
+0,38039,ND,Griggs ND
+0,38041,ND,Hettinger ND
+0,38043,ND,Kidder ND
+0,38045,ND,LaMoure ND
+0,38047,ND,Logan ND
+0,38049,ND,McHenry ND
+0,38051,ND,McIntosh ND
+0,38053,ND,McKenzie ND
+0,38055,ND,McLean ND
+0,38057,ND,Mercer ND
+0,38059,ND,Morton ND
+0,38061,ND,Mountrail ND
+0,38063,ND,Nelson ND
+0,38065,ND,Oliver ND
+0,38067,ND,Pembina ND
+0,38069,ND,Pierce ND
+0,38071,ND,Ramsey ND
+0,38073,ND,Ransom ND
+0,38075,ND,Renville ND
+0,38077,ND,Richland ND
+0,38079,ND,Rolette ND
+0,38081,ND,Sargent ND
+0,38083,ND,Sheridan ND
+0,38085,ND,Sioux ND
+0,38087,ND,Slope ND
+0,38089,ND,Stark ND
+0,38091,ND,Steele ND
+0,38093,ND,Stutsman ND
+0,38095,ND,Towner ND
+0,38097,ND,Traill ND
+0,38099,ND,Walsh ND
+0,38101,ND,Ward ND
+0,38103,ND,Wells ND
+0,38105,ND,Williams ND
+1,39061,OH,Hamilton OH
+1,39165,OH,Warren OH
+2,39001,OH,Adams OH
+2,39015,OH,Brown OH
+2,39025,OH,Clermont OH
+2,39061,OH,Hamilton OH
+2,39071,OH,Highland OH
+2,39131,OH,Pike OH
+2,39141,OH,Ross OH
+2,39145,OH,Scioto OH
+3,39049,OH,Franklin OH
+4,39003,OH,Allen OH
+4,39011,OH,Auglaize OH
+4,39021,OH,Champaign OH
+4,39033,OH,Crawford OH
+4,39043,OH,Erie OH
+4,39077,OH,Huron OH
+4,39091,OH,Logan OH
+4,39093,OH,Lorain OH
+4,39101,OH,Marion OH
+4,39107,OH,Mercer OH
+4,39143,OH,Sandusky OH
+4,39147,OH,Seneca OH
+4,39149,OH,Shelby OH
+4,39159,OH,Union OH
+5,39039,OH,Defiance OH
+5,39051,OH,Fulton OH
+5,39063,OH,Hancock OH
+5,39065,OH,Hardin OH
+5,39069,OH,Henry OH
+5,39095,OH,Lucas OH
+5,39107,OH,Mercer OH
+5,39123,OH,Ottawa OH
+5,39125,OH,Paulding OH
+5,39137,OH,Putnam OH
+5,39161,OH,Van Wert OH
+5,39171,OH,Williams OH
+5,39173,OH,Wood OH
+5,39175,OH,Wyandot OH
+6,39009,OH,Athens OH
+6,39013,OH,Belmont OH
+6,39019,OH,Carroll OH
+6,39029,OH,Columbiana OH
+6,39053,OH,Gallia OH
+6,39059,OH,Guernsey OH
+6,39067,OH,Harrison OH
+6,39079,OH,Jackson OH
+6,39081,OH,Jefferson OH
+6,39087,OH,Lawrence OH
+6,39099,OH,Mahoning OH
+6,39105,OH,Meigs OH
+6,39111,OH,Monroe OH
+6,39119,OH,Muskingum OH
+6,39121,OH,Noble OH
+6,39145,OH,Scioto OH
+6,39157,OH,Tuscarawas OH
+6,39167,OH,Washington OH
+7,39005,OH,Ashland OH
+7,39031,OH,Coshocton OH
+7,39075,OH,Holmes OH
+7,39077,OH,Huron OH
+7,39083,OH,Knox OH
+7,39093,OH,Lorain OH
+7,39103,OH,Medina OH
+7,39139,OH,Richland OH
+7,39151,OH,Stark OH
+7,39157,OH,Tuscarawas OH
+8,39017,OH,Butler OH
+8,39023,OH,Clark OH
+8,39037,OH,Darke OH
+8,39107,OH,Mercer OH
+8,39109,OH,Miami OH
+8,39135,OH,Preble OH
+9,39035,OH,Cuyahoga OH
+9,39043,OH,Erie OH
+9,39093,OH,Lorain OH
+9,39095,OH,Lucas OH
+9,39123,OH,Ottawa OH
+10,39047,OH,Fayette OH
+10,39057,OH,Greene OH
+10,39113,OH,Montgomery OH
+11,39035,OH,Cuyahoga OH
+11,39153,OH,Summit OH
+12,39041,OH,Delaware OH
+12,39049,OH,Franklin OH
+12,39089,OH,Licking OH
+12,39101,OH,Marion OH
+12,39117,OH,Morrow OH
+12,39119,OH,Muskingum OH
+12,39139,OH,Richland OH
+13,39099,OH,Mahoning OH
+13,39133,OH,Portage OH
+13,39151,OH,Stark OH
+13,39153,OH,Summit OH
+13,39155,OH,Trumbull OH
+14,39007,OH,Ashtabula OH
+14,39035,OH,Cuyahoga OH
+14,39055,OH,Geauga OH
+14,39085,OH,Lake OH
+14,39133,OH,Portage OH
+14,39153,OH,Summit OH
+14,39155,OH,Trumbull OH
+15,39009,OH,Athens OH
+15,39027,OH,Clinton OH
+15,39045,OH,Fairfield OH
+15,39047,OH,Fayette OH
+15,39049,OH,Franklin OH
+15,39073,OH,Hocking OH
+15,39097,OH,Madison OH
+15,39115,OH,Morgan OH
+15,39127,OH,Perry OH
+15,39129,OH,Pickaway OH
+15,39141,OH,Ross OH
+15,39163,OH,Vinton OH
+16,39035,OH,Cuyahoga OH
+16,39103,OH,Medina OH
+16,39133,OH,Portage OH
+16,39151,OH,Stark OH
+16,39153,OH,Summit OH
+16,39169,OH,Wayne OH
+1,40037,OK,Creek OK
+1,40131,OK,Rogers OK
+1,40143,OK,Tulsa OK
+1,40145,OK,Wagoner OK
+1,40147,OK,Washington OK
+2,40001,OK,Adair OK
+2,40005,OK,Atoka OK
+2,40013,OK,Bryan OK
+2,40021,OK,Cherokee OK
+2,40023,OK,Choctaw OK
+2,40029,OK,Coal OK
+2,40035,OK,Craig OK
+2,40041,OK,Delaware OK
+2,40061,OK,Haskell OK
+2,40063,OK,Hughes OK
+2,40069,OK,Johnston OK
+2,40077,OK,Latimer OK
+2,40079,OK,Le Flore OK
+2,40089,OK,McCurtain OK
+2,40091,OK,McIntosh OK
+2,40095,OK,Marshall OK
+2,40097,OK,Mayes OK
+2,40101,OK,Muskogee OK
+2,40105,OK,Nowata OK
+2,40107,OK,Okfuskee OK
+2,40111,OK,Okmulgee OK
+2,40115,OK,Ottawa OK
+2,40121,OK,Pittsburg OK
+2,40127,OK,Pushmataha OK
+2,40131,OK,Rogers OK
+2,40135,OK,Sequoyah OK
+3,40003,OK,Alfalfa OK
+3,40007,OK,Beaver OK
+3,40009,OK,Beckham OK
+3,40011,OK,Blaine OK
+3,40015,OK,Caddo OK
+3,40017,OK,Canadian OK
+3,40025,OK,Cimarron OK
+3,40037,OK,Creek OK
+3,40039,OK,Custer OK
+3,40043,OK,Dewey OK
+3,40045,OK,Ellis OK
+3,40047,OK,Garfield OK
+3,40053,OK,Grant OK
+3,40055,OK,Greer OK
+3,40057,OK,Harmon OK
+3,40059,OK,Harper OK
+3,40065,OK,Jackson OK
+3,40071,OK,Kay OK
+3,40073,OK,Kingfisher OK
+3,40075,OK,Kiowa OK
+3,40081,OK,Lincoln OK
+3,40083,OK,Logan OK
+3,40093,OK,Major OK
+3,40103,OK,Noble OK
+3,40113,OK,Osage OK
+3,40117,OK,Pawnee OK
+3,40119,OK,Payne OK
+3,40129,OK,Roger Mills OK
+3,40139,OK,Texas OK
+3,40149,OK,Washita OK
+3,40151,OK,Woods OK
+3,40153,OK,Woodward OK
+4,40017,OK,Canadian OK
+4,40019,OK,Carter OK
+4,40027,OK,Cleveland OK
+4,40031,OK,Comanche OK
+4,40033,OK,Cotton OK
+4,40049,OK,Garvin OK
+4,40051,OK,Grady OK
+4,40067,OK,Jefferson OK
+4,40085,OK,Love OK
+4,40087,OK,McClain OK
+4,40099,OK,Murray OK
+4,40109,OK,Oklahoma OK
+4,40123,OK,Pontotoc OK
+4,40137,OK,Stephens OK
+4,40141,OK,Tillman OK
+5,40109,OK,Oklahoma OK
+5,40125,OK,Pottawatomie OK
+5,40133,OK,Seminole OK
+1,41007,OR,Clatsop OR
+1,41009,OR,Columbia OR
+1,41051,OR,Multnomah OR
+1,41067,OR,Washington OR
+1,41071,OR,Yamhill OR
+2,41001,OR,Baker OR
+2,41013,OR,Crook OR
+2,41017,OR,Deschutes OR
+2,41021,OR,Gilliam OR
+2,41023,OR,Grant OR
+2,41025,OR,Harney OR
+2,41027,OR,Hood River OR
+2,41029,OR,Jackson OR
+2,41031,OR,Jefferson OR
+2,41033,OR,Josephine OR
+2,41035,OR,Klamath OR
+2,41037,OR,Lake OR
+2,41045,OR,Malheur OR
+2,41049,OR,Morrow OR
+2,41055,OR,Sherman OR
+2,41059,OR,Umatilla OR
+2,41061,OR,Union OR
+2,41063,OR,Wallowa OR
+2,41065,OR,Wasco OR
+2,41069,OR,Wheeler OR
+3,41005,OR,Clackamas OR
+3,41051,OR,Multnomah OR
+4,41003,OR,Benton OR
+4,41011,OR,Coos OR
+4,41015,OR,Curry OR
+4,41019,OR,Douglas OR
+4,41033,OR,Josephine OR
+4,41039,OR,Lane OR
+4,41043,OR,Linn OR
+5,41003,OR,Benton OR
+5,41005,OR,Clackamas OR
+5,41041,OR,Lincoln OR
+5,41047,OR,Marion OR
+5,41051,OR,Multnomah OR
+5,41053,OR,Polk OR
+5,41057,OR,Tillamook OR
+1,42017,PA,Bucks PA
+1,42091,PA,Montgomery PA
+2,42101,PA,Philadelphia PA
+3,42101,PA,Philadelphia PA
+4,42011,PA,Berks PA
+4,42091,PA,Montgomery PA
+4,42101,PA,Philadelphia PA
+5,42029,PA,Chester PA
+5,42045,PA,Delaware PA
+5,42091,PA,Montgomery PA
+5,42101,PA,Philadelphia PA
+6,42011,PA,Berks PA
+6,42029,PA,Chester PA
+7,42077,PA,Lehigh PA
+7,42089,PA,Monroe PA
+7,42095,PA,Northampton PA
+8,42069,PA,Lackawanna PA
+8,42079,PA,Luzerne PA
+8,42089,PA,Monroe PA
+8,42103,PA,Pike PA
+8,42127,PA,Wayne PA
+9,42011,PA,Berks PA
+9,42025,PA,Carbon PA
+9,42037,PA,Columbia PA
+9,42075,PA,Lebanon PA
+9,42079,PA,Luzerne PA
+9,42093,PA,Montour PA
+9,42097,PA,Northumberland PA
+9,42107,PA,Schuylkill PA
+10,42041,PA,Cumberland PA
+10,42043,PA,Dauphin PA
+10,42133,PA,York PA
+11,42071,PA,Lancaster PA
+11,42133,PA,York PA
+12,42015,PA,Bradford PA
+12,42027,PA,Centre PA
+12,42035,PA,Clinton PA
+12,42067,PA,Juniata PA
+12,42081,PA,Lycoming PA
+12,42087,PA,Mifflin PA
+12,42097,PA,Northumberland PA
+12,42099,PA,Perry PA
+12,42105,PA,Potter PA
+12,42109,PA,Snyder PA
+12,42113,PA,Sullivan PA
+12,42115,PA,Susquehanna PA
+12,42117,PA,Tioga PA
+12,42119,PA,Union PA
+12,42131,PA,Wyoming PA
+13,42001,PA,Adams PA
+13,42009,PA,Bedford PA
+13,42013,PA,Blair PA
+13,42021,PA,Cambria PA
+13,42041,PA,Cumberland PA
+13,42055,PA,Franklin PA
+13,42057,PA,Fulton PA
+13,42061,PA,Huntingdon PA
+13,42111,PA,Somerset PA
+13,42129,PA,Westmoreland PA
+14,42051,PA,Fayette PA
+14,42059,PA,Greene PA
+14,42125,PA,Washington PA
+14,42129,PA,Westmoreland PA
+15,42005,PA,Armstrong PA
+15,42019,PA,Butler PA
+15,42021,PA,Cambria PA
+15,42023,PA,Cameron PA
+15,42027,PA,Centre PA
+15,42031,PA,Clarion PA
+15,42033,PA,Clearfield PA
+15,42047,PA,Elk PA
+15,42053,PA,Forest PA
+15,42063,PA,Indiana PA
+15,42065,PA,Jefferson PA
+15,42083,PA,Mc Kean PA
+15,42121,PA,Venango PA
+15,42123,PA,Warren PA
+16,42019,PA,Butler PA
+16,42039,PA,Crawford PA
+16,42049,PA,Erie PA
+16,42073,PA,Lawrence PA
+16,42085,PA,Mercer PA
+17,42003,PA,Allegheny PA
+17,42007,PA,Beaver PA
+17,42019,PA,Butler PA
+18,42003,PA,Allegheny PA
+1,44001,RI,Bristol RI
+1,44005,RI,Newport RI
+1,44007,RI,Providence RI
+2,44003,RI,Kent RI
+2,44007,RI,Providence RI
+2,44009,RI,Washington RI
+1,45013,SC,Beaufort SC
+1,45015,SC,Berkeley SC
+1,45019,SC,Charleston SC
+1,45029,SC,Colleton SC
+1,45035,SC,Dorchester SC
+2,45003,SC,Aiken SC
+2,45011,SC,Barnwell SC
+2,45063,SC,Lexington SC
+2,45075,SC,Orangeburg SC
+2,45079,SC,Richland SC
+3,45001,SC,Abbeville SC
+3,45007,SC,Anderson SC
+3,45037,SC,Edgefield SC
+3,45045,SC,Greenville SC
+3,45047,SC,Greenwood SC
+3,45059,SC,Laurens SC
+3,45065,SC,McCormick SC
+3,45071,SC,Newberry SC
+3,45073,SC,Oconee SC
+3,45077,SC,Pickens SC
+3,45081,SC,Saluda SC
+4,45045,SC,Greenville SC
+4,45083,SC,Spartanburg SC
+5,45021,SC,Cherokee SC
+5,45023,SC,Chester SC
+5,45039,SC,Fairfield SC
+5,45055,SC,Kershaw SC
+5,45057,SC,Lancaster SC
+5,45061,SC,Lee SC
+5,45071,SC,Newberry SC
+5,45083,SC,Spartanburg SC
+5,45085,SC,Sumter SC
+5,45087,SC,Union SC
+5,45091,SC,York SC
+6,45005,SC,Allendale SC
+6,45009,SC,Bamberg SC
+6,45013,SC,Beaufort SC
+6,45015,SC,Berkeley SC
+6,45017,SC,Calhoun SC
+6,45019,SC,Charleston SC
+6,45027,SC,Clarendon SC
+6,45029,SC,Colleton SC
+6,45035,SC,Dorchester SC
+6,45041,SC,Florence SC
+6,45049,SC,Hampton SC
+6,45053,SC,Jasper SC
+6,45075,SC,Orangeburg SC
+6,45079,SC,Richland SC
+6,45085,SC,Sumter SC
+6,45089,SC,Williamsburg SC
+7,45025,SC,Chesterfield SC
+7,45031,SC,Darlington SC
+7,45033,SC,Dillon SC
+7,45041,SC,Florence SC
+7,45043,SC,Georgetown SC
+7,45051,SC,Horry SC
+7,45067,SC,Marion SC
+7,45069,SC,Marlboro SC
+0,46003,SD,Aurora SD
+0,46005,SD,Beadle SD
+0,46007,SD,Bennett SD
+0,46009,SD,Bon Homme SD
+0,46011,SD,Brookings SD
+0,46013,SD,Brown SD
+0,46015,SD,Brule SD
+0,46017,SD,Buffalo SD
+0,46019,SD,Butte SD
+0,46021,SD,Campbell SD
+0,46023,SD,Charles Mix SD
+0,46025,SD,Clark SD
+0,46027,SD,Clay SD
+0,46029,SD,Codington SD
+0,46031,SD,Corson SD
+0,46033,SD,Custer SD
+0,46035,SD,Davison SD
+0,46037,SD,Day SD
+0,46039,SD,Deuel SD
+0,46041,SD,Dewey SD
+0,46043,SD,Douglas SD
+0,46045,SD,Edmunds SD
+0,46047,SD,Fall River SD
+0,46049,SD,Faulk SD
+0,46051,SD,Grant SD
+0,46053,SD,Gregory SD
+0,46055,SD,Haakon SD
+0,46057,SD,Hamlin SD
+0,46059,SD,Hand SD
+0,46061,SD,Hanson SD
+0,46063,SD,Harding SD
+0,46065,SD,Hughes SD
+0,46067,SD,Hutchinson SD
+0,46069,SD,Hyde SD
+0,46071,SD,Jackson SD
+0,46073,SD,Jerauld SD
+0,46075,SD,Jones SD
+0,46077,SD,Kingsbury SD
+0,46079,SD,Lake SD
+0,46081,SD,Lawrence SD
+0,46083,SD,Lincoln SD
+0,46085,SD,Lyman SD
+0,46087,SD,McCook SD
+0,46089,SD,McPherson SD
+0,46091,SD,Marshall SD
+0,46093,SD,Meade SD
+0,46095,SD,Mellette SD
+0,46097,SD,Miner SD
+0,46099,SD,Minnehaha SD
+0,46101,SD,Moody SD
+0,46102,SD,"Oglala Lakota, SD (N)"
+0,46103,SD,Pennington SD
+0,46105,SD,Perkins SD
+0,46107,SD,Potter SD
+0,46109,SD,Roberts SD
+0,46111,SD,Sanborn SD
+0,46115,SD,Spink SD
+0,46117,SD,Stanley SD
+0,46119,SD,Sully SD
+0,46121,SD,Todd SD
+0,46123,SD,Tripp SD
+0,46125,SD,Turner SD
+0,46127,SD,Union SD
+0,46129,SD,Walworth SD
+0,46135,SD,Yankton SD
+0,46137,SD,Ziebach SD
+1,47019,TN,Carter TN
+1,47029,TN,Cocke TN
+1,47059,TN,Greene TN
+1,47063,TN,Hamblen TN
+1,47067,TN,Hancock TN
+1,47073,TN,Hawkins TN
+1,47089,TN,Jefferson TN
+1,47091,TN,Johnson TN
+1,47155,TN,Sevier TN
+1,47163,TN,Sullivan TN
+1,47171,TN,Unicoi TN
+1,47179,TN,Washington TN
+2,47009,TN,Blount TN
+2,47013,TN,Campbell TN
+2,47025,TN,Claiborne TN
+2,47057,TN,Grainger TN
+2,47089,TN,Jefferson TN
+2,47093,TN,Knox TN
+2,47105,TN,Loudon TN
+3,47001,TN,Anderson TN
+3,47011,TN,Bradley TN
+3,47013,TN,Campbell TN
+3,47065,TN,Hamilton TN
+3,47107,TN,McMinn TN
+3,47123,TN,Monroe TN
+3,47129,TN,Morgan TN
+3,47139,TN,Polk TN
+3,47145,TN,Roane TN
+3,47151,TN,Scott TN
+3,47173,TN,Union TN
+4,47003,TN,Bedford TN
+4,47007,TN,Bledsoe TN
+4,47011,TN,Bradley TN
+4,47051,TN,Franklin TN
+4,47061,TN,Grundy TN
+4,47103,TN,Lincoln TN
+4,47115,TN,Marion TN
+4,47117,TN,Marshall TN
+4,47119,TN,Maury TN
+4,47121,TN,Meigs TN
+4,47127,TN,Moore TN
+4,47143,TN,Rhea TN
+4,47149,TN,Rutherford TN
+4,47153,TN,Sequatchie TN
+4,47175,TN,Van Buren TN
+4,47177,TN,Warren TN
+5,47021,TN,Cheatham TN
+5,47037,TN,Davidson TN
+5,47043,TN,Dickson TN
+6,47015,TN,Cannon TN
+6,47021,TN,Cheatham TN
+6,47027,TN,Clay TN
+6,47031,TN,Coffee TN
+6,47035,TN,Cumberland TN
+6,47041,TN,DeKalb TN
+6,47049,TN,Fentress TN
+6,47087,TN,Jackson TN
+6,47111,TN,Macon TN
+6,47133,TN,Overton TN
+6,47137,TN,Pickett TN
+6,47141,TN,Putnam TN
+6,47147,TN,Robertson TN
+6,47159,TN,Smith TN
+6,47165,TN,Sumner TN
+6,47169,TN,Trousdale TN
+6,47175,TN,Van Buren TN
+6,47185,TN,White TN
+6,47189,TN,Wilson TN
+7,47005,TN,Benton TN
+7,47023,TN,Chester TN
+7,47039,TN,Decatur TN
+7,47055,TN,Giles TN
+7,47069,TN,Hardeman TN
+7,47071,TN,Hardin TN
+7,47077,TN,Henderson TN
+7,47081,TN,Hickman TN
+7,47083,TN,Houston TN
+7,47085,TN,Humphreys TN
+7,47099,TN,Lawrence TN
+7,47101,TN,Lewis TN
+7,47109,TN,McNairy TN
+7,47119,TN,Maury TN
+7,47125,TN,Montgomery TN
+7,47135,TN,Perry TN
+7,47161,TN,Stewart TN
+7,47181,TN,Wayne TN
+7,47187,TN,Williamson TN
+8,47005,TN,Benton TN
+8,47017,TN,Carroll TN
+8,47033,TN,Crockett TN
+8,47045,TN,Dyer TN
+8,47047,TN,Fayette TN
+8,47053,TN,Gibson TN
+8,47075,TN,Haywood TN
+8,47079,TN,Henry TN
+8,47095,TN,Lake TN
+8,47097,TN,Lauderdale TN
+8,47113,TN,Madison TN
+8,47131,TN,Obion TN
+8,47157,TN,Shelby TN
+8,47167,TN,Tipton TN
+8,47183,TN,Weakley TN
+9,47157,TN,Shelby TN
+1,48005,TX,Angelina TX
+1,48183,TX,Gregg TX
+1,48203,TX,Harrison TX
+1,48347,TX,Nacogdoches TX
+1,48365,TX,Panola TX
+1,48401,TX,Rusk TX
+1,48403,TX,Sabine TX
+1,48405,TX,San Augustine TX
+1,48419,TX,Shelby TX
+1,48423,TX,Smith TX
+1,48459,TX,Upshur TX
+1,48499,TX,Wood TX
+2,48201,TX,Harris TX
+3,48085,TX,Collin TX
+4,48037,TX,Bowie TX
+4,48063,TX,Camp TX
+4,48067,TX,Cass TX
+4,48085,TX,Collin TX
+4,48119,TX,Delta TX
+4,48147,TX,Fannin TX
+4,48159,TX,Franklin TX
+4,48181,TX,Grayson TX
+4,48223,TX,Hopkins TX
+4,48231,TX,Hunt TX
+4,48277,TX,Lamar TX
+4,48315,TX,Marion TX
+4,48343,TX,Morris TX
+4,48379,TX,Rains TX
+4,48387,TX,Red River TX
+4,48397,TX,Rockwall TX
+4,48449,TX,Titus TX
+4,48459,TX,Upshur TX
+5,48001,TX,Anderson TX
+5,48073,TX,Cherokee TX
+5,48113,TX,Dallas TX
+5,48213,TX,Henderson TX
+5,48257,TX,Kaufman TX
+5,48467,TX,Van Zandt TX
+5,48499,TX,Wood TX
+6,48139,TX,Ellis TX
+6,48349,TX,Navarro TX
+6,48439,TX,Tarrant TX
+7,48201,TX,Harris TX
+8,48185,TX,Grimes TX
+8,48201,TX,Harris TX
+8,48225,TX,Houston TX
+8,48289,TX,Leon TX
+8,48313,TX,Madison TX
+8,48339,TX,Montgomery TX
+8,48407,TX,San Jacinto TX
+8,48455,TX,Trinity TX
+8,48471,TX,Walker TX
+9,48157,TX,Fort Bend TX
+9,48201,TX,Harris TX
+10,48015,TX,Austin TX
+10,48021,TX,Bastrop TX
+10,48089,TX,Colorado TX
+10,48149,TX,Fayette TX
+10,48201,TX,Harris TX
+10,48287,TX,Lee TX
+10,48453,TX,Travis TX
+10,48473,TX,Waller TX
+10,48477,TX,Washington TX
+11,48003,TX,Andrews TX
+11,48049,TX,Brown TX
+11,48059,TX,Callahan TX
+11,48081,TX,Coke TX
+11,48083,TX,Coleman TX
+11,48093,TX,Comanche TX
+11,48095,TX,Concho TX
+11,48115,TX,Dawson TX
+11,48133,TX,Eastland TX
+11,48135,TX,Ector TX
+11,48143,TX,Erath TX
+11,48173,TX,Glasscock TX
+11,48221,TX,Hood TX
+11,48235,TX,Irion TX
+11,48267,TX,Kimble TX
+11,48299,TX,Llano TX
+11,48307,TX,McCulloch TX
+11,48317,TX,Martin TX
+11,48319,TX,Mason TX
+11,48327,TX,Menard TX
+11,48329,TX,Midland TX
+11,48333,TX,Mills TX
+11,48335,TX,Mitchell TX
+11,48363,TX,Palo Pinto TX
+11,48399,TX,Runnels TX
+11,48411,TX,San Saba TX
+11,48429,TX,Stephens TX
+11,48431,TX,Sterling TX
+11,48451,TX,Tom Green TX
+12,48367,TX,Parker TX
+12,48439,TX,Tarrant TX
+12,48497,TX,Wise TX
+13,48009,TX,Archer TX
+13,48011,TX,Armstrong TX
+13,48023,TX,Baylor TX
+13,48045,TX,Briscoe TX
+13,48065,TX,Carson TX
+13,48075,TX,Childress TX
+13,48077,TX,Clay TX
+13,48087,TX,Collingsworth TX
+13,48097,TX,Cooke TX
+13,48101,TX,Cottle TX
+13,48111,TX,Dallam TX
+13,48117,TX,Deaf Smith TX
+13,48125,TX,Dickens TX
+13,48129,TX,Donley TX
+13,48153,TX,Floyd TX
+13,48155,TX,Foard TX
+13,48179,TX,Gray TX
+13,48191,TX,Hall TX
+13,48195,TX,Hansford TX
+13,48197,TX,Hardeman TX
+13,48205,TX,Hartley TX
+13,48211,TX,Hemphill TX
+13,48233,TX,Hutchinson TX
+13,48237,TX,Jack TX
+13,48269,TX,King TX
+13,48275,TX,Knox TX
+13,48295,TX,Lipscomb TX
+13,48337,TX,Montague TX
+13,48341,TX,Moore TX
+13,48345,TX,Motley TX
+13,48357,TX,Ochiltree TX
+13,48359,TX,Oldham TX
+13,48375,TX,Potter TX
+13,48381,TX,Randall TX
+13,48393,TX,Roberts TX
+13,48421,TX,Sherman TX
+13,48437,TX,Swisher TX
+13,48483,TX,Wheeler TX
+13,48485,TX,Wichita TX
+13,48487,TX,Wilbarger TX
+13,48497,TX,Wise TX
+14,48039,TX,Brazoria TX
+14,48167,TX,Galveston TX
+14,48245,TX,Jefferson TX
+15,48047,TX,Brooks TX
+15,48131,TX,Duval TX
+15,48187,TX,Guadalupe TX
+15,48215,TX,Hidalgo TX
+15,48247,TX,Jim Hogg TX
+15,48255,TX,Karnes TX
+15,48297,TX,Live Oak TX
+15,48493,TX,Wilson TX
+16,48141,TX,El Paso TX
+17,48021,TX,Bastrop TX
+17,48041,TX,Brazos TX
+17,48051,TX,Burleson TX
+17,48145,TX,Falls TX
+17,48161,TX,Freestone TX
+17,48287,TX,Lee TX
+17,48289,TX,Leon TX
+17,48293,TX,Limestone TX
+17,48309,TX,McLennan TX
+17,48331,TX,Milam TX
+17,48395,TX,Robertson TX
+17,48453,TX,Travis TX
+18,48201,TX,Harris TX
+19,48017,TX,Bailey TX
+19,48033,TX,Borden TX
+19,48069,TX,Castro TX
+19,48079,TX,Cochran TX
+19,48107,TX,Crosby TX
+19,48151,TX,Fisher TX
+19,48153,TX,Floyd TX
+19,48165,TX,Gaines TX
+19,48169,TX,Garza TX
+19,48189,TX,Hale TX
+19,48207,TX,Haskell TX
+19,48219,TX,Hockley TX
+19,48227,TX,Howard TX
+19,48253,TX,Jones TX
+19,48263,TX,Kent TX
+19,48279,TX,Lamb TX
+19,48303,TX,Lubbock TX
+19,48305,TX,Lynn TX
+19,48353,TX,Nolan TX
+19,48369,TX,Parmer TX
+19,48415,TX,Scurry TX
+19,48417,TX,Shackelford TX
+19,48429,TX,Stephens TX
+19,48433,TX,Stonewall TX
+19,48441,TX,Taylor TX
+19,48445,TX,Terry TX
+19,48447,TX,Throckmorton TX
+19,48501,TX,Yoakum TX
+19,48503,TX,Young TX
+20,48029,TX,Bexar TX
+21,48019,TX,Bandera TX
+21,48029,TX,Bexar TX
+21,48031,TX,Blanco TX
+21,48091,TX,Comal TX
+21,48171,TX,Gillespie TX
+21,48209,TX,Hays TX
+21,48259,TX,Kendall TX
+21,48265,TX,Kerr TX
+21,48385,TX,Real TX
+21,48453,TX,Travis TX
+22,48039,TX,Brazoria TX
+22,48157,TX,Fort Bend TX
+22,48201,TX,Harris TX
+23,48029,TX,Bexar TX
+23,48043,TX,Brewster TX
+23,48103,TX,Crane TX
+23,48105,TX,Crockett TX
+23,48109,TX,Culberson TX
+23,48127,TX,Dimmit TX
+23,48137,TX,Edwards TX
+23,48141,TX,El Paso TX
+23,48163,TX,Frio TX
+23,48229,TX,Hudspeth TX
+23,48243,TX,Jeff Davis TX
+23,48271,TX,Kinney TX
+23,48283,TX,La Salle TX
+23,48301,TX,Loving TX
+23,48323,TX,Maverick TX
+23,48325,TX,Medina TX
+23,48371,TX,Pecos TX
+23,48377,TX,Presidio TX
+23,48383,TX,Reagan TX
+23,48389,TX,Reeves TX
+23,48413,TX,Schleicher TX
+23,48435,TX,Sutton TX
+23,48443,TX,Terrell TX
+23,48461,TX,Upton TX
+23,48463,TX,Uvalde TX
+23,48465,TX,Val Verde TX
+23,48475,TX,Ward TX
+23,48495,TX,Winkler TX
+23,48507,TX,Zavala TX
+24,48113,TX,Dallas TX
+24,48121,TX,Denton TX
+24,48439,TX,Tarrant TX
+25,48027,TX,Bell TX
+25,48035,TX,Bosque TX
+25,48053,TX,Burnet TX
+25,48099,TX,Coryell TX
+25,48143,TX,Erath TX
+25,48193,TX,Hamilton TX
+25,48209,TX,Hays TX
+25,48217,TX,Hill TX
+25,48251,TX,Johnson TX
+25,48281,TX,Lampasas TX
+25,48425,TX,Somervell TX
+25,48439,TX,Tarrant TX
+25,48453,TX,Travis TX
+26,48113,TX,Dallas TX
+26,48121,TX,Denton TX
+26,48439,TX,Tarrant TX
+27,48007,TX,Aransas TX
+27,48021,TX,Bastrop TX
+27,48055,TX,Caldwell TX
+27,48057,TX,Calhoun TX
+27,48177,TX,Gonzales TX
+27,48239,TX,Jackson TX
+27,48285,TX,Lavaca TX
+27,48321,TX,Matagorda TX
+27,48355,TX,Nueces TX
+27,48391,TX,Refugio TX
+27,48409,TX,San Patricio TX
+27,48469,TX,Victoria TX
+27,48481,TX,Wharton TX
+28,48013,TX,Atascosa TX
+28,48029,TX,Bexar TX
+28,48215,TX,Hidalgo TX
+28,48283,TX,La Salle TX
+28,48311,TX,McMullen TX
+28,48427,TX,Starr TX
+28,48479,TX,Webb TX
+28,48493,TX,Wilson TX
+28,48505,TX,Zapata TX
+29,48201,TX,Harris TX
+30,48113,TX,Dallas TX
+31,48027,TX,Bell TX
+31,48491,TX,Williamson TX
+32,48085,TX,Collin TX
+32,48113,TX,Dallas TX
+33,48113,TX,Dallas TX
+33,48439,TX,Tarrant TX
+34,48025,TX,Bee TX
+34,48061,TX,Cameron TX
+34,48123,TX,DeWitt TX
+34,48175,TX,Goliad TX
+34,48177,TX,Gonzales TX
+34,48215,TX,Hidalgo TX
+34,48249,TX,Jim Wells TX
+34,48261,TX,Kenedy TX
+34,48273,TX,Kleberg TX
+34,48409,TX,San Patricio TX
+34,48489,TX,Willacy TX
+35,48029,TX,Bexar TX
+35,48055,TX,Caldwell TX
+35,48091,TX,Comal TX
+35,48187,TX,Guadalupe TX
+35,48209,TX,Hays TX
+35,48453,TX,Travis TX
+36,48071,TX,Chambers TX
+36,48199,TX,Hardin TX
+36,48201,TX,Harris TX
+36,48241,TX,Jasper TX
+36,48291,TX,Liberty TX
+36,48351,TX,Newton TX
+36,48361,TX,Orange TX
+36,48373,TX,Polk TX
+36,48457,TX,Tyler TX
+1,49003,UT,Box Elder UT
+1,49005,UT,Cache UT
+1,49009,UT,Daggett UT
+1,49011,UT,Davis UT
+1,49013,UT,Duchesne UT
+1,49029,UT,Morgan UT
+1,49033,UT,Rich UT
+1,49043,UT,Summit UT
+1,49047,UT,Uintah UT
+1,49057,UT,Weber UT
+2,49001,UT,Beaver UT
+2,49011,UT,Davis UT
+2,49017,UT,Garfield UT
+2,49021,UT,Iron UT
+2,49023,UT,Juab UT
+2,49025,UT,Kane UT
+2,49027,UT,Millard UT
+2,49031,UT,Piute UT
+2,49035,UT,Salt Lake UT
+2,49039,UT,Sanpete UT
+2,49041,UT,Sevier UT
+2,49045,UT,Tooele UT
+2,49053,UT,Washington UT
+2,49055,UT,Wayne UT
+3,49007,UT,Carbon UT
+3,49015,UT,Emery UT
+3,49019,UT,Grand UT
+3,49035,UT,Salt Lake UT
+3,49037,UT,San Juan UT
+3,49049,UT,Utah UT
+3,49051,UT,Wasatch UT
+4,49023,UT,Juab UT
+4,49035,UT,Salt Lake UT
+4,49039,UT,Sanpete UT
+4,49049,UT,Utah UT
+0,50001,VT,Addison VT
+0,50003,VT,Bennington VT
+0,50005,VT,Caledonia VT
+0,50007,VT,Chittenden VT
+0,50009,VT,Essex VT
+0,50011,VT,Franklin VT
+0,50013,VT,Grand Isle VT
+0,50015,VT,Lamoille VT
+0,50017,VT,Orange VT
+0,50019,VT,Orleans VT
+0,50021,VT,Rutland VT
+0,50023,VT,Washington VT
+0,50025,VT,Windham VT
+0,50027,VT,Windsor VT
+1,51033,VA,Caroline VA
+1,51057,VA,Essex VA
+1,51061,VA,Fauquier VA
+1,51073,VA,Gloucester VA
+1,51085,VA,Hanover VA
+1,51095,VA,James City VA
+1,51097,VA,King and Queen VA
+1,51099,VA,King George VA
+1,51101,VA,King William VA
+1,51103,VA,Lancaster VA
+1,51115,VA,Mathews VA
+1,51119,VA,Middlesex VA
+1,51127,VA,New Kent VA
+1,51133,VA,Northumberland VA
+1,51153,VA,Prince William VA
+1,51159,VA,Richmond VA
+1,51177,VA,Spotsylvania VA
+1,51179,VA,Stafford VA
+1,51193,VA,Westmoreland VA
+1,51630,VA,Fredericksburg city VA
+2,51001,VA,Accomack VA
+2,51095,VA,James City VA
+2,51131,VA,Northampton VA
+2,51199,VA,York VA
+2,51650,VA,Hampton city VA
+2,51710,VA,Norfolk city VA
+2,51735,VA,Poquoson city VA
+2,51810,VA,Virginia Beach city VA
+2,51830,VA,Williamsburg city VA
+3,51093,VA,Isle of Wight VA
+3,51550,VA,Chesapeake city VA
+3,51620,VA,Franklin city VA
+3,51650,VA,Hampton city VA
+3,51700,VA,Newport News city VA
+3,51710,VA,Norfolk city VA
+3,51740,VA,Portsmouth city VA
+3,51800,VA,Suffolk city VA
+4,51036,VA,Charles City VA
+4,51041,VA,Chesterfield VA
+4,51053,VA,Dinwiddie VA
+4,51081,VA,Greensville VA
+4,51087,VA,Henrico VA
+4,51149,VA,Prince George VA
+4,51175,VA,Southampton VA
+4,51181,VA,Surry VA
+4,51183,VA,Sussex VA
+4,51550,VA,Chesapeake city VA
+4,51570,VA,Colonial Heights city VA
+4,51595,VA,Emporia city VA
+4,51670,VA,Hopewell city VA
+4,51730,VA,Petersburg city VA
+4,51760,VA,Richmond city VA
+4,51800,VA,Suffolk city VA
+5,51003,VA,Albemarle VA
+5,51011,VA,Appomattox VA
+5,51019,VA,Bedford VA (R)
+5,51025,VA,Brunswick VA
+5,51029,VA,Buckingham VA
+5,51031,VA,Campbell VA
+5,51037,VA,Charlotte VA
+5,51049,VA,Cumberland VA
+5,51061,VA,Fauquier VA
+5,51065,VA,Fluvanna VA
+5,51067,VA,Franklin VA
+5,51079,VA,Greene VA
+5,51083,VA,Halifax VA
+5,51089,VA,Henry VA
+5,51111,VA,Lunenburg VA
+5,51113,VA,Madison VA
+5,51117,VA,Mecklenburg VA
+5,51125,VA,Nelson VA
+5,51143,VA,Pittsylvania VA
+5,51147,VA,Prince Edward VA
+5,51157,VA,Rappahannock VA
+5,51540,VA,Charlottesville city VA
+5,51590,VA,Danville city VA
+6,51009,VA,Amherst VA
+6,51015,VA,Augusta VA
+6,51017,VA,Bath VA
+6,51019,VA,Bedford VA (R)
+6,51023,VA,Botetourt VA
+6,51091,VA,Highland VA
+6,51139,VA,Page VA
+6,51161,VA,Roanoke VA
+6,51163,VA,Rockbridge VA
+6,51165,VA,Rockingham VA
+6,51171,VA,Shenandoah VA
+6,51187,VA,Warren VA
+6,51530,VA,Buena Vista city VA
+6,51660,VA,Harrisonburg city VA
+6,51678,VA,Lexington city VA
+6,51680,VA,Lynchburg city VA
+6,51770,VA,Roanoke city VA
+6,51790,VA,Staunton city VA
+6,51820,VA,Waynesboro city VA
+7,51007,VA,Amelia VA
+7,51041,VA,Chesterfield VA
+7,51047,VA,Culpeper VA
+7,51075,VA,Goochland VA
+7,51087,VA,Henrico VA
+7,51109,VA,Louisa VA
+7,51135,VA,Nottoway VA
+7,51137,VA,Orange VA
+7,51145,VA,Powhatan VA
+7,51177,VA,Spotsylvania VA
+8,51013,VA,Arlington VA
+8,51059,VA,Fairfax VA
+8,51510,VA,Alexandria city VA
+8,51610,VA,Falls Church city VA
+9,51005,VA,Alleghany VA
+9,51021,VA,Bland VA
+9,51027,VA,Buchanan VA
+9,51035,VA,Carroll VA
+9,51045,VA,Craig VA
+9,51051,VA,Dickenson VA
+9,51063,VA,Floyd VA
+9,51071,VA,Giles VA
+9,51077,VA,Grayson VA
+9,51089,VA,Henry VA
+9,51105,VA,Lee VA
+9,51121,VA,Montgomery VA
+9,51141,VA,Patrick VA
+9,51155,VA,Pulaski VA
+9,51161,VA,Roanoke VA
+9,51167,VA,Russell VA
+9,51169,VA,Scott VA
+9,51173,VA,Smyth VA
+9,51185,VA,Tazewell VA
+9,51191,VA,Washington VA
+9,51195,VA,Wise VA
+9,51197,VA,Wythe VA
+9,51520,VA,Bristol city VA
+9,51580,VA,Covington city VA
+9,51640,VA,Galax city VA
+9,51690,VA,Martinsville city VA
+9,51720,VA,Norton city VA
+9,51750,VA,Radford city VA
+9,51775,VA,Salem city VA
+10,51043,VA,Clarke VA
+10,51059,VA,Fairfax VA
+10,51069,VA,Frederick VA
+10,51107,VA,Loudoun VA
+10,51153,VA,Prince William VA
+10,51683,VA,Manassas city VA
+10,51685,VA,Manassas Park city VA
+10,51840,VA,Winchester city VA
+11,51059,VA,Fairfax VA
+11,51153,VA,Prince William VA
+11,51600,VA,Fairfax city VA
+1,53033,WA,King WA
+1,53057,WA,Skagit WA
+1,53061,WA,Snohomish WA
+1,53073,WA,Whatcom WA
+2,53029,WA,Island WA
+2,53055,WA,San Juan WA
+2,53057,WA,Skagit WA
+2,53061,WA,Snohomish WA
+2,53073,WA,Whatcom WA
+3,53011,WA,Clark WA
+3,53015,WA,Cowlitz WA
+3,53039,WA,Klickitat WA
+3,53041,WA,Lewis WA
+3,53049,WA,Pacific WA
+3,53059,WA,Skamania WA
+3,53067,WA,Thurston WA
+3,53069,WA,Wahkiakum WA
+4,53001,WA,Adams WA
+4,53005,WA,Benton WA
+4,53017,WA,Douglas WA
+4,53021,WA,Franklin WA
+4,53025,WA,Grant WA
+4,53047,WA,Okanogan WA
+4,53071,WA,Walla Walla WA
+4,53077,WA,Yakima WA
+5,53003,WA,Asotin WA
+5,53013,WA,Columbia WA
+5,53019,WA,Ferry WA
+5,53023,WA,Garfield WA
+5,53043,WA,Lincoln WA
+5,53051,WA,Pend Oreille WA
+5,53063,WA,Spokane WA
+5,53065,WA,Stevens WA
+5,53071,WA,Walla Walla WA
+5,53075,WA,Whitman WA
+6,53009,WA,Clallam WA
+6,53027,WA,Grays Harbor WA
+6,53031,WA,Jefferson WA
+6,53035,WA,Kitsap WA
+6,53045,WA,Mason WA
+6,53053,WA,Pierce WA
+7,53033,WA,King WA
+7,53061,WA,Snohomish WA
+8,53007,WA,Chelan WA
+8,53017,WA,Douglas WA
+8,53033,WA,King WA
+8,53037,WA,Kittitas WA
+8,53053,WA,Pierce WA
+9,53033,WA,King WA
+9,53053,WA,Pierce WA
+10,53045,WA,Mason WA
+10,53053,WA,Pierce WA
+10,53067,WA,Thurston WA
+1,54001,WV,Barbour WV
+1,54009,WV,Brooke WV
+1,54017,WV,Doddridge WV
+1,54021,WV,Gilmer WV
+1,54023,WV,Grant WV
+1,54029,WV,Hancock WV
+1,54033,WV,Harrison WV
+1,54049,WV,Marion WV
+1,54051,WV,Marshall WV
+1,54057,WV,Mineral WV
+1,54061,WV,Monongalia WV
+1,54069,WV,Ohio WV
+1,54073,WV,Pleasants WV
+1,54077,WV,Preston WV
+1,54085,WV,Ritchie WV
+1,54091,WV,Taylor WV
+1,54093,WV,Tucker WV
+1,54095,WV,Tyler WV
+1,54103,WV,Wetzel WV
+1,54107,WV,Wood WV
+2,54003,WV,Berkeley WV
+2,54007,WV,Braxton WV
+2,54013,WV,Calhoun WV
+2,54015,WV,Clay WV
+2,54027,WV,Hampshire WV
+2,54031,WV,Hardy WV
+2,54035,WV,Jackson WV
+2,54037,WV,Jefferson WV
+2,54039,WV,Kanawha WV
+2,54041,WV,Lewis WV
+2,54065,WV,Morgan WV
+2,54071,WV,Pendleton WV
+2,54079,WV,Putnam WV
+2,54083,WV,Randolph WV
+2,54087,WV,Roane WV
+2,54097,WV,Upshur WV
+2,54105,WV,Wirt WV
+3,54005,WV,Boone WV
+3,54011,WV,Cabell WV
+3,54019,WV,Fayette WV
+3,54025,WV,Greenbrier WV
+3,54043,WV,Lincoln WV
+3,54045,WV,Logan WV
+3,54047,WV,McDowell WV
+3,54053,WV,Mason WV
+3,54055,WV,Mercer WV
+3,54059,WV,Mingo WV
+3,54063,WV,Monroe WV
+3,54067,WV,Nicholas WV
+3,54075,WV,Pocahontas WV
+3,54081,WV,Raleigh WV
+3,54089,WV,Summers WV
+3,54099,WV,Wayne WV
+3,54101,WV,Webster WV
+3,54109,WV,Wyoming WV
+1,55059,WI,Kenosha WI
+1,55079,WI,Milwaukee WI
+1,55101,WI,Racine WI
+1,55105,WI,Rock WI
+1,55127,WI,Walworth WI
+1,55133,WI,Waukesha WI
+2,55025,WI,Dane WI
+2,55045,WI,Green WI
+2,55049,WI,Iowa WI
+2,55065,WI,Lafayette WI
+2,55103,WI,Richland WI
+2,55105,WI,Rock WI
+2,55111,WI,Sauk WI
+3,55001,WI,Adams WI
+3,55011,WI,Buffalo WI
+3,55017,WI,Chippewa WI
+3,55023,WI,Crawford WI
+3,55033,WI,Dunn WI
+3,55035,WI,Eau Claire WI
+3,55043,WI,Grant WI
+3,55053,WI,Jackson WI
+3,55057,WI,Juneau WI
+3,55063,WI,La Crosse WI
+3,55081,WI,Monroe WI
+3,55091,WI,Pepin WI
+3,55093,WI,Pierce WI
+3,55097,WI,Portage WI
+3,55103,WI,Richland WI
+3,55121,WI,Trempealeau WI
+3,55123,WI,Vernon WI
+3,55141,WI,Wood WI
+4,55079,WI,Milwaukee WI
+5,55027,WI,Dodge WI
+5,55055,WI,Jefferson WI
+5,55079,WI,Milwaukee WI
+5,55127,WI,Walworth WI
+5,55131,WI,Washington WI
+5,55133,WI,Waukesha WI
+6,55021,WI,Columbia WI
+6,55027,WI,Dodge WI
+6,55039,WI,Fond du Lac WI
+6,55047,WI,Green Lake WI
+6,55071,WI,Manitowoc WI
+6,55077,WI,Marquette WI
+6,55079,WI,Milwaukee WI
+6,55089,WI,Ozaukee WI
+6,55117,WI,Sheboygan WI
+6,55137,WI,Waushara WI
+6,55139,WI,Winnebago WI
+7,55003,WI,Ashland WI
+7,55005,WI,Barron WI
+7,55007,WI,Bayfield WI
+7,55013,WI,Burnett WI
+7,55017,WI,Chippewa WI
+7,55019,WI,Clark WI
+7,55031,WI,Douglas WI
+7,55037,WI,Florence WI
+7,55041,WI,Forest WI
+7,55051,WI,Iron WI
+7,55053,WI,Jackson WI
+7,55057,WI,Juneau WI
+7,55067,WI,Langlade WI
+7,55069,WI,Lincoln WI
+7,55073,WI,Marathon WI
+7,55081,WI,Monroe WI
+7,55085,WI,Oneida WI
+7,55095,WI,Polk WI
+7,55099,WI,Price WI
+7,55107,WI,Rusk WI
+7,55109,WI,St. Croix WI
+7,55113,WI,Sawyer WI
+7,55119,WI,Taylor WI
+7,55125,WI,Vilas WI
+7,55129,WI,Washburn WI
+7,55141,WI,Wood WI
+8,55009,WI,Brown WI
+8,55015,WI,Calumet WI
+8,55029,WI,Door WI
+8,55061,WI,Kewaunee WI
+8,55075,WI,Marinette WI
+8,55078,WI,Menominee WI
+8,55083,WI,Oconto WI
+8,55087,WI,Outagamie WI
+8,55115,WI,Shawano WI
+8,55135,WI,Waupaca WI
+8,55139,WI,Winnebago WI
+0,56001,WY,Albany WY
+0,56003,WY,Big Horn WY
+0,56005,WY,Campbell WY
+0,56007,WY,Carbon WY
+0,56009,WY,Converse WY
+0,56011,WY,Crook WY
+0,56013,WY,Fremont WY
+0,56015,WY,Goshen WY
+0,56017,WY,Hot Springs WY
+0,56019,WY,Johnson WY
+0,56021,WY,Laramie WY
+0,56023,WY,Lincoln WY
+0,56025,WY,Natrona WY
+0,56027,WY,Niobrara WY
+0,56029,WY,Park WY
+0,56031,WY,Platte WY
+0,56033,WY,Sheridan WY
+0,56035,WY,Sublette WY
+0,56037,WY,Sweetwater WY
+0,56039,WY,Teton WY
+0,56041,WY,Uinta WY
+0,56043,WY,Washakie WY
+0,56045,WY,Weston WY
+98,72001,PR,Adjuntas Municipio PR
+98,72003,PR,Aguada Municipio PR
+98,72005,PR,Aguadilla Municipio PR
+98,72007,PR,Aguas Buenas Municipio PR
+98,72009,PR,Aibonito Municipio PR
+98,72011,PR,Añasco Municipio PR
+98,72013,PR,Arecibo Municipio PR
+98,72015,PR,Arroyo Municipio PR
+98,72017,PR,Barceloneta Municipio PR
+98,72019,PR,Barranquitas Municipio PR
+98,72021,PR,Bayamón Municipio PR
+98,72023,PR,Cabo Rojo Municipio PR
+98,72025,PR,Caguas Municipio PR
+98,72027,PR,Camuy Municipio PR
+98,72029,PR,Canóvanas Municipio PR
+98,72031,PR,Carolina Municipio PR
+98,72033,PR,Cataño Municipio PR
+98,72035,PR,Cayey Municipio PR
+98,72037,PR,Ceiba Municipio PR
+98,72039,PR,Ciales Municipio PR
+98,72041,PR,Cidra Municipio PR
+98,72043,PR,Coamo Municipio PR
+98,72045,PR,Comerío Municipio PR
+98,72047,PR,Corozal Municipio PR
+98,72049,PR,Culebra Municipio PR
+98,72051,PR,Dorado Municipio PR
+98,72053,PR,Fajardo Municipio PR
+98,72054,PR,Florida Municipio PR
+98,72055,PR,Guánica Municipio PR
+98,72057,PR,Guayama Municipio PR
+98,72059,PR,Guayanilla Municipio PR
+98,72061,PR,Guaynabo Municipio PR
+98,72063,PR,Gurabo Municipio PR
+98,72065,PR,Hatillo Municipio PR
+98,72067,PR,Hormigueros Municipio PR
+98,72069,PR,Humacao Municipio PR
+98,72071,PR,Isabela Municipio PR
+98,72073,PR,Jayuya Municipio PR
+98,72075,PR,Juana Díaz Municipio PR
+98,72077,PR,Juncos Municipio PR
+98,72079,PR,Lajas Municipio PR
+98,72081,PR,Lares Municipio PR
+98,72083,PR,Las Marías Municipio PR
+98,72085,PR,Las Piedras Municipio PR
+98,72087,PR,Loíza Municipio PR
+98,72089,PR,Luquillo Municipio PR
+98,72091,PR,Manatí Municipio PR
+98,72093,PR,Maricao Municipio PR
+98,72095,PR,Maunabo Municipio PR
+98,72097,PR,Mayagüez Municipio PR
+98,72099,PR,Moca Municipio PR
+98,72101,PR,Morovis Municipio PR
+98,72103,PR,Naguabo Municipio PR
+98,72105,PR,Naranjito Municipio PR
+98,72107,PR,Orocovis Municipio PR
+98,72109,PR,Patillas Municipio PR
+98,72111,PR,Peñuelas Municipio PR
+98,72113,PR,Ponce Municipio PR
+98,72115,PR,Quebradillas Municipio PR
+98,72117,PR,Rincón Municipio PR
+98,72119,PR,Río Grande Municipio PR
+98,72121,PR,Sabana Grande Municipio PR
+98,72123,PR,Salinas Municipio PR
+98,72125,PR,San Germán Municipio PR
+98,72127,PR,San Juan Municipio PR
+98,72129,PR,San Lorenzo Municipio PR
+98,72131,PR,San Sebastián Municipio PR
+98,72133,PR,Santa Isabel Municipio PR
+98,72135,PR,Toa Alta Municipio PR
+98,72137,PR,Toa Baja Municipio PR
+98,72139,PR,Trujillo Alto Municipio PR
+98,72141,PR,Utuado Municipio PR
+98,72143,PR,Vega Alta Municipio PR
+98,72145,PR,Vega Baja Municipio PR
+98,72147,PR,Vieques Municipio PR
+98,72149,PR,Villalba Municipio PR
+98,72151,PR,Yabucoa Municipio PR
+98,72153,PR,Yauco Municipio PR

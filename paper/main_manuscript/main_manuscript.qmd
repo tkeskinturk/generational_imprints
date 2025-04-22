@@ -1,0 +1,418 @@
+---
+# basics
+title: | 
+ | Generational Imprints:
+ | How Political Events Shape Cohorts^[I thank Stephen Vaisey, Kieran Healy, Craig Rawlings, Omar Lizardo and Jessi Streib for their insightful and helpful comments on this project.]
+author: Turgut Keskintürk^[Department of Sociology, Duke University. turgut.keskinturk@duke.edu.]
+
+# timing
+date: today
+date-format: "MMMM, YYYY"
+
+# format
+format:
+  pdf:
+    pdf-engine: xelatex
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Pagella"
+    mathfont: "TeX Gyre Pagella Math"
+    fig-pos: 'H'
+fontsize: 11pt
+geometry: margin=1in
+numbering: true
+toc: false
+number-sections: false
+
+# source
+bibliography: ../helpers/bibliography.bib
+csl: ../helpers/asa.csl
+
+# abstract
+abstract: | 
+  | This article investigates generational imprinting, the process by which salient shocks to the political information environment produce differential attitude change across age groups. Focusing on the killing of George Floyd and the subsequent Black Lives Matter protests as a quasi-natural experiment, I analyze attitudes toward U.S. law enforcement among non-Hispanic White Americans using three survey studies that collectively span the period from 2016 to 2022. Analyses show that (1) changes in attitudes toward law enforcement were greater among younger age groups than older ones; (2) Democrats and Independents drove these changes, with largely stable trajectories among Republicans; (3) these effects persisted among younger individuals, while fading among older individuals; and (4) political attentiveness amplified cohort-based polarization. Findings indicate that cohort differentiation, in combination with political field dynamics, may drive aggregate political change in response to political shocks.
+
+# latex notes
+header-includes:
+- \usepackage{array}
+- \usepackage{longtable}
+- \usepackage{booktabs}
+- \usepackage{float}
+- \usepackage{caption}
+- \usepackage{amsmath}
+- \usepackage{setspace}
+- \captionsetup{justification=raggedright,
+                singlelinecheck=false}
+- \floatplacement{table}{H}
+
+---
+
+\onehalfspacing
+
+```{r}
+#| echo: false
+#| warnings: false
+#| output: false
+#| messages: false
+library(tidyverse); library(modelsummary)
+tabs <- readRDS("../../output/D_miscellaneous/table.rds")
+regs <- readRDS("../../output/A_nationscape/regs.rds")
+```
+
+# Introduction
+
+Change in political culture is typically gradual. In conventional accounts, the engine of this change is *cohort replacement*, a process in which successive cohorts pass through formative years, settle into relatively durable worldviews, and gradually replace older cohorts. As a result, aggregate political change mostly resides in the replacement of old cohorts by the new ones.
+
+At the heart of cohort replacement theory is the notion that formative experiences in early life shape people's long-term political orientations. The formative experiences scholars point to, however, are often analytically distal. While historical or structural factors are typically invoked to contextualize cohorts---chronicling, for instance, the *Children of Great Depression* [@elder1999]---it remains unclear how these contextual processes meaningfully differentiate cohorts across diverse political divides. One way to address this limitation is to leverage exogenous and high-salience shocks that saturate the political information environment. These shocks align exposure timing across the population, providing an analytically valuable window for investigating opinionation dynamics across cohorts in natural settings with clear analytic designs [@sears1997].
+
+In this article, I use the case of the killing of George Floyd on 2020 in Minneapolis, Minnesota, and the subsequent Black Lives Matter (BLM) protests, to examine when, how, and for whom political attitudes change. Focusing on how non-Hispanic White Americans changed their attitudes toward U.S. law enforcement in response to this event, I find that (1) change in attitudes was greater among younger individuals (ages 18-24) than the older ones (ages 25+); (2) this was concentrated among Democrats and Independents, with largely stable trajectories for Republicans; (3) these effects were persistent for at least half a year among younger age grouups while fading among older age groups; and (4) political attentiveness amplified these cohort-based differences. 
+
+I propose two opinionation dynamics---*cohort differentiation* and *political sorting*---and examine their interactions to understand long-lasting generational imprints on political orientations. Integrating these dynamics into a unified framework, I offer observable implications, which clarify *who* changes in a particular time period and the *direction* of this change. Following classical sociological accounts [@mannheim1952; @ryder1965], I argue that an analytically more useful conceptualization of cohorts requires a disaggregation: rather than adopting a strategy that totalizes cohorts and attributes the explanatory power to diverging political circumstances, we can look at "cohort-units" within each cohort: clusters oriented toward similar interpretive frameworks [@mannheim1952].
+
+These findings contribute to several subfields in sociology. First, I suggest that the mere fact of being formed in the same historical period of time does not necessarily lead to convergent political tastes; cohorts become meaningful only when they are mediated by the cultural logics of the political field. Thus, cohort effects are not---according to this account---self-sufficient drivers of aggregate political change. Second, I show that public opinion dynamics cannot be reduced to elite messaging alone; instead, they hinge on shared experiences, life‑course timing, and sensitivity to change. Therefore, I reframe event-led political socialization as a joint product of life-course sensitivity and field-level political competition. Third, I provide a useful corrective to popular narratives about "generations" by conceptualizing the field of politics as a structuring force of shared experiences.
+
+The article proceeds as follows. In the first section, I propose a theoretical framework that combines the dynamics of cohort differentiation and political sorting. Next, I introduce the empirical setting, detail the data sources, outline the main empirical estimands and propose an identification strategy. I then present the findings. In the final section, I discuss the implications of these results for cultural and political sociology, as well as the sociology of aging, socialization, and the life-course.
+
+# Theoretical Framework
+
+I bring together two dynamics to explain the process of *opinionation*, i.e., the development of stable evaluations of political objects: cohort differentiation and political sorting. The former allows me to identify *who* forms stable attitudes at any given time while the latter specifies its *direction*. Applied to the case of attitudes toward law enforcement, these dynamics explain how salient political events have differential effects across age groups and prior political dispositions.
+
+## The Dynamics of Cohort Differentiation
+
+The question of cohort differentiation, or "cohortization," has long been central in classical sociology [@mannheim1952; @ryder1965], with recent accounts in cultural sociology highlighting its role in social and cultural change [@vaisey2016]. Scholars argue that cohort differentiation arises from the interaction of "period effects," i.e., social and political processes shaping the range of potential experiences an individual may have; and "age effects," i.e., the differential responses to environmental stimuli across age groups. Thus, "cohort effects" are often understood as *period effects experienced at a particular age* or *differentiation in these experiences* [@morgan2024].
+
+This formulation has important advantages for explaining political change. It fits well with classical socialization paradigms that propose sensitive windows early in life, during which individuals are more susceptible to attitude formation [@krosnick1989; @alwin1991], and that socializing agents, especially the family [@jennings1968], assume a significant role. It also provides a general account of "fresh contacts," to use a phrase from Mannheim [-@mannheim1952], that allow young cohorts to form new evaluations. The notion that these cohorts carry "the impress of [these contacts] through life" [@ryder1965, p. 844] is what we may call generational imprinting.[^imprinting]
+
+[^imprinting]: See Bartels and Jackman [-@bartels2014] for a succinct formal treatment that brings Bayesian and generational learning together. In their theory, cohort differentiation endogenously emerges from the interaction of age and period-specific shocks, and the main assumption generating this prediction is the notion that people of different ages possibly attach different *weights* to exogenous political shocks, or proposals, from the environment. The differences in the composition of these proposals lead to a differentiation in cohort experiences, which in turn produce political differentiation.
+
+What are the observable implications of cohort differentiation in explaining the dynamics of opinionation? Panel A in Figure 1 presents three opinionation dynamics in a context where there is an exogenous shock to the political information environment, and individual trajectories of political evaluations may depend on one's age group, defined as "the Young" and "the Old."
+
+The first two processes are age-agnostic. On the one hand, people may update their attitudes when presented with new information, regardless of their age or life-stage, and these changes may persist (*Persistent Updating*). On the other hand, people may have prior dispositions that reproduce similar judgments of political objects, and when prompted, they might temporarily update, only to return to their baselines after a certain window of time (*Transient Shock*). The third process---which I call *Differential Response*---advocates separate dynamics for the Young and the Old, thereby introducing cohort differentiation to the opinionation dynamics. In this particular setting, persistent updating is the prevalent process among the Young, suggesting recalibration of attitudes, while the transient shocks are more prevalent among the Old, suggesting the dominant role of dispositions.
+
+The primary mechanisms ensuring differential response may vary across models: while a Bayesian learning process may imply that, with age, each new experience will have diminishing weights for the updating process [@bartels2014], it is also plausible to argue that the structuration of the life-course, allowing more exploration in adolescence and early adulthood, may be the main mechanism [@dannefer1984]. Nonetheless, the expectations that the individual-level opinionation dynamics will differ across age groups still emerge across a variety of theoretical models.
+
+This framework is powerful for explaining *who* changes at any given time, though it cannot predict the *direction* of this change---an issue that has frequently haunted[^ryder-direction] the uses of the term "generation" [@kertzer1983]. What, then, is the main driver for directional opinionation? Following Mannheim [-@mannheim1952], I argue that the solution lies in the disaggregation of the cohort. In contrast to an approach that totalizes cohorts, we can analytically look at "cohort-units," clusters oriented toward the same (political) object, but from different, and increasingly antagonistic, perspectives. In contemporary political conditions, these cohort-units are classified, almost naturally, by political parties.
+
+[^ryder-direction]: As Ryder [-@ryder1965, p. 850] puts, "the entry of fresh cohorts into the political stream represents a potentiality for change, but without specification of its *content* or *direction*" (emphases added). Similar issues are raised in Mannheim [-@mannheim1952].
+
+```{=latex}
+\begin{figure}[!htb]
+\begin{center}
+```
+![](../../output/D_miscellaneous/trends.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure 1: Theoretical Expectations on Individual-Level Attitude Trajectories}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the event (centralized at $t = 50$), with each tick representing a time period. The $y$-axis shows one's evaluative judgments on the pertinent political object. Panel A presents dynamics at the population. Panel B presents dynamics across two subgroups, Political Group D and Political Group R.
+}
+\end{figure}
+```
+
+## The Dynamics of Political Sorting
+
+To understand directional opinionation, we need to postulate an external domain to which individuals are oriented. When it comes to political opinionation, this domain is the *field of politics* [@martin2014]: political parties and their positions vis-à-vis one another constitute the political domain as a structuration engine, and the communications from the political parties often determine how partisans form evaluative judgments of political objects. When prompted with new information, it is thus very likely that people form competing---partisan---political evaluations [@zaller1992].
+
+The scholarly literature offers several reasons why this account is well supported by empirical evidence. The structure of political positions in the population seems to be grounded in one's ideological identity, from which most political views are derived [@boutyline2017]. In a similar vein, the partisan cue-taking literature provides ample evidence that evaluations of political objects, as different as policy proposals and personal values, are shaped by elite party dynamics [@goren2009; @bisgaard2018; @slothuus2020]. It is possible that this orientation increased over time, too, with people and their views being sorted into their political identities much more extensively [@dellaposta2020; @baldassarri2008].[^socialsorting]
+
+[^socialsorting]: The drivers of this sorting is not particularly consequential for the present account. While "social sorting" is proposed as the main mechanism [@rawlings2022], the recent evidence suggests that it may be less about demographic sorting and more about the re-organization of the U.S. political field around strong ideological fault lines [@konicki2025]. In both cases, partisan frames still dominate the processes of updating, regardless of how the sorting was achieved.
+
+Understood within the context of cohortization, the political sorting dynamic implies two empirical expectations. For the Old, the attachment to parties and prior partisan dispositions will shape how individuals react to the new information. For the Young, two concurrent processes are plausible: a differential update to the initial position based on partisan cues, or a differential partisan switching following attitude update.[^realign] In both cases, the empirical patterns are observationally equivalent: the evaluations of the Young will increasingly diverge from each other; put differently, cohort units will become oriented to the same object while their evaluations become strikingly different.
+
+[^realign]: If there are cohort effects, it follows that the Young is also more susceptible to potential partisan realignment.
+
+Panel B in Figure 1 introduces these dynamics into individual-level trajectories in political attitudes. We now have two groups, Political Group $D$ and Political Group $R$, with prior dispositions toward the object, though with small differences. When the new information comes to light, the Group $D$ evaluates it as favorable (due to elite messaging or protest frames), and updates their attitudes. For Group $R$, the new information does not challenge their prior predispositions; hence, their attitudes do not update in response to this event, and we see a flat trajectory.[^polarized]
+
+[^polarized]: An alternative account can suggest that the Political Group $R$ moves in the opposite direction, intensifying polarization. This is particularly likely among the Young, but possibly dependent on the specific political event.
+
+## Tying the Opinionation Dynamics Together
+
+The dynamics of cohort differentiation and political sorting lead to several theoretical conclusions. While cohort differentiation provides an account for how political shocks affect younger individuals more strongly than older ones---thus addressing the *who* question---the political sorting clarifies the *direction* of change. That is, when changes in the political information environment prompt the younger cohorts to form and rework their attitudes, political sorting channels these developments into the political field, orienting positions in specific directions. Unifying these basic dynamics, we expect that young individuals not only change more strongly, but also maintain their new positions, in part because elite-level signaling anchors these evaluations to a particular partisan line.
+
+Note that this account is silent on the precise cognitive and social mechanisms that generate these dynamics. Cohort differentiation, for instance, may result from developmental processes that regulate Bayesian learning, or the notion that early life is structured to facilitate exploration. Similarly, political sorting may be shaped by cues from partisan elites [@zaller1992], or by frames circulating through media in response to protests [@wasow2020]. Nor do I exclude the possibility that the partisan differences in post-shock recalibration are rooted in motivated cognition [@kunda1990; @guay2022]. At this stage, the framework proposes *descriptive* predictions on change and its directions, rather than fully adjudicating among these various micro-mechanisms.
+
+```{=latex}
+\begin{figure}[!htb]
+```
+![](../../output/D_miscellaneous/DAG.png){width=90%}
+```{=latex}
+\caption*{Figure 2: Directed Acyclic Graph for the Theoretical Framework}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} Directed Acyclic Graph presenting the proposed relationships. Shaded nodes represent interaction terms. Solid lines represent proposed causal mechanisms. Dashed lines represent potential causal mechanisms.
+}
+\end{figure}
+```
+
+I now propose three expectations derived from these considerations. Following with the previous typology, the Young refers to younger age groups while the Old refers to older age groups. Again, these expectations consider a shock to the political information environment, rather than a gradual development. Figure 2 proposes a Directed Acyclic Graph (DAG) that incorporates the necessary elements for these expectations. The first expectation interacts cohort differentiation and political sorting, and suggests that attitude updating depends on age group and political identity:
+
+Expectation 1. *When a political shock changes the political information environment, the Young will update their attitudes more strongly after the event, and this reaction diverges along political identity.*
+
+This expectation has a rather precise unit-specific quantity [@lundberg2021]: the difference in attitudes before and after a political shock, $\hat{Y}_i$, stratified by age groups $A$ and political groups $G$, or $\hat{Y}_{i}(A, G)$. These groups are, of course, *pseudo-treatments*; the causal mechanisms in question depend on the specific micro-mechanisms proposed, as discussed above.
+
+The generalization of this expectation to multiple windows brings us to the question of trajectories, discussed in Figure 1, and the prediction of differential response across the Young and the Old:
+
+Expectation 2. *Attitude changes after the political shock will endure among the Young over time, while the Old's attitudes will revert, after a suitable time window, to their pre-event baselines.*
+
+The unit-specific quantity, this time, is $\hat{Y}_{it}(A, G)$, where the subscript $t$ refers to each time window *after* the event. Once again, I expect the change in each window to be stratified across age groups $A$ and political groups $G$. Another---related---quantification is the differential slopes after the event: while the updating dynamic predicts a flat slope, the transience predicts a downward change.
+
+These expectations cover the main opinionation dynamics. There is, however, one additional corollary: the polarization I expect after the event may be more pronounced among people with higher political exposure [@zaller1992]. Considering that the theoretical framework understands the political domain as an external structuration engine, it follows that people with an increased orientation toward the field should be more attuned to opinionation dynamics. This moderation effect can result, at least in principle, from two basic sources: the visibility of the political object, which affects the extent to which people are susceptible to exposure, and inter-individual differences in political attention, which regulates the extent to which people select into the political domain. Hence:
+
+Expectation 3. *The dynamics of differential response will be stronger if (A) the political event is more visible and (B) the individual is politically more attentive, both of which increases one's political exposure.*
+
+# The Empirical Setting
+
+## The Empirical Case and Study Design
+
+I apply this framework to the killing of George Floyd on May 25, 2020, and the ensuing Black Lives Matter (BLM) protests. I focus in particular on how non-Hispanic White Americans changed their attitudes toward U.S. law enforcement in response to this event, whether this change differed across age groups and party identities, and whether it persisted or decayed over time. The study window starts as early as 2016, long before the event, and reaches toward the Fall of 2022.
+
+**_The Setting_**. On May 25, 2020, in Minneapolis, Minnesota, a 46-year-old Black man, George Floyd, was killed during an arrest when a White police officer pressed his knee on Floyd's neck for approximately 9 minutes 29 seconds---a scene recorded by bystanders, and rapidly disseminated online. Within the next few days, protests erupted nationally in the U.S., as well as over 60 countries, under the banner of BLM. Survey-based crowd counts place total U.S. participation between 15 million and 26 million, making the BLM mobilization the largest sustained protest movement in the U.S. history [@buchanan2020]. Scholars emphasize that the scale of this response was unparalleled, positioning the George Floyd protests as a salient political shock that rapidly re-centered public debate on police violence in the U.S. [@edwards2019].
+
+The scale and salience of the George Floyd protests make this event an analytically powerful setting for examining cohort differentiation and political sorting. Since public attention is a scarce resource [@hilgartner1988] and political elites routinely reinforce identity-congenial signals [@zaller1992], exogenous shocks to the information environment create opportunities for persistent change in attitudes. The killing of George Floyd and the ensuing protests represent precisely such a shock. The previous research indeed showed that the Floyd protests led to measurable changes in attitudes [@gethin2024]; however, these studies often reported that these attitude changes were not durable [@reny2021]. None of the scholarly literature acknowledged the fact that the event may have catalyzed *pre-adult socialization* [see @sears1997].
+
+**_The Target Population_**. I focus analytically on non-Hispanic White Americans, as the dynamics of political opinionation in response to racialized police violence likely differ across racial groups. For racial minorities, particularly Black Americans, encounters with law enforcement are often shaped by direct or vicarious experiences of discrimination, surveillance, and harm, meaning that minority attitudes are more likely to reflect long-standing structural marginalization that inform prior beliefs and expectations [@jefferson2021]. Conversely, among non-Hispanic Whites---who are less likely to experience routine police violence and more likely to benefit from institutional trust---an event like the killing of George Floyd may function as a discrete political shock. That is, the event more plausibly serves as a *socializing incident* than an identity reinforcement one. In this vein, recent research showed that the BLM substantially changed the socialization priorities among non-Hispanic Whites in the U.S. [@anoll2024].
+
+A related reason to this focus is the fact that the non-Hispanic Whites have a higher internal political heterogeneity, compared to substantial levels of partisan sorting among racial minorities, making the former more suitable for an analysis of political sorting. Focusing on non-Hispanic Whites thus allows for a sharper empirical test of cohort differentiation and political sorting dynamics, while also isolating attitudinal updating from patterns of racialized institutional trust.
+
+**_The Target Quantity_**. I focus on attitudes toward law enforcement to evaluate the main theoretical expectations---a core political debate in contemporary U.S. politics. I conceptualize these attitudes as evaluative judgments that can reflect long-standing dispositions among individuals, capturing related constructs about "legal cynicism" [@kirk2011] and institutional trust [@menachem2024]. These attitudes prove especially significant in moments of salience---when the legitimacy of law enforcement becomes a salient issue of public debate---such as during the aftermath of George Floyd’s killing and the ensuing BLM protests.
+
+The central empirical estimand is the age and partisan stratified change in average attitudes toward law enforcement between the last pre‑event time window and each post‑event time window, as well as their aggregation, taking the event point as the central quasi-exogenous treatment.
+
+**_The Empirical Scope Conditions_**. While the empirical setting is analytically powerful, it has several scope conditions. First, the salience of this event is also its weakness, limiting the generalizability of opinionation dynamics to cases of atypical political mobilization. Second, the event occurred amid overlapping crises, such as the COVID-19 pandemic and the 2020 election cycle, which potentially introduce confounding shocks to the political information environment. While the analyses below are temporally granular, these confounding events present challenges to the main empirical design. Finally, the design depends on assumptions about differential responsiveness across groups, rather than having a "clean" separation of exposure. All that being said, the empirical setting provides a salient and politically pertinent moment to evaluate the main expectations.
+
+## Data Sources
+
+To evaluate these expectations, I use data from three large-scale surveys of American adults: *Democracy Fund + UCLA Nationscape* [@nationscape---henceforth, simply *Nationscape*], *Cooperative Congressional Election Study* [@cces_data, or simply CCES], and the *American National Election Study* [@anes_data---ANES].
+
+**_Nationscape_.** The Nationscape is a repeated cross-sectional survey, fielded from mid-2019 through the end of 2020, on a large non-probability sample from *Lucid* (now called *Cint*). Surveying roughly 6,250 participants each week over an extended period of time, Nationscape provides detailed data on 312,954 non-Hispanic Whites before and after the killing of George Floyd, and their attitudes toward law enforcement. To increase statistical power, I pooled these weekly installments into 4-week windows and used post-stratification weights to bolster the representativeness of the sample.
+
+**_CCES_.** To further extend the observation window and offer a complementary assessment, I employ data from the 2016, 2020, and 2022 waves of the CCES, a large-scale survey program administered by YouGov with each wave featuring more than 40,000 non-Hispanic White participants. The study uses a matched random sample methodology to recruit U.S. participants, complementing it with poststratification weights from the U.S. Census to adjust for sample imbalances. The CCES allows me to (1) replicate, albeit partially, the main results in the Nationscape and (2) extend the 6-month observation window after the killing of George Floyd in the Nationscape up to two years.
+
+**_ANES_.** Analyses with repeated cross-section surveys help us understand trajectories across *groups*, but they do not provide direct evidence within *individuals*. Hence, I complement the Nationscape and CCES analyses with panel data from the 2016 and 2020 waves of the ANES. The panel design is particularly well-suited to assess within-person change, though the sample is smaller ($N = 1,912$), limiting precision in subgroup analyses. Nonetheless, the ANES provides a probability-based gold standard, and its panel component is a powerful complement to the cross-sectional analyses. Due to its two-wave structure and sample size, I use the ANES only to evaluate Expectation 1.
+
+In addition to these survey sources, I use crowd-sourced data from the *Crowd Counting Consortium* (CCC)---a project of Harvard Kennedy School and the University of Connecticut---that compiles publicly available data on demonstrations in the United States. Following prior work [@gethin2024] as well as suggestions from the CCC team, I filtered for demonstrations protesting issues related to *race* and *racism* within the first three months after the killing of George Floyd, matching this information to the Nationscape at the congressional district level. This data source allows me to test, alongside Nationscape, Expectation 3A. To do so, I leverage the intensity of protests in one's congressional district as a proxy for their---potential---local exposure to BLM mobilization.
+
+Supplemental Materials provide more details about these data sources, as well as decisions related to data processing. Tables S1 through S6 present descriptive statistics for each data source.
+
+## Measurement
+
+I operationalize *attitudes toward law enforcement* using three separate survey questions, each featured in one data source: (1) the favorability of the police in Nationscape, (2) one's feelings of safety with the police in CCES, and (3) police thermometer in ANES.[^questions] The measurement strategy in (1) and (3) is relatively straightforward; each capturing evaluative judgments on "the police" as an institution. Of course, the question from CCES taps a more personalized dimension of one's interactions with police officers, and it may not necessarily reflect a politicized response.[^itdoes] Despite these differences in emphasis and wording, however, it still taps into an underlying evaluative disposition toward law enforcement, allowing me to provide partial, though converging, evidence on expectations.[^validity]
+
+[^questions]: The survey questions are as follows: (1) "Here are the names of some groups that are in the news from time to time. How favorable is your impression of each group or haven’t you heard enough to say? --- The Police," with response options *very favorable* $= 0$, *somewhat favorable* $= 0.25$, *somewhat unfavorable* $= 0.75$ and *very unfavorable* $= 1$ ("haven't heard enough" option being the midpoint = $0.50$), (2) "Do the police make you feel," with response options *mostly safe* $= 0$, *somewhat safe* $= 1/3$, *somewhat unsafe* $= 2/3$, and *mostly unsafe* $= 1$, and (3) "I'd like to get your feelings toward some of our political leaders and other people who are in the news these days. I'll read the name of a person and I'd like you to rate that person using something we call the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the person. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the person and that you don't care too much for that person. You would rate the person at the 50 degree mark if you don't feel particularly warm or cold toward the person. How would you rate: 'the police,'" with response options ranging from $0$ (very cold) and $100$ (very warm).
+
+[^itdoes]: That said, Figure S10 in the Supplemental Materials indicate that the responses to this item in 2016 (before the event) sharply diverge by partisan identification, suggesting that the measure was already politicized.
+
+[^validity]: While I am not aware of validity checks concerning police favorability and feelings of safety, the thermometer questions in the ANES received widespread attention. Tyler and Iyengar [-@tyler2024], for instance, showed that thermometer questions on the Democratic and Republican parties are robust to concerns about selection bias and priming effects. Since the authors found mode effects, however, I analyze the ANES data with multiple modes to ensure validity.
+
+The main variation of interest, for all analyses, is *respondent age at the time of the killing of George Floyd.* This presents two significant challenges. First, while "age" is a rather straightforward measure, age effects in cross-sectional surveys may conflate age, period and cohort processes [@fosse2019]. The fact that the empirical setting involves an event study design means that I cannot reliably distinguish people being in different developmental stages ("age effects") and the fact that people were born in different time periods ("cohort effects"). Second, there is a trade-off between precision in age categories, on the one hand, and statistical efficiency, on the other. I present all analyses with qualitative age categories, while also performing analyses with age splines when pertinent.
+
+**_Main Moderators_**. As I expect differential response across partisan lines, I use a three-point party identification---Democrat, Independent, and Republican---in the analyses. To operationalize *political attention*, I generate a general attention scale using two constructs, political interest and political knowledge, the details of which are presented in the Supplemental Materials. To capture a person's exposure to protests, or *protest intensity*, I calculate the number of protests at the congressional district level using CCC, and match the resulting counts to respondents' locations. In both cases, I use equal quartiles to construct ordinal response categories to avoid functional form concerns.
+
+**_Adjustment Variables_**. In addition to party, political attention, and protest intensity, all of which serve as moderators, I statistically adjust for one's sex---measured simply as *male* and *female*---and geographic location---measured as congressional district and county---to adjust for compositional differences across gender and region lines. With the risk of having a "bad control" [@cinelli2022], I also adjust for education, considering that it may tap into parental socioeconomic status and account for platform effects, given that online samples skew to highly educated.
+
+## Identification Strategy
+
+Let $Y_{it}$ be the observed attitude toward law enforcement for individual $i$ and time $t$. Let $A$ indicate whether individual $i$ is "the Young" ($A = 1$) or "the Old" ($A = 0$), and let $P$ indicate whether the period is post-event ($P = 1$) or not ($P = 0$). The empirical estimand of interest is the differential effect of the killing of George Floyd on attitudes toward law enforcement across $A$, or:
+$$
+[\mathbb{E} (Y_{it} | A = 1, P = 1) - \mathbb{E} (Y_{it} | A = 1, P = 0)] - [\mathbb{E} (Y_{it} | A = 0, P = 1) - \mathbb{E} (Y_{it} | A = 0, P = 0)] \tag{1}
+$$
+
+Intuitively, this captures whether the changes in attitudes toward law enforcement are larger among younger individuals than it is among older individuals. It is a difference-in-differences setup, with empirical interest in the final differenced quantity. I propose this estimand, alongside a variety of descriptive quantities, to capture the theoretical estimand described above.
+
+I make two additions to this estimand. First, I estimate subgroup-specific difference-in-differences, where the *treated* group is defined as being "young" ($A = 1$) *and* having a specific partisan identity, captured with $G$ (e.g., $G =$ Republican). Second, I allow the basic difference-in-differences estimate to vary across pre and post windows to see heterogeneous trajectories over time. The first addition allows me to test Expectation 1, the second addition allows me to test Expectation 2. Expectations 3A and 3B also extend naturally: I add a third quantity of variation, $E$, capturing exposure.
+
+**_Identification Assumptions_**. I rely on three identification assumptions: 
+
+(1) I assume that, absent the event, the average change in attitudes across the post-event window would have been identical between the younger and older groups (*parallel trends*).
+
+(2) I assume that there are no compositional changes that differentially affect younger and older groups in the study window (*stable composition*).
+
+(3) I assume that there are no additional group-specific shocks (*alternative shocks*).
+
+The parallel trends assumption is fundamentally untestable, though strikingly stable pre-event trajectories below suggest that the trends would likely be parallel.[^pretrends] To the extent that the Nationscape, CCES, and ANES are high in coverage, it is also possible that the event may have led to differential sample inclusion or attrition, though the descriptive analyses show that there are no strong compositional changes in the period [e.g., @reny2021]. The third assumption is, however, *naturally* wrong: the historical period saw several other cases of police violence [such as the shooting of Jacob Blake---see @menachem2024], and the elections in November may have generated differential responses to the police. That said, the *falsity* of this assumption is its *strength*: the event created a political chain---starting with the BLM protests---leading to salient political discussions. More importantly, the Nationscape data is granular enough to see the initial shock and decay dynamics before other salient events come into the picture.
+
+[^pretrends]: Table S7 in the Supplemental Materials formally tests this assumption, showing no pre-trends across models.
+
+**_Statistical Strategy_**. I implement all difference-in-differences analyses with a classic two-way fixed effects (TWFE) framework. More particularly, I estimate:
+$$
+y_{it} = \alpha_{i} + \theta_{t} + \beta T_{it} + \gamma_i + \epsilon_{it} \tag{2}
+$$
+
+where $\alpha_{i}$ denotes fixed effects for age categories, $\theta_{t}$ denotes fixed effects for time, $\gamma_i$ denotes adjustment variables, and the coefficient $\beta$ captures the classic difference-in-differences estimate.
+
+To test Expectation 1, I modify this equation by including treatment interactions with party identity, while I include a third set of interaction variables---protest intensity and political attention---to test Expectations 3A and 3B. To test Expectation 2, I modify the TWFE setup in Equation (2) by adding leads and lags around event time $t = 0$, and estimate separate effects at each time window.
+
+**_A Note on Treatment Status of Age_**. The potential outcomes setup aims to clarify basic assumptions; however, the term *effects of age* has a rather ambiguous language, given that the true causal process refers to differential updating, approximated by a specific biological year of age. Since there is no magical age [@miller1956], all discrete cut-offs delineating the Young and the Old would necessarily be imperfect. I settled on age 25, categorizing people aged 24 or younger as *the Young* and aged 25 and older as *the Old*, considering previous work that suggests age 25 marks a key point in people's dispositional development. In the Supplemental Materials, however, I demonstrate analyses that test how sensitive this choice is to alternative age specifications or functional form assumptions.[^agecuts]
+
+[^agecuts]: Figure S6 leverages a moving window approach to estimate difference-in-differences models in Nationscape and CCES by systematically varying the age cut-offs, showing a monotonic decrease in estimates, as expected. Figure S11 uses an age spline to model first-differences in ANES, corroborating the main findings.
+
+# Findings
+
+I present the empirical analyses in three sections. First, I explore Expectation 1 and Expectation 2 using the Nationscape and CCES data, showing that (a) change in attitudes toward law enforcement in response to the killing of George Floyd was higher among younger individuals than older ones, (b) the effects were concentrated among Democrats and Independents, with Republicans showing mostly stable trajectories, and (c) these effects were persistent for at least half a year---and up to two years---among younger individuals, while fading among the older ones. Second, I analyze longitudinal panel data to explore whether the level of change was indeed higher among younger people, controlling for all time-invariant characteristics. Third, I evaluate two mechanisms: protest intensity in local environments (Expectation 3A) and inter-individual differences in political attention (Expectation 3B). Table 1 presents a general overview of the analysis plan.
+
+```{r}
+#| echo: false
+#| tbl-cap: "The Overview of the Analysis Plan"
+#| tbl-pos: H
+tabs
+```
+
+## The Trajectory of Attitudes Toward Law Enforcement
+
+Figure 3 presents the weighted averages of unfavorable attitudes toward the police before and after the killing of George Floyd. I show the results by cross-classifying age and party groups to account for the considerable heterogeneity in pre-event positions, the initial response to the event, and subsequent trajectories. These estimates provide strong evidence for two theoretical expectations.
+
+```{=latex}
+\begin{figure}[!htb]
+\begin{center}
+```
+![](../../output/A_nationscape/p01.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure 3: The Trajectory of Unfavorable Attitudes Toward the Police}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd (centralized at $t = 0$), with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. Each point is a weighted average for a particular age group, party group, and time. The horizontal dashed lines represent pre-event averages for each age and party group.
+}
+\end{figure}
+```
+
+**_Expectation 1_**. The response to the killing of George Floyd was stronger among younger individuals compared to the older individuals. Averaging across all parties, people between the ages of 18 and 24 changed their position by 0.12 on a 0--1 scale (a 0.36 standard deviation change), compared to 0.06 for ages 25-34 (0.18 SD), 0.03 for ages 35-49 (0.10 SD), and 0.02 (0.05 SD) for ages 50-64 and 65+. This, of course, masks substantial partisan heterogeneity: Democrats and Independents aged 18-24 experienced a change of 0.19 (0.58 SD) and 0.12 (0.36 SD), respectively, whereas Republicans experienced a mere 0.01 (0.03 SD) level of change. The results suggest that Republicans may have shifted to the *opposite* direction over the period. I unpack this with DID specifications below.
+
+**_Expectation 2_**. The initial changes in attitudes toward the police persisted among younger individuals, but faded for older individuals. Once again, when averaging across parties and both pre-event and post-event windows, the average negative post-event slope is roughly 0.06 steeper for people aged 25-34, 0.09 for ages 35-49, and 0.10 for ages 50-64 and 65+. More intuitively, the findings in Figure 3 clearly show that the initial changes in Democrats and Independents aged 18-24 persisted over the period---which spans a little more than half a year---while faded for older individuals over the same time window, suggesting age-based differences in people's long-term trajectories.[^supps1]
+
+[^supps1]: These findings are highly robust to alternative decisions: the unweighted analyses present similar results (Figure S1), as do the ones where *have not heard enough* responses are dropped rather than being coded as midpoint (Figure S2). The same applies to analyses that use a binary outcome rather than the current categorical measure (Figure S3). In Figure S4, I present the same estimates at the weekly level, rather than 4-week aggregations. While---naturally---less precise, the smoothed linear trajectories clearly show the same findings as described in the main article. Figure S5 shows that using ideological identity rather than partisan identity provides converging evidence.
+
+```{r}
+#| echo: false
+#| tbl-cap: "Two-Way Fixed Effects Models on Unfavorable Attitudes Toward the Police"
+#| tbl-pos: H
+regs
+```
+
+Table 2 evaluates these findings more formally in a difference-in-differences context, where respondents aged 18-24 make up the "treatment" group and respondents aged 25 and older make up the "control" group. Across all specifications, the differences between groups increased by an average of 0.09 on a 0--1 scale after the event---corresponding to an effect size of $d = 0.27$. Figure 4 presents the findings from a dynamic specification, suggesting that this polarization in attitudes toward law enforcement persisted at least over half a year following the event in the Nationscape data.
+
+```{=latex}
+\begin{figure}[!htb]
+\begin{center}
+```
+![](../../output/A_nationscape/p02.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure 4: Dynamic TWFE on Unfavorable Attitudes Toward the Police}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents dynamic TWFE estimates that measure the diverging trajectories of the treated (18-24 year-old respondents) and control (age 25+) groups in Nationscape 2019-2020 data file. The model in the top panel adjusts for gender, party identification, education, and congressional district. The models in the bottom panel perform the same estimations, each subsetting one party identifier in the U.S. To stabilize estimates, time windows in the bottom panel are binned, such that the dynamic TWFE for each panel is estimated for two time periods at each step.
+}
+\end{figure}
+```
+
+Note how the Young Republicans update in the *opposite* direction to have increased favorability of the police. As noted above, this may result from Republican-identifying individuals changing their views in the study window, possibly as a backlash to the BLM mobilization; or from compositional changes where people with less favorability to the police leaving the Republican identification. In both cases, however, we would see an increased polarization, as documented in Figure 4.
+
+While the Nationscape provides a targeted time window to evaluate the main expectations, it does not rely on a probability sample, raising the question of whether these findings could be replicated in alternative surveys. I evaluated this possibility by analyzing three waves of survey data from the CCES. These surveys allow me to investigate whether differential trajectories across age and party groups emerge in a different context, while also enabling to explore whether the effects persist until two years later. Of course, the CCES is not as time-intensive as the Nationscape, and this broader time window limits the ability to make precise causal statements about the underlying process. It also features a different outcome---while the Nationscape measures one's "favorability" toward the police, the CCES measures whether the focal person "feels unsafe" around the American police.
+
+**_Expectations 1 and 2_**. Figure 5 presents dynamic difference-in-differences estimates, where people aged 18-24 in 2020 make up the treatment group and people aged 25 and older in 2020 make up the control group. The killing of George Floyd and the subsequent BLM protests resulted in an average polarization of 0.10 on a 0–1 scale. This corresponds to an effect size of $d = 0.36$---relatively close to the estimate I recovered from the Nationscape. Moreover, this difference remained constant in two consecutive years. The bottom panel presents the same estimates broken down by party, showing relatively similar patterns to the ones observed in the Nationscape.[^contrast]
+
+[^contrast]: The fact that we observe changes among Republicans in the Nationscape but not in CCES may result from differences in the main outcome of interest: while the former measures participants’ favorability toward the police, the latter is about whether they feel unsafe around the U.S. police. Although interpretations of question wording effects remain speculative, the analyses nevertheless indicate a small but persistent effect size among Republicans in Nationscape.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/B_cces_16-22/p01.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure 5: Dynamic TWFE on "Feeling Unsafe" with the Police}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents dynamic TWFE estimates that measure the diverging trajectories of the treated (18-24 year-old respondents) and control (age 25+) groups in the Cooperative Congressional Election Study's 2016-2022 data file. The model in the top panel adjusts for gender, party identification, education, and county. The models in the bottom panel perform the same estimations, each subsetting one party identifier in the U.S. as the main treated group.
+}
+\end{figure}
+```
+
+## First-Difference Analyses in the Panel Context
+
+Analyses that use repeated cross-section surveys help us understand trajectories across groups, but they cannot evaluate changes at the individual level. To address this problem, I used data from the panel component of the 2016 and 2020 ANES surveys. The police oﬀicer thermometer question in 2020 was asked in the survey’s post-election field, which was conducted between November 8, 2020 and January 4, 2021---roughly five and a half months after the killing of George Floyd. Therefore, it stands as a reasonable test of whether the effects observed in the Nationscape and the CCES may be observed when tracking the same set of individuals across time. Due to ANES’s short window (only two waves) and sample size ($N = 1,912$), these analyses can only evaluate Expectation 1.
+
+**_Expectation 1_**. Figure 6 presents the central findings, revealing a clear pattern: individuals between the ages of 18 and 29[^agewindow] on 2020 changed much more strongly than individuals aged 30 and older. To put the results in comparative context, the "treatment" group changed by 16.9 in a 0--100 scale, compared to 3.7 (aged 30-39), 2.2 (aged 40-64), and 3.2 (aged 65+). The polarization between the younger and older individuals---specified in a 2 x 2 difference-in-differences context---corresponds to an effect size of $d = 0.66$, suggesting powerful effects among younger individuals.[^supps2] Considering that the panel structure resolves potential compositional changes that would violate stable composition assumption, this finding provides a strong confirmation of the main expectation.
+
+[^agewindow]: Since the original 2016 panel sample was necessarily restrictive in its age range---only 53 respondents were aged 18–24 in 2020 due to being sampled in 2016---I expanded the age range from 18–24 to 18–29 for these analyses.
+
+[^supps2]: In supplemental analyses, I show that (a) the use of age splines rather than age categories replicates the same finding (Figure S11), (b) the patterns are robust to the removal of "outliers"---defined as change scores outside the 5% and 95% quantiles---or robust regression (Figure S12), and (c) the mode effects are inconsequential (Figure S13). Placebo analyses that look at ANES 2020-2022 study show that change between 2020 and 2022---each fielded after the event---shows no differences across age (Figure S15). Since the "treatment" group contains 155 respondents, I do not have sufficient power to explore within-party trajectories, though Figure S14 provides a compelling evidence that partisan differences---even with small samples---point toward the same predictions as we saw in Nationscape and CCES. One exception to this pattern is *negative* effects found for Republicans, compared to null or positive expectations. I discuss this in more detail in the Supplemental Materials, presenting several directional analyses.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure 6: Panel Estimates of Change in Police Thermometer}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The left panel presents the distribution of change scores between 2016 and 2020 among 1,912 ANES respondents on police thermometer, which ranges from 0 (cold) to 100 (warm). The right panel shows estimates across age groups. The model adjusts for survey mode and party identification, with robust standard errors.
+}
+\end{figure}
+```
+
+## The Moderating Role of Political Exposure
+
+What mechanisms explain these two findings? In Expectations 3A and 3B, I proposed that exposure to political messaging, combined with young people's greater propensity to update, might explain differential age effects. I now examine two such pathways: the first involves the intensity of protests in one's local environment and the second involves individual differences in political attentiveness. In each case, greater exposure to political messaging should lead to stronger attitude changes, that is in turn moderated by one's political affiliation at the partisan level. In each analysis, I fit a TWFE model where the treatment status is interacted with party and the variable of interest, allowing me to inspect multiple "treatment effects." Figure 7 presents the findings in two panels.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p03.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure 7: The Differential Post-Treatment Effects by Party and Political Exposure}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents the average post-treatment effects---averaged across all post-treatment periods---from a model with treatment status, partisanship, and exposure, with unit and time fixed effects. The models adjust for gender, education, and their interactions (as well as congressional fixed effects for the second panel). Robust standard errors. Each category in the x-axes are constructed from quartiles in their respective distributions.
+}
+\end{figure}
+```
+
+**_Expectation 3A_**. One's proximity to high protest areas do not lead to consistent effects on differential updating. Moving from the lowest protest intensity districts to the highest protest intensity ones changes the TWFE estimates by $0.01$ ($p > 0.05$) for Democrats, $0.02$ ($p > 0.05$) for Independents, and $-0.02$ ($p > 0.05$) for Republicans, suggesting no effects. These findings strongly reject Expectation 3A: an increased opportunity to be exposed to political events via local influences does not seem to be affecting differential updating in a consistent direction. Across all cases, the differential updating is mainly driven by partisan identity and not by proximity to political protests.[^protests]
+
+[^protests]: Figures S7 and S8 show alternative specifications for the same pattern, the former using logged protests and the latter using 10 categories rather than 4. Each provides nearly identical findings.
+
+**_Expectation 3B_**. The analyses suggest that inter-individual differences in political attention is a strong moderator of differential updating. The change in political attention leads to monotonic increases: moving from the lowest attention score to the highest attention score leads to an increase of $0.17$ ($p < 0.05$) for Democrats and an increase of $0.20$ ($p < 0.05$) for Independents, with no change among Republicans ($-0.03$, $p > 0.05$).[^attentionendo] The polarization between Democrats and Republicans is at $0.15$ if political attention is at the lowest level and at $0.35$ if attention is at the highest level.
+
+[^attentionendo]: Figure S9 shows that political attention does not differentially change in response to the event.
+
+In sum, the analyses suggest that political events may serve as catalysts for political differentiation when (1) individuals are more susceptible to political updating---i.e., when they live through their formative windows---and (2) this propensity to change is reinforced by strong political messaging. That said, this moderating effect works not via local interactions, but general political attention.
+
+# Discussion and Conclusions
+
+The findings presented above highlight three central conclusions. First, the killing of George Floyd and the subsequent BLM mobilization caused a substantial increase in non-Hispanic White Americans' negative evaluations of U.S. law enforcement, driven by changes among the youngest cohorts, while older cohorts showed far smaller and far more transient attitude changes. These trajectories, however, were strongly conditioned by partisanship: while the youth identifying as Democrat and Independent moved against the police, the Republican youth exhibited no change at first, and later, a slight shift in the opposite direction, generating an increase in cohort-level polarization. Finally, individual-level exposure to elite political discourse---measured as political attention---amplified these cohort and partisan trajectories whereas spatial proximity to protests did not.
+
+Taken together, the evidence presented in this article supports a model of generational imprinting in which cohort differentiation and political sorting serve as complementary engines of aggregate political change. Put differently, exogenous shocks to the political information environment change political orientations unequally, depending on people's temporal and political locations. The article thus offers a generalized framework for understanding differential political change.
+
+## Theoretical and Empirical Limitations
+
+There are, however, several limitations of this article that should temper the broader implications. First, while the article attempts evidentiary triangulation and exploits granular time windows, the fact that the empirical analyses do not rely on a "clean" design raises inferential uncertainties. This has several consequences. On the one hand, the use of age groups as "pseudo-treatments" is natural given the main expectations. On the other hand, there are no shared standards for modeling age, addressing the notorious age-period-cohort problem, or determining an appropriate age window. Consequently, the treatment assignment (respondent age) is not precisely specified.
+
+Second, the difference-in-differences strategy used in the article relies on untestable assumptions of parallel trends and differential compositional change. While the pre-treatment period shows stable and flat trajectories, bolstering confidence in post-treatment parallel trends, there are unmeasured shocks after the event---including, for instance, the pandemic and the 2020 elections---which may have differentially affected the cohort groups. Similarly, differential survey participation may have biased the unobserved characteristics of age and partisan groups. In particular, changes in partisan cohorts might have been consequential in introducing certain compositional biases.
+
+There are also several measurement problems, particularly with the measures of political attention and local protest exposure. The former is based on political interest and a narrow set of knowledge questions, which together offer an imperfect measure of media exposure, political engagement, and factual knowledge. The latter approximates protest volume, but the strategy for calculating spatial proximity is relatively coarse. These measurement constraints, while not daunting, highlight that the moderating effects may understate the full impact of political exposure.
+
+The killing of George Floyd and the ensuing BLM mobilization constitute an unusually visible and racially charged episode of political mobilization in U.S. history. Whether smaller-scale shocks and non-racialized issues would produce comparable findings remains to be established. Accordingly, the findings apply to a relatively narrow class of political stimuli. While the strongly salient nature of the event provides a useful boundary condition, at the level of individual variation, there might be a variety of unmeasured interactions that shape the observed outcomes.
+
+## Implications for Theory and Research
+
+In the domain of cultural sociology, these findings support the view that shared experiences do not necessarily lead to convergent political tastes, since these experiences are mediated by the political field. Instead, cohorts are differentiated into cohort-units---clusters within cohorts oriented toward the same political object through a variety of interpretive standpoints. I proposed that parties serve as interpretive scaffolding for these units, given the cultural logics of the political field. The sorting process thus channels shared experiences and leads to cohort differentiation.
+
+While this framework provides directional hypotheses for cultural sociology, it also highlights that public opinion dynamics cannot be reduced to elite messaging alone [@zaller1992], considering the importance of shared experiences and life-course timing for change and stability [@vaisey2016; @kiley2020]. In this sense, the findings encourage a synthesis of developmental and structural models to locate the processes of political socialization and political learning within the prevailing institutional diversity of contemporary political circumstances.
+
+In the domain of political sociology, the findings indicate a potential microfoundation for affective polarization [@rawlings2022]. Variation in response trajectories suggests that polarization may not be exclusively rooted in elite messaging or social mobilization. Instead, the polarization dynamics may be seeded at different points in the life-course. The null effect of local protest density, coupled with the strong moderating role of political attention, highlights not only the fact that the principal channel of political influence seems increasingly "national" rather than "local," but also the notion that environmental proposals have differential imprinting across cohorts.
+
+As a consequence, this article proposes a general template for analyzing aggregate political change by articulating (1) a framework for cohort-based social learning and (2) an account that integrates developmental perspectives and political sorting. Analyzing cohort turnover and its differentiation requires an understanding of intersecting developmental and institutional forces: the former helps us understand the agents of change, while the latter informs our predictions about its trajectory.
+
+\singlespacing
+
+# Data Note
+
+Source files to reproduce all analyses are presented, temporarily, at [GitHub](https://github.com/tkeskinturk/generational_imprints). Note that this article is a work in progress. Accordingly, the repository will be moved to an OSF folder later.
+
+# References

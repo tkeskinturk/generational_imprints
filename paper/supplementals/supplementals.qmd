@@ -1,0 +1,456 @@
+---
+# basics
+title: |
+  | Supplemental Materials for
+  | 
+  | Generational Imprints: 
+  | How Political Events Shape Cohorts
+author: "Turgut Keskintürk"
+
+# timing
+date: today
+date-format: "MMMM, YYYY"
+
+# format
+format:
+  pdf:
+    pdf-engine: xelatex
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Pagella"
+    mathfont: "TeX Gyre Pagella Math"
+fontsize: 11pt
+geometry: margin=1in
+numbering: true
+toc: true
+toc-title: Table of Contents
+toc-depth: 2
+number-sections: true
+
+# source
+bibliography: ../helpers/bibliography.bib
+csl: ../helpers/asa.csl
+
+# latex notes
+header-includes:
+- \usepackage{array}
+- \usepackage{longtable}
+- \usepackage{booktabs}
+- \usepackage{float}
+- \usepackage{caption}
+- \usepackage{amsmath}
+- \usepackage{setspace}
+- \captionsetup{justification=raggedright,
+                singlelinecheck=false}
+- \floatplacement{table}{h}
+- \makeatletter
+- \setlength{\@fptop}{0pt}      % no glue above first float
+- \setlength{\@fpbot}{0pt}      % (optional) no glue below
+- \makeatother
+
+---
+
+\captionsetup[table]{labelformat=empty}
+
+\onehalfspacing
+
+```{r}
+#| echo: false
+#| warnings: false
+#| output: false
+#| messages: false
+library(tidyverse); library(modelsummary); library(gtsummary)
+n_1 <- readRDS("../../output/A_nationscape/desc1.rds")
+n_2 <- readRDS("../../output/A_nationscape/desc2.rds")
+c_1 <- readRDS("../../output/B_cces_16-22/desc1.rds")
+c_2 <- readRDS("../../output/B_cces_16-22/desc2.rds")
+a_1 <- readRDS("../../output/C_anes_panel-studies/desc1.rds")
+a_2 <- readRDS("../../output/C_anes_panel-studies/desc2.rds")
+p <- readRDS("../../output/A_nationscape/pretrends.rds")
+options(gt.html_tag_check = FALSE)
+```
+
+\newpage
+
+# Supplemental Materials A: Data Sources
+
+This section provides details about the data sources used in the analyses: *Democracy Fund + UCLA Nationscape*, *Cooperative Congressional Election Study*, and the *American National Election Study*.
+
+## The Nationscape
+
+The Democracy Fund + UCLA Nationscape data [@nationscape, henceforth, simply *Nationscape*] is a weekly cross-section survey, fielded between mid-2019 and the end of 2020 by the Democracy Fund Voter Study Group and UCLA, on a sample of American adults from Lucid, a market research platform that provides survey participants. Nationscape aimed to complete 6,250 survey interviews each week, of which roughly 67.4% identify as non-Hispanic White. To increase statistical power, I pooled these weekly installments into 4-week windows, centered on the window surrounding George Floyd's killing, with an average of 16,000 participants in every window. This allowed me to investigate 313,440 non-Hispanic Whites in the U.S. across an extended period.
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S1: Descriptive Statistics for Nationscape"
+n_1
+```
+
+Nationscape consists of a non-probability convenience sample recruited from Lucid. However, the research team (a) recruited the participants in each week with demographic quotas on age, gender, race, ethnicity, region, income, and education; (b) calculated post-stratification weights using the American Community Survey's (ACS) 2017 adult population estimates, and (c) performed a series of benchmarking tests to evaluate the representativeness of the sample [@nationscape_sample]. I conducted all analyses with post-stratification weights. Table S1 provides a descriptive summary of pertinent respondent characteristics, while Table S2 breaks them down by the age groups.
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S2: Descriptive Statistics by Age Group for Nationscape"
+#| tbl-pos: H
+n_2
+```
+
+The original fielding window of the Nationscape was between July 18, 2019 and December 31, 2020. The researchers added four additions to these weekly installments: three concurrent waves fielded in April 2020, July 2020 and January 2021, and one additional wave conducted immediately after the U.S. Capitol attack. I excluded both this final wave and the last concurrent wave from analyses due to the Capitol event. The inclusion of these waves suggests that favorability toward the police may have slightly increased after the U.S. Capitol attack. However, with only two waves of data, this effect remains speculative and I do not consider it in the article. I also dropped the first concurrent wave, as it did not include the question that serves as the main dependent variable.[^missing]
+
+[^missing]: In addition to these constraints, I dropped roughly 3,000 respondents due to missing data in covariates; however, this group represents only 1% of the observations within the survey window.
+
+To calculate protest intensity at the congressional district level, I used data from the Crowd Counting Consortium, a joint crowd-sourcing project of Harvard Kennedy School and the University of Connecticut, which collects publicly available protest data in the United States. To do so, I filtered for gatherings protesting topics related to "race" and "racism" within the first three months after the killing of George Floyd, yielding a total of 1,382 counties with such information [matching similar procedures in independent analyses, see @gethin2024]. I aggregated this data to the congressional district level, and matched the resulting protest vector with the Nationscape data.
+
+Out of 437 congressional districts observed in the Nationscape, only 5 did not have BLM protests, but this number varies widely, ranging from 0 to 425, with an interquartile range of 20 to 61. As may be expected, the exposure to BLM protests was slightly higher among participants with Democratic self-identification, given the geographical distribution of the protests and partisan lines.
+
+I operationalize one's political attention using two constructs: *political interest* and *political knowledge*. The first construct relies on a survey question that asks participants how closely they follow "what's going on" in government, a measure ranging from 0 ("hardly at all") to 1 ("most of the time"). The second construct is measured with two knowledge questions: the first asks how many years are in a full U.S. Senate term, and the other asks for the name of the Chief Justice of the U.S. Supreme Court. This measure also ranges from 0 (no correct answers) to 1 (both answers correct). In the final step, I calculate the average of these two constructs to have an overall political attention measure.[^zaller]
+
+[^zaller]: This measurement of *political attention* is also intended to capture an overall *exposure propensity*. An alternative account can conceptualize it as "political awareness," à la Zaller [-@zaller1992].
+
+## Cooperative Congressional Election Study
+
+To supplement the Nationscape analyses and extend the time windows to 2022, I conducted analyses with the 2016, 2020, and 2022 waves of the Cooperative Congressional Election Study (CCES). These waves include a question that asks whether the police makes people feel safe, with response options ranging from "mostly safe" to "mostly unsafe." Table S3 provides a descriptive summary of pertinent respondent characteristics, while Table S4 breaks them down by the age groups.
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S3: Descriptive Statistics for CCES"
+c_1
+```
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S4: Descriptive Statistics by Age Group for CCES"
+c_2
+```
+
+## American National Election Study
+
+Analyses that use repeated cross-section surveys help us understand trajectories across *groups*, but they do not provide evidence within *individuals*, which is the central claim of this article. To provide such evidence, I use survey data from the longitudinal panel component of the 2016 and 2020 waves of the American National Election Study. Between 2016 and 2020, ANES surveyed the same 1,912[^counts] non-Hispanic White individuals, allowing for an evaluation of whether change scores in the police thermometer measure from 2016 to 2020 differ between younger and older cohorts. Table S5 shows descriptive statistics for pertinent measures[^party], and Table S6 breaks them down by survey mode.
+
+[^counts]: A 9.1% reduction from 2,105 individuals due to missing data in age, party or police thermometer.
+
+[^party]: While constructing partisanship, the leaners are coded in their respective parties. For descriptive purposes, I present the distribution of party trajectories between 2016 and 2020, including *switchers*---those reporting different parties.
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S5: Descriptive Statistics for ANES"
+a_1
+```
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S6: Descriptive Statistics by Survey Mode for ANES"
+a_2
+```
+
+\clearpage
+
+# Supplemental Materials B: Alternative Specifications for Nationscape Trajectories
+
+The main descriptive trends represent weighted average scores of unfavorable attitudes toward the police on a 0--1 scale. This item is constructed from four central response categories (very favorable $= 0$, somewhat favorable $= 0.25$, somewhat unfavorable $= 0.75$ and very unfavorable $= 1$), with "haven't heard enough" option being the midpoint ($0.50$). Here, I present three alternative specifications of this analysis. Figure S1 shows that the unweighted estimates have the same patterns as weighted estimates. Figure S2 shows that dropping "haven't heard enough" responses rather than coding them as the midpoint does not change the results. Finally, Figure S3 shows that binarizing this variable as 0 ("favorable") and 1 ("unfavorable") does not alter the substantive patterns.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p01-A.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S1: The Trajectory of Unfavorable Attitudes Toward the Police (Unweighted)}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd, centralized at $t = 0$, with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. The horizontal dashed lines represent pre-event averages.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p01-B.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S2: The Trajectory of Unfavorable Attitudes Toward the Police (Alternative Coding)}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd, centralized at $t = 0$, with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. The horizontal dashed lines represent pre-event averages.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p01-C.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S3: The Trajectory of Unfavorable Attitudes Toward the Police (Binary Outcome)}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd, centralized at $t = 0$, with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. The horizontal dashed lines represent pre-event averages.
+}
+\end{figure}
+```
+
+Another researcher decision in the main article was to aggregate responses to 4-week installments. While each week is a stand-alone wave, I implemented this to increase statistical power and stability. In Figure S4, I present the same results using weekly waves: while the findings are more imprecise due to power issues, the general patterns still confirm the main expectations.
+
+While the expectations involve political parties, it is plausible that people do not identify with their parties at the time of the survey because of the upcoming 2020 U.S. elections. In Figure S5, I present alternative analyses that instead use ideological identity. Similar results hold.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p01-D.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S4: The Trajectory of Unfavorable Attitudes Toward the Police (Weekly Estimates)}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd, centralized at $t = 0$, with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. The horizontal dashed lines represent pre-event averages. 
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p01-E.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S5: The Trajectory of Unfavorable Attitudes Toward the Police (Ideology)}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The $x$-axis shows the time window before and after the killing of George Floyd, centralized at $t = 0$, with each tick representing 4-week windows in Nationscape 2019-2020 data file. The $y$-axis shows the unfavorable attitudes toward the police, normalized between 0 and 1. The horizontal dashed lines represent pre-event averages. 
+}
+\end{figure}
+```
+
+\clearpage
+
+# Supplemental Materials C: Pre-Trend Tests for Nationscape Analyses
+
+Table S7 presents pre-trend tests for the difference-in-differences specifications in the Nationscape, showing that there are no differences in trends before the event.
+
+```{r}
+#| echo: false
+#| warnings: false
+#| messages: false
+#| tbl-cap: "Table S7: Pre-Trend Tests for the Difference-in-Differences Analyses"
+#| tbl-pos: H
+p
+```
+
+\clearpage
+
+# Supplemental Materials D: Age Cut-Off in Difference-in-Differences
+
+As noted in the main article, the cut-off I used---age 24 and younger---to classify people as "young" and "adult" may be problematic. In Figure S6, I show analyses where I systematically varied these windows with 5-year increments, starting with ages 18-23 up until ages 30-35. As can be seen, the estimates monotonically decrease when age increases, corroborating the main findings.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/D_miscellaneous/agehtr.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S6: Varying Age Windows in Difference-in-Differences Analyses}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents difference-in-differences estimates with varying "treatment" windows. The treatment group consists of individuals in a specific age band and the control group denotes people older than the specified window.
+}
+\end{figure}
+```
+
+\clearpage
+
+# Supplemental Materials E: Alternative Specifications for Moderation Analyses on Political Exposure
+
+In this section, I provide alternative analyses for political exposure mechanisms.
+
+*Expectation 3A*. Figure S7 presents the same protest exposure effect, though it uses the logarithm of protest counts rather than raw counts while constructing the quartiles, showing identical estimates to the ones in the manuscript. Figure S8 breaks down the protest intensity into 10 equal categories, and performs the same estimations. Once again, the main results are unchanged.
+
+Alternative specifications using different binning strategies (fixing width or fixing mass) produce similar findings, though their reliability depends on sample size considerations.
+
+*Expectation 3B*. One potential concern with the political attention measure is that it may have moved in response to the event, polluting the estimates for the moderation analyses. Figure S9 presents the results from an analysis where I estimated a dynamic difference-in-differences model with political attention as the outcome variable. As shown, at least in terms of compositional differences, there were no differential changes in political attention throughout the study window.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p03-A.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure S7: The Differential Post-Treatment Effects by Party and Protest Exposure}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents the average post-treatment effects---averaged across all post-treatment periods---from a model with treatment status, partisanship, and exposure. The model adjust for gender, education, and their interaction. Robust standard errors. The x-axis represents quartiles in log distribution of protest counts.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p03-B.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure S8: The Differential Post-Treatment Effects by Party and Protest Exposure}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents the average post-treatment effects---averaged across all post-treatment periods---from a model with treatment status, partisanship, and exposure. The model adjust for gender, education, and their interaction. Robust standard errors. The x-axis represents 10 equal-sized bins of protest counts.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/A_nationscape/p03-C.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure S9: Change in Political Attention Across the Study Window}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents the estimates from a dynamic difference-in-differences model quantifying the differences in political attention between the treatment and control groups. Robust standard errors.
+}
+\end{figure}
+```
+
+\clearpage
+
+# Supplemental Materials F: "Feeling Unsafe" and Party Identification
+
+Feelings of safety with the police taps into a personalized measurement. It is, however, plausible to ask whether there is any reason why the killing of George Floyd and the BLM mobilization would affect white people's feelings of safety, and their responses may not be politicized in the first place. Figure S10 shows the distribution of feelings of safety across party identity in 2016, before the event. It provides evidence that this question was *politicized* to begin with.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/B_cces_16-22/p01-A.png){width=95%}
+```{=latex}
+\end{center}
+\caption*{Figure S10: Percent Feeling Safe with the Police in 2016}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents the estimates from a linear regression model estimating the binarized outcome of feeling safe in 2016 CCES. The model adjusts for age, gender, education, and county fixed effects, with robust standard errors.
+}
+\end{figure}
+```
+
+\clearpage
+
+# Supplemental Materials G: Alternative Specifications for ANES Analyses
+
+I implemented three alternative specifications: 
+
+- Figure S11 shows results from a model that uses an age spline with three degrees of freedom---determined via cross-validation---rather than a categorical age variable.[^CV]
+- Figure S12 performs two analyses to assess outliers: the left panel shows differences in panel change when "outliers"---defined as 5% and 95% quantiles---are pruned while the right panel shows estimates from a robust regression model using iterated re-weighted least squares. 
+- Figure S13 replicates the analyses only among Web respondents, keeping all model specifications (except the adjustment for survey mode) exactly the same.
+
+[^CV]: I iteratively increased the degrees of freedom from $k = 1$ to $k = 10$ and selected the best-fitting model.
+
+While the number of participants are very low across the parties ($N$ for Democrats aged 18-29 is 77, $N$ for Independents aged 18--29 is 22, and $N$ for Republicans aged 18--29 is 59), I still conducted several heterogeneity analyses, the findings of which are presented in Figure S14. The estimates are rather imprecise. That said, the difference between Democrats and Republicans aged 18-29 is still statistically significant (difference $=$ 13.6, with $p < 0.01$), confirming main predictions.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01-A.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S11: First-Differences in Police Thermometer, with Age Splines}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents estimates of change in police thermometer in ANES 2016-2020 panel data, using an age-spline with 3 degrees of freedom, adjustment for survey mode, and party, with robust standard errors.
+}
+\end{figure}
+```
+
+One curious pattern is the observation that, among people aged 18-29 who identify as Republican in both 2016 and 2020, we see a *decline* in police thermometer. While the finding is based on a few people, it suggests that there might be compositional effects in the repeated cross-section analyses. It is, however, an imprecise estimate, so I refrain from over-interpreting the result.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01-B.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S12: First-Differences in Police Thermometer, with Outlier Checks}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents estimates of change in police thermometer in ANES 2016-2020 panel data, using two outlier checks. The left-panel presents results from an analysis where the outliers, defined as 5\% and 95\% quantiles, are pruned, while the right-panel presents results from a robust regression model with survey mode adjustment.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01-C.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S13: First-Differences in Police Thermometer Among Internet Respondents}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents estimates of change in police thermometer in ANES 2016-2020 panel data among respondents who took both 2016 and 2020 surveys via online channels, rather than in-person, phone, or video channels.
+}
+\end{figure}
+```
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01-E.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S14: First-Differences in Police Thermometer by Party Identification}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents estimates of change in police thermometer in ANES 2016-2020 panel data across 2020 party identification, while adjusting survey mode. The leaners are coded in their respective parties. 
+}
+\end{figure}
+```
+
+\clearpage
+
+# Supplemental Materials H: Placebo Analyses Using ANES 2020-2022
+
+It is possible that the main findings stem less from the killing of George Floyd, and more from the observation that young individuals change more often than older individuals. If this is indeed the case, how can we distinguish the proposed causal process from a general "propensity to change?" I performed a placebo analysis using the 2020-2022 "Social Media Study" of the ANES, where both waves---2020 and 2022---were fielded after the killing of George Floyd. If the event was really consequential, we should expect the *level* of change to remain higher among young individuals, while the *direction* of change should show no differences, as there is no obvious reason why the (already strong) views of the police would directionally change. Figure S15 confirms this prediction.
+
+```{=latex}
+\begin{figure}[!ht]
+\begin{center}
+```
+![](../../output/C_anes_panel-studies/p01-D.png){width=100%}
+```{=latex}
+\end{center}
+\caption*{Figure S15: First-Differences in Police Thermometer in 2020-2022 Social Media Study}
+{\footnotesize
+\setstretch{1.3} % adjust the spacing factor as needed
+\textit{Notes:} The figure presents estimates of change in police thermometer in ANES 2020-2022 panel data, where the left panel shows differences across absolute change while the right panel shows differences across directional change.
+}
+\end{figure}
+```
+
+\clearpage
+\singlespacing
+
+# References
