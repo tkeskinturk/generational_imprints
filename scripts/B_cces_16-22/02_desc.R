@@ -1,5 +1,5 @@
 
-# - generational imprints ---------------------------------------------------- #
+# - generational imprinting -------------------------------------------------- #
 # - CCES time-series | summary ----------------------------------------------- #
 
 ### note: this script

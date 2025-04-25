@@ -1,7 +1,7 @@
 ---
 # basics
 title: | 
- | Generational Imprints:
+ | Generational Imprinting:
  | How Political Events Shape Cohorts^[I thank Stephen Vaisey, Kieran Healy, Craig Rawlings, Omar Lizardo, Jessi Streib, and Andrés Castro Araújo for their insightful and helpful comments on this project.]
 author: Turgut Keskintürk^[Department of Sociology, Duke University. turgut.keskinturk@duke.edu.]
 

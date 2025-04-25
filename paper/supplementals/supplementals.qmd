@@ -3,7 +3,7 @@
 title: |
   | Supplemental Materials for
   | 
-  | Generational Imprints: 
+  | Generational Imprinting: 
   | How Political Events Shape Cohorts
 author: "Turgut Keskintürk"
 

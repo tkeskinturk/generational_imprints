@@ -1,7 +1,7 @@
 
-## Replication: Generational Imprints: How Political Events Shape Cohorts
+## Replication: Generational Imprinting: How Political Events Shape Cohorts
 
-This repository provides the replication files for the paper, *Generational Imprints: How Political Events Shape Cohorts.*
+This repository provides the replication files for the paper, *Generational Imprinting: How Political Events Shape Cohorts.*
 
 The article is currently a working paper.
 
