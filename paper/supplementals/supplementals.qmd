@@ -41,12 +41,11 @@ header-includes:
 - \usepackage{setspace}
 - \captionsetup{justification=raggedright,
                 singlelinecheck=false}
-- \floatplacement{table}{h}
+- \floatplacement{table}{htb}
 - \makeatletter
-- \setlength{\@fptop}{0pt}      % no glue above first float
-- \setlength{\@fpbot}{0pt}      % (optional) no glue below
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt}
 - \makeatother
-
 ---
 
 \captionsetup[table]{labelformat=empty}
@@ -77,7 +76,9 @@ This section provides details about the data sources used in the analyses: *Demo
 
 ## The Nationscape
 
-The Democracy Fund + UCLA Nationscape data [@nationscape, henceforth, simply *Nationscape*] is a weekly cross-section survey, fielded between mid-2019 and the end of 2020 by the Democracy Fund Voter Study Group and UCLA, on a sample of American adults from Lucid, a market research platform that provides survey participants. Nationscape aimed to complete 6,250 survey interviews each week, of which roughly 67.4% identify as non-Hispanic White. To increase statistical power, I pooled these weekly installments into 4-week windows, centered on the window surrounding George Floyd's killing, with an average of 16,000 participants in every window. This allowed me to investigate 313,440 non-Hispanic Whites in the U.S. across an extended period.
+The Democracy Fund + UCLA Nationscape data [@nationscape, henceforth, simply *Nationscape*] is a weekly cross-section survey, fielded between mid-2019 and the end of 2020 by the Democracy Fund Voter Study Group and UCLA, on a sample of American adults from Lucid, a market research platform that provides survey participants. Nationscape aimed to complete 6,250 survey interviews each week, of which roughly 67.4% identify as non-Hispanic White. To increase statistical power, I pooled these weekly installments into 4-week windows, centered on the window surrounding George Floyd's killing, with an average of 16,000 participants in every window. This allowed me to investigate 312,954 non-Hispanic Whites in the U.S. across an extended period.
+
+Nationscape consists of a non-probability convenience sample recruited from Lucid. However, the research team (a) recruited the participants in each week with demographic quotas on age, gender, race, ethnicity, region, income, and education; (b) calculated post-stratification weights using the American Community Survey's (ACS) 2017 adult population estimates, and (c) performed a series of benchmarking tests to evaluate the representativeness of the sample [@nationscape_sample]. I conducted all analyses with post-stratification weights. Table S1 provides a descriptive summary of pertinent respondent characteristics, while Table S2 breaks them down by the age groups.
 
 ```{r}
 #| echo: false
@@ -86,8 +87,6 @@ The Democracy Fund + UCLA Nationscape data [@nationscape, henceforth, simply *Na
 #| tbl-cap: "Table S1: Descriptive Statistics for Nationscape"
 n_1
 ```
-
-Nationscape consists of a non-probability convenience sample recruited from Lucid. However, the research team (a) recruited the participants in each week with demographic quotas on age, gender, race, ethnicity, region, income, and education; (b) calculated post-stratification weights using the American Community Survey's (ACS) 2017 adult population estimates, and (c) performed a series of benchmarking tests to evaluate the representativeness of the sample [@nationscape_sample]. I conducted all analyses with post-stratification weights. Table S1 provides a descriptive summary of pertinent respondent characteristics, while Table S2 breaks them down by the age groups.
 
 ```{r}
 #| echo: false
@@ -100,19 +99,23 @@ n_2
 
 The original fielding window of the Nationscape was between July 18, 2019 and December 31, 2020. The researchers added four additions to these weekly installments: three concurrent waves fielded in April 2020, July 2020 and January 2021, and one additional wave conducted immediately after the U.S. Capitol attack. I excluded both this final wave and the last concurrent wave from analyses due to the Capitol event. The inclusion of these waves suggests that favorability toward the police may have slightly increased after the U.S. Capitol attack. However, with only two waves of data, this effect remains speculative and I do not consider it in the article. I also dropped the first concurrent wave, as it did not include the question that serves as the main dependent variable.[^missing]
 
-[^missing]: In addition to these constraints, I dropped roughly 3,000 respondents due to missing data in covariates; however, this group represents only 1% of the observations within the survey window.
-
-To calculate protest intensity at the congressional district level, I used data from the Crowd Counting Consortium, a joint crowd-sourcing project of Harvard Kennedy School and the University of Connecticut, which collects publicly available protest data in the United States. To do so, I filtered for gatherings protesting topics related to "race" and "racism" within the first three months after the killing of George Floyd, yielding a total of 1,382 counties with such information [matching similar procedures in independent analyses, see @gethin2024]. I aggregated this data to the congressional district level, and matched the resulting protest vector with the Nationscape data.
-
-Out of 437 congressional districts observed in the Nationscape, only 5 did not have BLM protests, but this number varies widely, ranging from 0 to 425, with an interquartile range of 20 to 61. As may be expected, the exposure to BLM protests was slightly higher among participants with Democratic self-identification, given the geographical distribution of the protests and partisan lines.
+[^missing]: In addition to these constraints, I dropped roughly 4,000 respondents due to missing data in covariates; however, this group represents only 1.2% of the observations within the survey window.
 
 I operationalize one's political attention using two constructs: *political interest* and *political knowledge*. The first construct relies on a survey question that asks participants how closely they follow "what's going on" in government, a measure ranging from 0 ("hardly at all") to 1 ("most of the time"). The second construct is measured with two knowledge questions: the first asks how many years are in a full U.S. Senate term, and the other asks for the name of the Chief Justice of the U.S. Supreme Court. This measure also ranges from 0 (no correct answers) to 1 (both answers correct). In the final step, I calculate the average of these two constructs to have an overall political attention measure.[^zaller]
 
 [^zaller]: This measurement of *political attention* is also intended to capture an overall *exposure propensity*. An alternative account can conceptualize it as "political awareness," à la Zaller [-@zaller1992].
 
+## The Crowd Counting Consortium
+
+To calculate protest intensity at the congressional district level, I used data from the Crowd Counting Consortium, a joint crowd-sourcing project of Harvard Kennedy School and the University of Connecticut, which collects publicly available protest data in the United States. To do so, I filtered for gatherings protesting topics related to "race" and "racism" within the first three months after the killing of George Floyd, yielding a total of 1,382 counties with such information [matching similar procedures in independent analyses, see @gethin2024]. I aggregated this data to the congressional district level, and matched this protest vector with the Nationscape data.
+
+Out of 437 congressional districts observed in the Nationscape, only 5 did not have BLM protests, but this number varies widely, ranging from 0 to 425, with an interquartile range of 20 to 61. As may be expected, the exposure to BLM protests was slightly higher among participants with Democratic self-identification, given the geographical distribution of the protests and partisan lines.
+
 ## Cooperative Congressional Election Study
 
 To supplement the Nationscape analyses and extend the time windows to 2022, I conducted analyses with the 2016, 2020, and 2022 waves of the Cooperative Congressional Election Study (CCES). These waves include a question that asks whether the police makes people feel safe, with response options ranging from "mostly safe" to "mostly unsafe." Table S3 provides a descriptive summary of pertinent respondent characteristics, while Table S4 breaks them down by the age groups.
+
+Similar to the procedure I followed using Nationscape, I subsetted the non-Hispanic White sample in the CCES, which represents 69.2% of the sample in 2016, 70.7% in 2020, and 66.9% in 2022. To calculate age at the time of treatment, I used respondents' year of birth supplied in the CCES data.
 
 ```{r}
 #| echo: false
@@ -134,10 +137,6 @@ c_2
 
 Analyses that use repeated cross-section surveys help us understand trajectories across *groups*, but they do not provide evidence within *individuals*, which is the central claim of this article. To provide such evidence, I use survey data from the longitudinal panel component of the 2016 and 2020 waves of the American National Election Study. Between 2016 and 2020, ANES surveyed the same 1,912[^counts] non-Hispanic White individuals, allowing for an evaluation of whether change scores in the police thermometer measure from 2016 to 2020 differ between younger and older cohorts. Table S5 shows descriptive statistics for pertinent measures[^party], and Table S6 breaks them down by survey mode.
 
-[^counts]: A 9.1% reduction from 2,105 individuals due to missing data in age, party or police thermometer.
-
-[^party]: While constructing partisanship, the leaners are coded in their respective parties. For descriptive purposes, I present the distribution of party trajectories between 2016 and 2020, including *switchers*---those reporting different parties.
-
 ```{r}
 #| echo: false
 #| warnings: false
@@ -146,6 +145,12 @@ Analyses that use repeated cross-section surveys help us understand trajectories
 a_1
 ```
 
+[^counts]: A 9.1% reduction from 2,105 individuals due to missing data in age, party or police thermometer.
+
+[^party]: While constructing partisanship, the leaners are coded in their respective parties. For descriptive purposes, I present the distribution of party trajectories between 2016 and 2020, including *switchers*---those reporting different parties.
+
+Similar to Nationscape and CCES, the non-Hispanic Whites represented 74.1% of the sample in the ANES. Following ANES, I incorporated variables that account for complex survey design.
+
 ```{r}
 #| echo: false
 #| warnings: false
@@ -153,6 +158,14 @@ a_1
 #| tbl-cap: "Table S6: Descriptive Statistics by Survey Mode for ANES"
 a_2
 ```
+
+## American National Election Social Media Study
+
+In Supplemental Materials H, I present analyses using the *Social Media Study* from the American National Election Study. This two-wave panel, collected during the 2020 presidential election and following the 2022 midterm election, draws on an online sample maintained by the National Opinion Research Center (NORC) at the University of Chicago. As with previous datasets, I restrict the sample to non-Hispanic White Americans, who comprise 69.3% of respondents. 
+
+The final analytic sample includes respondents who participated in both waves and provided valid responses to the police feeling thermometer, as well as a year of birth (unique $N = 1,540$).
+
+The first data collection of the police thermometer measure took place in the immediate aftermath of the 2020 presidential election (fielded between November 1, 2020, and January 1, 2021), while the second occurred following the 2022 midterm elections (fielded between November 9, 2022, and January 2, 2023). The data was thus collected after the killing of George Floyd.
 
 \clearpage
 
@@ -382,7 +395,9 @@ While the number of participants are very low across the parties ($N$ for Democr
 \end{figure}
 ```
 
-One curious pattern is the observation that, among people aged 18-29 who identify as Republican in both 2016 and 2020, we see a *decline* in police thermometer. While the finding is based on a few people, it suggests that there might be compositional effects in the repeated cross-section analyses. It is, however, an imprecise estimate, so I refrain from over-interpreting the result.
+One curious pattern is the observation that, among people aged 18-29 who identify as Republican in both 2016 and 2020, we see a *decline* in police thermometer. While the finding is based on a few people, it suggests that there might be compositional effects in the repeated cross-section analyses. It is, however, an imprecise estimate, so I refrain from over-interpreting the result.[^well]
+
+[^well]: Note, however, that this finding is visible if we look at consistent Republicans, people who identify as Republicans in 2016 and anything else in 2020, and people who identify as Republican in 2020 and anything else in 2016.
 
 ```{=latex}
 \begin{figure}[!ht]
@@ -433,7 +448,7 @@ One curious pattern is the observation that, among people aged 18-29 who identif
 
 # Supplemental Materials H: Placebo Analyses Using ANES 2020-2022
 
-It is possible that the main findings stem less from the killing of George Floyd, and more from the observation that young individuals change more often than older individuals. If this is indeed the case, how can we distinguish the proposed causal process from a general "propensity to change?" I performed a placebo analysis using the 2020-2022 "Social Media Study" of the ANES, where both waves---2020 and 2022---were fielded after the killing of George Floyd. If the event was really consequential, we should expect the *level* of change to remain higher among young individuals, while the *direction* of change should show no differences, as there is no obvious reason why the (already strong) views of the police would directionally change. Figure S15 confirms this prediction.
+It is possible that the main findings stem less from the killing of George Floyd, and more from the observation that young individuals change more often than older individuals. If this is indeed the case, how can we distinguish the proposed causal process from a general ambivalence of response? I performed a placebo analysis using the 2020-2022 "Social Media Study" of the ANES, where both waves---2020 and 2022---were fielded after the killing of George Floyd. If the event was really consequential, we should expect the *level* of change to remain higher among young individuals, while the *direction* of change should show no differences, as there is no obvious reason why the (already strong) views of the police would directionally change. Figure S15 confirms this prediction.
 
 ```{=latex}
 \begin{figure}[!ht]
