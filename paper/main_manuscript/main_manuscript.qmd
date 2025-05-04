@@ -2,7 +2,7 @@
 # basics
 title: | 
  | Generational Imprinting:
- | How Political Events Shape Cohorts^[I thank Andrés Castro Araújo, Pablo Bello, Braulio Güémez, Kieran Healy, Kevin Kiley, Omar Lizardo, Craig Rawlings, Jessi Streib and Stephen Vaisey for their insightful, helpful and frequently incisive comments on this project.]
+ | How Political Events Shape Cohorts^[I thank Andrés Castro Araújo, Pablo Bello, Kieran Healy, Kevin Kiley, Omar Lizardo, Craig Rawlings, Jessi Streib and Stephen Vaisey for their insightful, helpful and frequently incisive comments on this project.]
 author: Turgut Keskintürk^[Department of Sociology, Duke University. turgut.keskinturk@duke.edu.]
 
 # timing
